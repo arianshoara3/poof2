@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ژنراتور QR کد — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="text"], select, textarea {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+textarea { min-height: 72px; resize: vertical; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 16px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+button:disabled { opacity: .55; cursor: default; }
+label { display: block; margin: 10px 0 6px; color: var(--muted); }
+label.check { display: flex; gap: 8px; align-items: center; margin: 6px 0; color: var(--text); cursor: pointer; }
+label.radio { display: inline-flex; gap: 6px; align-items: center; margin: 6px 12px 6px 0; color: var(--text); cursor: pointer; }
+.payload-out { direction: ltr; text-align: left; font-family: ui-monospace, monospace; font-size: 14px; word-break: break-all; background: var(--surface); border: 1px dashed var(--border); border-radius: 12px; padding: 12px; margin: 8px 0; white-space: pre-wrap; }
+.qr-wrap { text-align: center; margin: 12px 0; }
+.qr-wrap canvas { max-width: 100%; height: auto; border: 1px solid var(--border); border-radius: 12px; background: #fff; }
+.meta { color: var(--muted); font-size: 15px; margin: 4px 0; }
+.meta b { color: var(--text); }
+.note { color: var(--muted); font-size: 13px; }
+.history-list { list-style: none; margin: 8px 0; padding: 0; }
+.history-item { display: flex; gap: 8px; align-items: center; margin: 6px 0; }
+.history-load { flex: 1; border-radius: 12px; padding: 10px 12px; text-align: start; direction: ltr; font-family: ui-monospace, monospace; font-size: 13px; word-break: break-all; overflow: hidden; }
+.history-del { border-radius: 50%; padding: 6px 10px; flex-shrink: 0; }
+.q-detail { direction: ltr; text-align: center; font-family: ui-monospace, monospace; font-size: 15px; word-break: break-all; background: var(--surface); border: 1px dashed var(--border); border-radius: 12px; padding: 12px; margin: 12px 0; white-space: pre-wrap; }
+.qr-opt { direction: ltr; text-align: left; font-family: ui-monospace, monospace; word-break: break-all; }
+.opts { display: flex; flex-direction: column; gap: 8px; margin: 12px 0; }
+.opts button { border-radius: 12px; padding: 12px 16px; text-align: start; }
+.opts button.correct { border-color: #2e7d32; background: #e6f4ea; }
+.opts button.wrong { border-color: #c0392b; background: #fdecea; }
+.feedback { min-height: 1.5em; margin: 8px 0; }
+.feedback.good { color: #2e7d32; }
+.feedback.bad { color: #c0392b; }
+.hint { color: var(--muted); font-size: 15px; margin: 8px 0; min-height: 1.5em; }
+.timer { font-size: 18px; }
+.q { font-size: 20px; font-weight: 700; }
+.tips { margin: 8px 0; padding-inline-start: 20px; }
+.tips li { margin: 8px 0; line-height: 1.7; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۱۶ — توسعه‌دهنده و کد</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../" data-i18n="ui.back">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1 data-i18n="tools.qr-generator.name">ژنراتور QR کد</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.qr-generator.intro">متن، لینک، وای‌فای یا کارت ویزیت را به کد QR تبدیل کن؛ نسخه و سطح تصحیح خطا را ببین و تاریخچه‌ات را نگه دار.</p>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.qr-generator.generator_title">ساخت کد QR</h2>
+    <label for="typeSelect" data-i18n="tool_ui.qr-generator.type_label">نوع محتوا</label>
+    <select id="typeSelect">
+      <option value="text" data-i18n="tool_ui.qr-generator.type_text">متن ساده</option>
+      <option value="url" data-i18n="tool_ui.qr-generator.type_url">لینک (URL)</option>
+      <option value="wifi" data-i18n="tool_ui.qr-generator.type_wifi">وای‌فای</option>
+      <option value="vcard" data-i18n="tool_ui.qr-generator.type_vcard">کارت ویزیت (vCard)</option>
+    </select>
+
+    <div id="textPanel">
+      <label for="textInput" data-i18n="tool_ui.qr-generator.text_label">متن</label>
+      <textarea id="textInput" data-i18n="tool_ui.qr-generator.text_placeholder" placeholder="متنت را اینجا بنویس…"></textarea>
+    </div>
+
+    <div id="urlPanel" hidden>
+      <label for="urlInput" data-i18n="tool_ui.qr-generator.url_label">آدرس لینک</label>
+      <input type="text" id="urlInput" dir="ltr" style="text-align:left" data-i18n="tool_ui.qr-generator.url_placeholder" placeholder="example.com">
+      <p class="note" data-i18n="tool_ui.qr-generator.url_hint">اگر https:// ننویسی، خودش اضافه می‌شود.</p>
+    </div>
+
+    <div id="wifiPanel" hidden>
+      <label for="wifiSsid" data-i18n="tool_ui.qr-generator.wifi_ssid_label">نام شبکه (SSID)</label>
+      <input type="text" id="wifiSsid" dir="ltr" style="text-align:left" data-i18n="tool_ui.qr-generator.wifi_ssid_placeholder" placeholder="نام وای‌فای">
+      <label for="wifiPassword" data-i18n="tool_ui.qr-generator.wifi_password_label">رمز وای‌فای</label>
+      <input type="text" id="wifiPassword" dir="ltr" style="text-align:left" data-i18n="tool_ui.qr-generator.wifi_password_placeholder" placeholder="رمز شبکه">
+      <label for="wifiEncryption" data-i18n="tool_ui.qr-generator.wifi_encryption_label">رمزنگاری</label>
+      <select id="wifiEncryption">
+        <option value="WPA" data-i18n="tool_ui.qr-generator.wifi_enc_wpa">WPA/WPA2</option>
+        <option value="WEP" data-i18n="tool_ui.qr-generator.wifi_enc_wep">WEP</option>
+        <option value="nopass" data-i18n="tool_ui.qr-generator.wifi_enc_none">بدون رمز</option>
+      </select>
+    </div>
+
+    <div id="vcardPanel" hidden>
+      <label for="vcardName" data-i18n="tool_ui.qr-generator.vcard_name_label">نام</label>
+      <input type="text" id="vcardName" data-i18n="tool_ui.qr-generator.vcard_name_placeholder" placeholder="مثلاً سارا احمدی">
+      <label for="vcardPhone" data-i18n="tool_ui.qr-generator.vcard_phone_label">شماره تلفن</label>
+      <input type="text" id="vcardPhone" dir="ltr" style="text-align:left" data-i18n="tool_ui.qr-generator.vcard_phone_placeholder" placeholder="مثلاً 09123456789">
+    </div>
+
+    <label data-i18n="tool_ui.qr-generator.ec_label">سطح تصحیح خطا</label>
+    <div>
+      <label class="radio"><input type="radio" name="ecLevel" id="ecM" checked> <span data-i18n="tool_ui.qr-generator.ec_m">M — حدود ۱۵٪ قابل بازیابی</span></label>
+      <label class="radio"><input type="radio" name="ecLevel" id="ecL"> <span data-i18n="tool_ui.qr-generator.ec_l">L — حدود ۷٪ قابل بازیابی</span></label>
+    </div>
+
+    <label data-i18n="tool_ui.qr-generator.payload_label">محتوای کد QR</label>
+    <div class="payload-out" id="payloadPreview">—</div>
+
+    <div class="row">
+      <button class="primary" id="generateBtn" type="button" data-i18n="tool_ui.qr-generator.generate">ساخت کد QR</button>
+      <button id="copyBtn" type="button" data-i18n="tool_ui.qr-generator.copy">کپی</button>
+      <button id="downloadBtn" type="button" data-i18n="tool_ui.qr-generator.download_png">دانلود PNG</button>
+      <span class="feedback" id="copyFeedback"></span>
+      <span class="feedback" id="downloadFeedback"></span>
+    </div>
+    <p class="feedback" id="genFeedback"></p>
+    <div class="qr-wrap"><canvas id="qrCanvas" width="360" height="360" aria-label="QR code"></canvas></div>
+    <p class="meta"><span data-i18n="tool_ui.qr-generator.meta_version">نسخه</span>: <b id="versionOut">—</b></p>
+    <p class="meta"><span data-i18n="tool_ui.qr-generator.meta_ec">تصحیح خطا</span>: <b id="ecOut">—</b></p>
+    <p class="meta"><span data-i18n="tool_ui.qr-generator.meta_capacity">ظرفیت استفاده‌شده</span>: <b id="capacityOut">—</b></p>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.qr-generator.history_title">تاریخچه</h2>
+    <p class="meta" id="statsLine">—</p>
+    <p class="note" id="historyEmpty" data-i18n="tool_ui.qr-generator.history_empty">هنوز کدی نساخته‌ای؛ اولین کد QR‌ات را بساز.</p>
+    <ul class="history-list" id="historyList"></ul>
+    <div class="row">
+      <button id="clearHistoryBtn" type="button" data-i18n="tool_ui.qr-generator.history_clear">پاک کردن همه</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.qr-generator.tips_title">چند نکته درباره‌ی QR</h2>
+    <ul class="tips">
+      <li data-i18n="tool_ui.qr-generator.tip1">سه مربع بزرگ گوشه‌ها «الگوی یابنده» هستند؛ اسکنر با آن‌ها جهت و اندازه‌ی کد را پیدا می‌کند.</li>
+      <li data-i18n="tool_ui.qr-generator.tip2">هرچه متن بلندتر باشد، نسخه‌ی QR بزرگ‌تر می‌شود؛ نسخه‌ی ۱ یک جدول ۲۱×۲۱ است و هر نسخه ۴ خانه به هر ضلع اضافه می‌کند.</li>
+      <li data-i18n="tool_ui.qr-generator.tip3">تصحیح خطا یعنی کد حتی اگر کمی کثیف یا پاره شود خوانده می‌شود؛ سطح M تا ۱۵٪ خرابی را تحمل می‌کند، ولی جای کمتری برای متن می‌گذارد.</li>
+      <li data-i18n="tool_ui.qr-generator.tip4">دور کد یک حاشیه‌ی سفید (منطقه‌ی آرام) لازم است؛ بدون آن اسکنر کد را از پس‌زمینه تشخیص نمی‌دهد.</li>
+    </ul>
+  </div>
+
+  <div class="card challenge" id="challengeCard">
+    <h2 data-i18n="tool_ui.qr-generator.challenge_title">بازی چالش QR</h2>
+    <p style="color:var(--muted)" data-i18n="tool_ui.qr-generator.challenge_intro">۱۰ دور، هر دور ۱۵ ثانیه؛ نسخه‌ی QR، ظرفیت و نوع محتوا را حدس بزن.</p>
+    <p><span data-i18n="game.best">رکورد</span>: <b id="bestScore">۰</b> / ۱۰</p>
+    <button class="primary" id="challengeStart" type="button" data-i18n="tool_ui.qr-generator.challenge_start">شروع چالش</button>
+    <div id="challengePlay" hidden>
+      <p class="timer"><span data-i18n="tool_ui.qr-generator.challenge_time">زمان</span>: <b id="timeLeft">۱۵</b></p>
+      <p class="q" id="qText"></p>
+      <p class="q-detail" id="qDetail" hidden></p>
+      <div class="opts" id="qOpts"></div>
+      <p class="feedback" id="qFeedback"></p>
+      <p class="hint" id="qHint"></p>
+      <p><span data-i18n="game.score">امتیاز</span>: <b id="qScore">۰</b> / ۱۰</p>
+    </div>
+    <p class="feedback" id="challengeDone" hidden></p>
+    <button id="challengeAgain" type="button" hidden data-i18n="tool_ui.qr-generator.challenge_again">دوباره</button>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="../../game.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

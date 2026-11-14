@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل واحد وزن — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="number"], select {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit;
+}
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 16px 0; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.result { font-size: 18px; margin: 8px 0; }
+.result b { color: var(--accent); }
+table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+td { padding: 6px 8px; border-bottom: 1px solid var(--border); }
+td:last-child { text-align: left; font-weight: bold; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۱۲ — تبدیل‌کننده و واحدها</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../" data-i18n="ui.back">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1 data-i18n="tools.weight-converter.name">تبدیل واحد وزن</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.weight-converter.intro">وزن را بین کیلوگرم، گرم، تن، پوند، اونس و استون تبدیل کن — روی دستگاه خودت.</p>
+  <div class="card">
+    <div class="row">
+      <input type="number" id="value" value="70" min="0" step="any" style="width:160px">
+      <select id="fromUnit">
+        <option value="kg" data-i18n="tool_ui.weight-converter.kg">کیلوگرم</option>
+        <option value="g" data-i18n="tool_ui.weight-converter.g">گرم</option>
+        <option value="mg" data-i18n="tool_ui.weight-converter.mg">میلی‌گرم</option>
+        <option value="t" data-i18n="tool_ui.weight-converter.t">تن</option>
+        <option value="lb" data-i18n="tool_ui.weight-converter.lb">پوند</option>
+        <option value="oz" data-i18n="tool_ui.weight-converter.oz">اونس</option>
+        <option value="st" data-i18n="tool_ui.weight-converter.st">استون</option>
+      </select>
+      <span>→</span>
+      <select id="toUnit">
+        <option value="lb" data-i18n="tool_ui.weight-converter.lb">پوند</option>
+        <option value="kg" data-i18n="tool_ui.weight-converter.kg">کیلوگرم</option>
+        <option value="g" data-i18n="tool_ui.weight-converter.g">گرم</option>
+        <option value="mg" data-i18n="tool_ui.weight-converter.mg">میلی‌گرم</option>
+        <option value="t" data-i18n="tool_ui.weight-converter.t">تن</option>
+        <option value="oz" data-i18n="tool_ui.weight-converter.oz">اونس</option>
+        <option value="st" data-i18n="tool_ui.weight-converter.st">استون</option>
+      </select>
+      <button class="primary" id="swapBtn" data-i18n="tool_ui.weight-converter.swap">جابه‌جا</button>
+    </div>
+    <p class="result"><span data-i18n="tool_ui.weight-converter.result">نتیجه</span>: <b id="out">—</b></p>
+    <h3 data-i18n="tool_ui.weight-converter.all_units">همه‌ی واحدها</h3>
+    <table id="allTable"></table>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

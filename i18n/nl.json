@@ -1,179 +1,219 @@
 {
-  "meta": {
-    "code": "nl",
-    "name": "Nederlands",
-    "dir": "ltr",
-    "locale": "nl-NL"
+ "meta": {
+  "code": "nl",
+  "name": "Nederlands",
+  "dir": "ltr",
+  "locale": "nl-NL"
+ },
+ "ui": {
+  "tagline": "Professionele online gereedschapskist — 900 tools op één site",
+  "hero_title": "Elke tool die je nodig hebt, hier",
+  "hero_sub": "Geen registratie, geen server — alles draait op je eigen apparaat.",
+  "search_placeholder": "Zoek tools… bijv. woordenteller",
+  "search_aria": "Zoek tools",
+  "all": "Alle",
+  "empty": "Er zijn nog geen tools toegevoegd. De eerste tool komt binnenkort.",
+  "tools_ready": "{count} van de {total} tools klaar — versie v{version}",
+  "footer_text": "POOF2 — Gebouwd door Muse · Versie v{version}",
+  "back": "Terug naar alle tools",
+  "copy": "Kopiëren",
+  "clear": "Wissen",
+  "copied": "Gekopieerd.",
+  "language": "Taal",
+  "tool_label": "Tool"
+ },
+ "categories": {
+  "text": "Tekst en schrijven",
+  "pdf": "PDF en bestanden",
+  "image": "Foto's en afbeeldingen",
+  "audio": "Audio en video",
+  "finance": "Rekenmachines en financiën",
+  "converter": "Converters en eenheden",
+  "dev": "Ontwikkelaar en code",
+  "health": "Gezondheid en lichaam",
+  "business": "Bedrijf en productiviteit",
+  "language": "Taal"
+ },
+ "tools": {
+  "word-counter": {
+   "name": "Woorden- en tekenteller",
+   "description": "Live telling van tekens, woorden, zinnen, alinea's en leestijd — er wordt niets naar een server gestuurd."
   },
-  "ui": {
-    "tagline": "Professionele online gereedschapskist — 900 tools op één site",
-    "hero_title": "Elke tool die je nodig hebt, hier",
-    "hero_sub": "Geen registratie, geen server — alles draait op je eigen apparaat.",
-    "search_placeholder": "Zoek tools… bijv. woordenteller",
-    "search_aria": "Zoek tools",
-    "all": "Alle",
-    "empty": "Er zijn nog geen tools toegevoegd. De eerste tool komt binnenkort.",
-    "tools_ready": "{count} van de {total} tools klaar — versie v{version}",
-    "footer_text": "POOF2 — Gebouwd door Muse · Versie v{version}",
-    "back": "Terug naar alle tools",
-    "copy": "Kopiëren",
-    "clear": "Wissen",
-    "copied": "Gekopieerd.",
-    "language": "Taal",
-    "tool_label": "Tool"
+  "case-converter": {
+   "name": "Engelse hoofdletterconverter",
+   "description": "Zet Engelse tekst om naar hoofdletters, kleine letters, Title Case, Sentence case en omgekeerd — op je eigen apparaat."
   },
-  "categories": {
-    "text": "Tekst en schrijven",
-    "pdf": "PDF en bestanden",
-    "image": "Foto's en afbeeldingen",
-    "audio": "Audio en video",
-    "finance": "Rekenmachines en financiën",
-    "converter": "Converters en eenheden",
-    "dev": "Ontwikkelaar en code",
-    "health": "Gezondheid en lichaam",
-    "business": "Bedrijf en productiviteit",
-    "language": "Taal"
+  "trim-spaces": {
+   "name": "Extra spaties verwijderen",
+   "description": "Zet meerdere spaties om in één, orden regels en verwijder lege regels."
   },
-  "tools": {
-    "word-counter": {
-      "name": "Woorden- en tekenteller",
-      "description": "Live telling van tekens, woorden, zinnen, alinea's en leestijd — er wordt niets naar een server gestuurd."
-    },
-    "case-converter": {
-      "name": "Engelse hoofdletterconverter",
-      "description": "Zet Engelse tekst om naar hoofdletters, kleine letters, Title Case, Sentence case en omgekeerd — op je eigen apparaat."
-    },
-    "trim-spaces": {
-      "name": "Extra spaties verwijderen",
-      "description": "Zet meerdere spaties om in één, orden regels en verwijder lege regels."
-    },
-    "text-to-slug": {
-      "name": "Tekst naar slug",
-      "description": "Zet een titel om in een nette slug voor links, met het scheidingsteken van je keuze."
-    },
-    "age-calculator": {
-      "name": "Precieze leeftijdsberekenaar",
-      "description": "Exacte leeftijd in jaren, maanden en dagen, geleefde dagen, weekdag van geboorte en dagen tot je volgende verjaardag."
-    },
-    "bmi-calculator": {
-      "name": "BMI-calculator",
-      "description": "Body mass index, gewichtscategorie, gezond gewichtsbereik voor uw lengte en hoeveel u moet aankomen of afvallen — op uw eigen apparaat."
-    },
-    "percent-discount": {
-      "name": "Procent- en kortingscalculator",
-      "description": "Kortingsbedrag, eindprijs, percentage van een getal en de oorspronkelijke prijs uit een afgeprijsde prijs — op je eigen apparaat."
-    }
+  "text-to-slug": {
+   "name": "Tekst naar slug",
+   "description": "Zet een titel om in een nette slug voor links, met het scheidingsteken van je keuze."
   },
-  "tool_ui": {
-    "word-counter": {
-      "intro": "Typ of plak je tekst; de telling is live en op je eigen apparaat — er wordt niets naar een server gestuurd.",
-      "input_placeholder": "Typ hier je tekst…",
-      "chars_with_spaces": "Tekens (met spaties)",
-      "chars_without_spaces": "Tekens (zonder spaties)",
-      "words": "Woorden",
-      "sentences": "Zinnen",
-      "paragraphs": "Alinea's",
-      "lines": "Regels",
-      "reading_time": "Leestijd",
-      "reading_minutes": "{minutes} min",
-      "copy_text": "Tekst kopiëren"
-    },
-    "case-converter": {
-      "intro": "Schrijf je Engelse tekst en kies een stijl; de omzetting gebeurt op je eigen apparaat.",
-      "input_label": "Invoertekst",
-      "input_placeholder": "Type or paste English text here…",
-      "upper": "Alles hoofdletters (UPPERCASE)",
-      "lower": "Alles kleine letters (lowercase)",
-      "title_case": "Elk woord met hoofdletter (Title Case)",
-      "sentence_case": "Eerste letter van de zin hoofdletter (Sentence case)",
-      "invert": "Hoofdletters/kleine letters omkeren",
-      "result_label": "Resultaat",
-      "result_placeholder": "Het resultaat verschijnt hier…",
-      "copy_result": "Resultaat kopiëren"
-    },
-    "trim-spaces": {
-      "intro": "Zet meerdere spaties om in één en ordent regels — op je eigen apparaat.",
-      "trim_lines": "Spaties aan begin en einde van elke regel verwijderen",
-      "remove_empty": "Lege regels verwijderen",
-      "clean": "Tekst opschonen",
-      "stats": "Voor: {before} tekens — na: {after} tekens",
-      "input_label": "Invoertekst",
-      "input_placeholder": "Typ hier je tekst…",
-      "result_label": "Resultaat",
-      "result_placeholder": "Het resultaat verschijnt hier…",
-      "copy_result": "Resultaat kopiëren"
-    },
-    "text-to-slug": {
-      "intro": "Zet een titel om in een nette slug voor links — op je eigen apparaat.",
-      "title_label": "Titel",
-      "input_placeholder": "bijv. Duits voor beginners",
-      "separator": "Scheidingsteken:",
-      "hyphen": "- (koppelteken)",
-      "underscore": "_ (laag streepje)",
-      "lowercase": "Engelse letters klein",
-      "convert": "Omzetten naar slug",
-      "copy_slug": "Slug kopiëren",
-      "result_label": "Resultaat",
-      "result_placeholder": "Het resultaat verschijnt hier…"
-    },
-    "age-calculator": {
-      "intro": "Voer je geboortedatum in en zie je exacte leeftijd in jaren, maanden en dagen, de geleefde dagen en de dagen tot je volgende verjaardag — op je eigen apparaat.",
-      "birth_label": "Geboortedatum (gregoriaans)",
-      "asof_label": "Berekenen tot",
-      "calc": "Leeftijd berekenen",
-      "years": "jaar",
-      "months": "maanden",
-      "days": "dagen",
-      "total_days": "Geleefde dagen",
-      "total_weeks": "Geleefde weken",
-      "total_months": "Geleefde maanden",
-      "total_hours": "Geleefde uren",
-      "next_birthday": "Volgende verjaardag",
-      "born_weekday": "Weekdag van geboorte",
-      "birth_jalali": "Geboortedatum (jalali-kalender)",
-      "invalid": "De geboortedatum is ongeldig.",
-      "future": "De geboortedatum kan niet in de toekomst liggen."
-    },
-    "bmi-calculator": {
-      "intro": "Voer uw gewicht en lengte in om uw BMI, gewichtscategorie en het gezonde gewichtsbereik voor uw lengte te zien — op uw eigen apparaat.",
-      "units_label": "Eenheden",
-      "metric": "Metrisch (kg, cm)",
-      "imperial": "Imperiaal (lb, in)",
-      "weight_label": "Gewicht",
-      "height_label": "Lengte",
-      "unit_kg": "kg",
-      "unit_lb": "lb",
-      "unit_cm": "cm",
-      "unit_in": "in",
-      "calc": "BMI berekenen",
-      "your_bmi": "Uw BMI",
-      "healthy_range": "Gezond gewichtsbereik voor uw lengte",
-      "gain_to_healthy": "Om het gezonde bereik te halen, kom {amount} {unit} aan.",
-      "lose_to_healthy": "Om het gezonde bereik te halen, val {amount} {unit} af.",
-      "in_healthy_range": "Uw gewicht ligt in het gezonde bereik.",
-      "invalid": "Voer een geldig gewicht en een geldige lengte in.",
-      "note": "BMI is een screeningsindicator, geen medische diagnose; raadpleeg een arts voor een volledige beoordeling.",
-      "cat_severe": "Ernstig ondergewicht",
-      "cat_under": "Ondergewicht",
-      "cat_normal": "Gezond gewicht",
-      "cat_over": "Overgewicht",
-      "cat_obese1": "Obesitas klasse I",
-      "cat_obese2": "Obesitas klasse II",
-      "cat_obese3": "Obesitas klasse III"
-    },
-    "percent-discount": {
-      "intro": "Voer de prijs en het kortingspercentage in om het kortingsbedrag en de eindprijs te zien — op je eigen apparaat.",
-      "discount_title": "Korting op een prijs",
-      "price_label": "Prijs",
-      "percent_label": "Kortingspercentage",
-      "calc": "Berekenen",
-      "discount_amount": "Kortingsbedrag",
-      "final_price": "Eindprijs",
-      "percent_of_title": "Percentage van een getal",
-      "of_label": "van",
-      "result": "Resultaat",
-      "reverse_title": "Oorspronkelijke prijs uit een afgeprijsde prijs",
-      "original_price": "Oorspronkelijke prijs"
-    }
+  "age-calculator": {
+   "name": "Precieze leeftijdsberekenaar",
+   "description": "Exacte leeftijd in jaren, maanden en dagen, geleefde dagen, weekdag van geboorte en dagen tot je volgende verjaardag."
+  },
+  "bmi-calculator": {
+   "name": "BMI-calculator",
+   "description": "Body mass index, gewichtscategorie, gezond gewichtsbereik voor uw lengte en hoeveel u moet aankomen of afvallen — op uw eigen apparaat."
+  },
+  "percent-discount": {
+   "name": "Procent- en kortingscalculator",
+   "description": "Kortingsbedrag, eindprijs, percentage van een getal en de oorspronkelijke prijs uit een afgeprijsde prijs — op je eigen apparaat."
+  },
+  "weight-converter": {
+   "name": "Gewichtseenhedenomzetter",
+   "description": "Zet gewicht om tussen kilogram, gram, milligram, ton, pond, ounce en stone — op je eigen apparaat."
+  },
+  "length-converter": {
+   "name": "Lengte-eenheden omrekenen",
+   "description": "Omrekenen tussen millimeters, centimeters, meters, kilometers, inches, voeten, yards en mijlen — op je eigen apparaat."
   }
+ },
+ "tool_ui": {
+  "word-counter": {
+   "intro": "Typ of plak je tekst; de telling is live en op je eigen apparaat — er wordt niets naar een server gestuurd.",
+   "input_placeholder": "Typ hier je tekst…",
+   "chars_with_spaces": "Tekens (met spaties)",
+   "chars_without_spaces": "Tekens (zonder spaties)",
+   "words": "Woorden",
+   "sentences": "Zinnen",
+   "paragraphs": "Alinea's",
+   "lines": "Regels",
+   "reading_time": "Leestijd",
+   "reading_minutes": "{minutes} min",
+   "copy_text": "Tekst kopiëren"
+  },
+  "case-converter": {
+   "intro": "Schrijf je Engelse tekst en kies een stijl; de omzetting gebeurt op je eigen apparaat.",
+   "input_label": "Invoertekst",
+   "input_placeholder": "Type or paste English text here…",
+   "upper": "Alles hoofdletters (UPPERCASE)",
+   "lower": "Alles kleine letters (lowercase)",
+   "title_case": "Elk woord met hoofdletter (Title Case)",
+   "sentence_case": "Eerste letter van de zin hoofdletter (Sentence case)",
+   "invert": "Hoofdletters/kleine letters omkeren",
+   "result_label": "Resultaat",
+   "result_placeholder": "Het resultaat verschijnt hier…",
+   "copy_result": "Resultaat kopiëren"
+  },
+  "trim-spaces": {
+   "intro": "Zet meerdere spaties om in één en ordent regels — op je eigen apparaat.",
+   "trim_lines": "Spaties aan begin en einde van elke regel verwijderen",
+   "remove_empty": "Lege regels verwijderen",
+   "clean": "Tekst opschonen",
+   "stats": "Voor: {before} tekens — na: {after} tekens",
+   "input_label": "Invoertekst",
+   "input_placeholder": "Typ hier je tekst…",
+   "result_label": "Resultaat",
+   "result_placeholder": "Het resultaat verschijnt hier…",
+   "copy_result": "Resultaat kopiëren"
+  },
+  "text-to-slug": {
+   "intro": "Zet een titel om in een nette slug voor links — op je eigen apparaat.",
+   "title_label": "Titel",
+   "input_placeholder": "bijv. Duits voor beginners",
+   "separator": "Scheidingsteken:",
+   "hyphen": "- (koppelteken)",
+   "underscore": "_ (laag streepje)",
+   "lowercase": "Engelse letters klein",
+   "convert": "Omzetten naar slug",
+   "copy_slug": "Slug kopiëren",
+   "result_label": "Resultaat",
+   "result_placeholder": "Het resultaat verschijnt hier…"
+  },
+  "age-calculator": {
+   "intro": "Voer je geboortedatum in en zie je exacte leeftijd in jaren, maanden en dagen, de geleefde dagen en de dagen tot je volgende verjaardag — op je eigen apparaat.",
+   "birth_label": "Geboortedatum (gregoriaans)",
+   "asof_label": "Berekenen tot",
+   "calc": "Leeftijd berekenen",
+   "years": "jaar",
+   "months": "maanden",
+   "days": "dagen",
+   "total_days": "Geleefde dagen",
+   "total_weeks": "Geleefde weken",
+   "total_months": "Geleefde maanden",
+   "total_hours": "Geleefde uren",
+   "next_birthday": "Volgende verjaardag",
+   "born_weekday": "Weekdag van geboorte",
+   "birth_jalali": "Geboortedatum (jalali-kalender)",
+   "invalid": "De geboortedatum is ongeldig.",
+   "future": "De geboortedatum kan niet in de toekomst liggen."
+  },
+  "bmi-calculator": {
+   "intro": "Voer uw gewicht en lengte in om uw BMI, gewichtscategorie en het gezonde gewichtsbereik voor uw lengte te zien — op uw eigen apparaat.",
+   "units_label": "Eenheden",
+   "metric": "Metrisch (kg, cm)",
+   "imperial": "Imperiaal (lb, in)",
+   "weight_label": "Gewicht",
+   "height_label": "Lengte",
+   "unit_kg": "kg",
+   "unit_lb": "lb",
+   "unit_cm": "cm",
+   "unit_in": "in",
+   "calc": "BMI berekenen",
+   "your_bmi": "Uw BMI",
+   "healthy_range": "Gezond gewichtsbereik voor uw lengte",
+   "gain_to_healthy": "Om het gezonde bereik te halen, kom {amount} {unit} aan.",
+   "lose_to_healthy": "Om het gezonde bereik te halen, val {amount} {unit} af.",
+   "in_healthy_range": "Uw gewicht ligt in het gezonde bereik.",
+   "invalid": "Voer een geldig gewicht en een geldige lengte in.",
+   "note": "BMI is een screeningsindicator, geen medische diagnose; raadpleeg een arts voor een volledige beoordeling.",
+   "cat_severe": "Ernstig ondergewicht",
+   "cat_under": "Ondergewicht",
+   "cat_normal": "Gezond gewicht",
+   "cat_over": "Overgewicht",
+   "cat_obese1": "Obesitas klasse I",
+   "cat_obese2": "Obesitas klasse II",
+   "cat_obese3": "Obesitas klasse III"
+  },
+  "percent-discount": {
+   "intro": "Voer de prijs en het kortingspercentage in om het kortingsbedrag en de eindprijs te zien — op je eigen apparaat.",
+   "discount_title": "Korting op een prijs",
+   "price_label": "Prijs",
+   "percent_label": "Kortingspercentage",
+   "calc": "Berekenen",
+   "discount_amount": "Kortingsbedrag",
+   "final_price": "Eindprijs",
+   "percent_of_title": "Percentage van een getal",
+   "of_label": "van",
+   "result": "Resultaat",
+   "reverse_title": "Oorspronkelijke prijs uit een afgeprijsde prijs",
+   "original_price": "Oorspronkelijke prijs"
+  },
+  "weight-converter": {
+   "intro": "Zet gewicht om tussen kilogram, gram, ton, pond, ounce en stone — op je eigen apparaat.",
+   "kg": "Kilogram",
+   "g": "Gram",
+   "mg": "Milligram",
+   "t": "Ton",
+   "lb": "Pond",
+   "oz": "Ounce",
+   "st": "Stone",
+   "swap": "Wissel om",
+   "result": "Resultaat",
+   "all_units": "Alle eenheden"
+  },
+  "length-converter": {
+   "intro": "Voer een waarde in en kies twee eenheden om de exacte omrekening te zien — op je eigen apparaat.",
+   "converter_title": "Lengte omrekenen",
+   "value_label": "Waarde",
+   "from_label": "Van",
+   "to_label": "Naar",
+   "convert": "Omrekenen",
+   "swap": "Wisselen",
+   "result": "Resultaat",
+   "all_title": "Alle omrekeningen",
+   "unit_millimeter": "Millimeter",
+   "unit_centimeter": "Centimeter",
+   "unit_meter": "Meter",
+   "unit_kilometer": "Kilometer",
+   "unit_inch": "Inch",
+   "unit_foot": "Voet",
+   "unit_yard": "Yard",
+   "unit_mile": "Mijl"
+  }
+ }
 }

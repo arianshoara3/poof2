@@ -1,179 +1,219 @@
 {
-  "meta": {
-    "code": "pl",
-    "name": "Polski",
-    "dir": "ltr",
-    "locale": "pl-PL"
+ "meta": {
+  "code": "pl",
+  "name": "Polski",
+  "dir": "ltr",
+  "locale": "pl-PL"
+ },
+ "ui": {
+  "tagline": "Profesjonalny zestaw narzędzi online — 900 narzędzi na jednej stronie",
+  "hero_title": "Każde narzędzie, którego potrzebujesz, jest tutaj",
+  "hero_sub": "Bez rejestracji, bez serwera — wszystko działa na Twoim urządzeniu.",
+  "search_placeholder": "Szukaj narzędzi… np. licznik słów",
+  "search_aria": "Szukaj narzędzi",
+  "all": "Wszystkie",
+  "empty": "Nie dodano jeszcze żadnych narzędzi. Pierwsze narzędzie już wkrótce.",
+  "tools_ready": "{count} z {total} narzędzi gotowych — wersja v{version}",
+  "footer_text": "POOF2 — Stworzone przez Muse · Wersja v{version}",
+  "back": "Wróć do wszystkich narzędzi",
+  "copy": "Kopiuj",
+  "clear": "Wyczyść",
+  "copied": "Skopiowano.",
+  "language": "Język",
+  "tool_label": "Narzędzie"
+ },
+ "categories": {
+  "text": "Tekst i pisanie",
+  "pdf": "PDF i pliki",
+  "image": "Zdjęcia i obrazy",
+  "audio": "Dźwięk i wideo",
+  "finance": "Kalkulatory i finanse",
+  "converter": "Konwertery i jednostki",
+  "dev": "Deweloper i kod",
+  "health": "Zdrowie i ciało",
+  "business": "Biznes i produktywność",
+  "language": "Język"
+ },
+ "tools": {
+  "word-counter": {
+   "name": "Licznik słów i znaków",
+   "description": "Liczenie na żywo znaków, słów, zdań, akapitów i czasu czytania — nic nie jest wysyłane na serwer."
   },
-  "ui": {
-    "tagline": "Profesjonalny zestaw narzędzi online — 900 narzędzi na jednej stronie",
-    "hero_title": "Każde narzędzie, którego potrzebujesz, jest tutaj",
-    "hero_sub": "Bez rejestracji, bez serwera — wszystko działa na Twoim urządzeniu.",
-    "search_placeholder": "Szukaj narzędzi… np. licznik słów",
-    "search_aria": "Szukaj narzędzi",
-    "all": "Wszystkie",
-    "empty": "Nie dodano jeszcze żadnych narzędzi. Pierwsze narzędzie już wkrótce.",
-    "tools_ready": "{count} z {total} narzędzi gotowych — wersja v{version}",
-    "footer_text": "POOF2 — Stworzone przez Muse · Wersja v{version}",
-    "back": "Wróć do wszystkich narzędzi",
-    "copy": "Kopiuj",
-    "clear": "Wyczyść",
-    "copied": "Skopiowano.",
-    "language": "Język",
-    "tool_label": "Narzędzie"
+  "case-converter": {
+   "name": "Konwerter wielkości liter w języku angielskim",
+   "description": "Konwertuj angielski tekst na wielkie litery, małe litery, Title Case, Sentence case i odwrotnie — na Twoim urządzeniu."
   },
-  "categories": {
-    "text": "Tekst i pisanie",
-    "pdf": "PDF i pliki",
-    "image": "Zdjęcia i obrazy",
-    "audio": "Dźwięk i wideo",
-    "finance": "Kalkulatory i finanse",
-    "converter": "Konwertery i jednostki",
-    "dev": "Deweloper i kod",
-    "health": "Zdrowie i ciało",
-    "business": "Biznes i produktywność",
-    "language": "Język"
+  "trim-spaces": {
+   "name": "Usuń zbędne spacje",
+   "description": "Zamień wielokrotne spacje na jedną, uporządkuj wiersze i usuń puste wiersze."
   },
-  "tools": {
-    "word-counter": {
-      "name": "Licznik słów i znaków",
-      "description": "Liczenie na żywo znaków, słów, zdań, akapitów i czasu czytania — nic nie jest wysyłane na serwer."
-    },
-    "case-converter": {
-      "name": "Konwerter wielkości liter w języku angielskim",
-      "description": "Konwertuj angielski tekst na wielkie litery, małe litery, Title Case, Sentence case i odwrotnie — na Twoim urządzeniu."
-    },
-    "trim-spaces": {
-      "name": "Usuń zbędne spacje",
-      "description": "Zamień wielokrotne spacje na jedną, uporządkuj wiersze i usuń puste wiersze."
-    },
-    "text-to-slug": {
-      "name": "Tekst na slug",
-      "description": "Zamień tytuł w czysty slug do linków, z wybranym separatorem."
-    },
-    "age-calculator": {
-      "name": "Dokładny kalkulator wieku",
-      "description": "Dokładny wiek w latach, miesiącach i dniach, przeżyte dni, dzień tygodnia urodzenia i dni do następnych urodzin."
-    },
-    "bmi-calculator": {
-      "name": "Kalkulator BMI",
-      "description": "Wskaźnik masy ciała, kategoria wagi, zdrowy zakres wagi dla Twojego wzrostu oraz ile przybrać lub schudnąć — na własnym urządzeniu."
-    },
-    "percent-discount": {
-      "name": "Kalkulator procentów i rabatów",
-      "description": "Kwota rabatu, cena końcowa, procent liczby oraz cena pierwotna na podstawie ceny po rabacie — na Twoim urządzeniu."
-    }
+  "text-to-slug": {
+   "name": "Tekst na slug",
+   "description": "Zamień tytuł w czysty slug do linków, z wybranym separatorem."
   },
-  "tool_ui": {
-    "word-counter": {
-      "intro": "Wpisz lub wklej tekst; liczenie odbywa się na żywo na Twoim urządzeniu — nic nie jest wysyłane na serwer.",
-      "input_placeholder": "Wpisz tutaj tekst…",
-      "chars_with_spaces": "Znaki (ze spacjami)",
-      "chars_without_spaces": "Znaki (bez spacji)",
-      "words": "Słowa",
-      "sentences": "Zdania",
-      "paragraphs": "Akapity",
-      "lines": "Wiersze",
-      "reading_time": "Czas czytania",
-      "reading_minutes": "{minutes} min",
-      "copy_text": "Kopiuj tekst"
-    },
-    "case-converter": {
-      "intro": "Wpisz angielski tekst i wybierz styl; konwersja odbywa się na Twoim urządzeniu.",
-      "input_label": "Tekst wejściowy",
-      "input_placeholder": "Type or paste English text here…",
-      "upper": "Wszystko wielkimi literami (UPPERCASE)",
-      "lower": "Wszystko małymi literami (lowercase)",
-      "title_case": "Każde słowo wielką literą (Title Case)",
-      "sentence_case": "Pierwsza litera zdania wielka (Sentence case)",
-      "invert": "Odwróć wielkość liter",
-      "result_label": "Wynik",
-      "result_placeholder": "Wynik pojawi się tutaj…",
-      "copy_result": "Kopiuj wynik"
-    },
-    "trim-spaces": {
-      "intro": "Zamienia wielokrotne spacje na jedną i porządkuje wiersze — na Twoim urządzeniu.",
-      "trim_lines": "Usuń spacje na początku i na końcu każdego wiersza",
-      "remove_empty": "Usuń puste wiersze",
-      "clean": "Oczyść tekst",
-      "stats": "Przed: {before} znaków — po: {after} znaków",
-      "input_label": "Tekst wejściowy",
-      "input_placeholder": "Wpisz tutaj tekst…",
-      "result_label": "Wynik",
-      "result_placeholder": "Wynik pojawi się tutaj…",
-      "copy_result": "Kopiuj wynik"
-    },
-    "text-to-slug": {
-      "intro": "Zamienia tytuł w czysty slug do linków — na Twoim urządzeniu.",
-      "title_label": "Tytuł",
-      "input_placeholder": "np. niemiecki dla początkujących",
-      "separator": "Separator:",
-      "hyphen": "- (myślnik)",
-      "underscore": "_ (podkreślenie)",
-      "lowercase": "Angielskie litery małe",
-      "convert": "Konwertuj na slug",
-      "copy_slug": "Kopiuj slug",
-      "result_label": "Wynik",
-      "result_placeholder": "Wynik pojawi się tutaj…"
-    },
-    "age-calculator": {
-      "intro": "Wpisz datę urodzenia i zobacz swój dokładny wiek w latach, miesiącach i dniach, przeżyte dni oraz dni pozostałe do następnych urodzin — na własnym urządzeniu.",
-      "birth_label": "Data urodzenia (gregoriańska)",
-      "asof_label": "Oblicz do dnia",
-      "calc": "Oblicz wiek",
-      "years": "lat",
-      "months": "miesięcy",
-      "days": "dni",
-      "total_days": "Przeżyte dni",
-      "total_weeks": "Przeżyte tygodnie",
-      "total_months": "Przeżyte miesiące",
-      "total_hours": "Przeżyte godziny",
-      "next_birthday": "Następne urodziny",
-      "born_weekday": "Dzień tygodnia urodzenia",
-      "birth_jalali": "Data urodzenia (kalendarz dżalali)",
-      "invalid": "Data urodzenia jest nieprawidłowa.",
-      "future": "Data urodzenia nie może być w przyszłości."
-    },
-    "bmi-calculator": {
-      "intro": "Wpisz swoją wagę i wzrost, aby zobaczyć swoje BMI, kategorię wagi oraz zdrowy zakres wagi dla swojego wzrostu — na własnym urządzeniu.",
-      "units_label": "Jednostki",
-      "metric": "Metryczne (kg, cm)",
-      "imperial": "Imperialne (lb, in)",
-      "weight_label": "Waga",
-      "height_label": "Wzrost",
-      "unit_kg": "kg",
-      "unit_lb": "lb",
-      "unit_cm": "cm",
-      "unit_in": "in",
-      "calc": "Oblicz BMI",
-      "your_bmi": "Twoje BMI",
-      "healthy_range": "Zdrowy zakres wagi dla Twojego wzrostu",
-      "gain_to_healthy": "Aby osiągnąć zdrowy zakres, przybierz {amount} {unit}.",
-      "lose_to_healthy": "Aby osiągnąć zdrowy zakres, schudnij {amount} {unit}.",
-      "in_healthy_range": "Twoja waga mieści się w zdrowym zakresie.",
-      "invalid": "Wpisz prawidłową wagę i wzrost.",
-      "note": "BMI to wskaźnik przesiewowy, a nie diagnoza medyczna; w celu pełnej oceny skonsultuj się z lekarzem.",
-      "cat_severe": "Ciężka niedowaga",
-      "cat_under": "Niedowaga",
-      "cat_normal": "Zdrowa waga",
-      "cat_over": "Nadwaga",
-      "cat_obese1": "Otyłość I stopnia",
-      "cat_obese2": "Otyłość II stopnia",
-      "cat_obese3": "Otyłość III stopnia"
-    },
-    "percent-discount": {
-      "intro": "Wpisz cenę i procent rabatu, aby zobaczyć kwotę rabatu i cenę końcową — na Twoim urządzeniu.",
-      "discount_title": "Rabat od ceny",
-      "price_label": "Cena",
-      "percent_label": "Procent rabatu",
-      "calc": "Oblicz",
-      "discount_amount": "Kwota rabatu",
-      "final_price": "Cena końcowa",
-      "percent_of_title": "Procent liczby",
-      "of_label": "z",
-      "result": "Wynik",
-      "reverse_title": "Cena pierwotna na podstawie ceny po rabacie",
-      "original_price": "Cena pierwotna"
-    }
+  "age-calculator": {
+   "name": "Dokładny kalkulator wieku",
+   "description": "Dokładny wiek w latach, miesiącach i dniach, przeżyte dni, dzień tygodnia urodzenia i dni do następnych urodzin."
+  },
+  "bmi-calculator": {
+   "name": "Kalkulator BMI",
+   "description": "Wskaźnik masy ciała, kategoria wagi, zdrowy zakres wagi dla Twojego wzrostu oraz ile przybrać lub schudnąć — na własnym urządzeniu."
+  },
+  "percent-discount": {
+   "name": "Kalkulator procentów i rabatów",
+   "description": "Kwota rabatu, cena końcowa, procent liczby oraz cena pierwotna na podstawie ceny po rabacie — na Twoim urządzeniu."
+  },
+  "weight-converter": {
+   "name": "Konwerter jednostek masy",
+   "description": "Przeliczaj masę między kilogramami, gramami, miligramami, tonami, funtami, uncjami i stone'ami — na Twoim urządzeniu."
+  },
+  "length-converter": {
+   "name": "Konwerter jednostek długości",
+   "description": "Konwersja między milimetrami, centymetrami, metrami, kilometrami, calami, stopami, jardami i milami — na własnym urządzeniu."
   }
+ },
+ "tool_ui": {
+  "word-counter": {
+   "intro": "Wpisz lub wklej tekst; liczenie odbywa się na żywo na Twoim urządzeniu — nic nie jest wysyłane na serwer.",
+   "input_placeholder": "Wpisz tutaj tekst…",
+   "chars_with_spaces": "Znaki (ze spacjami)",
+   "chars_without_spaces": "Znaki (bez spacji)",
+   "words": "Słowa",
+   "sentences": "Zdania",
+   "paragraphs": "Akapity",
+   "lines": "Wiersze",
+   "reading_time": "Czas czytania",
+   "reading_minutes": "{minutes} min",
+   "copy_text": "Kopiuj tekst"
+  },
+  "case-converter": {
+   "intro": "Wpisz angielski tekst i wybierz styl; konwersja odbywa się na Twoim urządzeniu.",
+   "input_label": "Tekst wejściowy",
+   "input_placeholder": "Type or paste English text here…",
+   "upper": "Wszystko wielkimi literami (UPPERCASE)",
+   "lower": "Wszystko małymi literami (lowercase)",
+   "title_case": "Każde słowo wielką literą (Title Case)",
+   "sentence_case": "Pierwsza litera zdania wielka (Sentence case)",
+   "invert": "Odwróć wielkość liter",
+   "result_label": "Wynik",
+   "result_placeholder": "Wynik pojawi się tutaj…",
+   "copy_result": "Kopiuj wynik"
+  },
+  "trim-spaces": {
+   "intro": "Zamienia wielokrotne spacje na jedną i porządkuje wiersze — na Twoim urządzeniu.",
+   "trim_lines": "Usuń spacje na początku i na końcu każdego wiersza",
+   "remove_empty": "Usuń puste wiersze",
+   "clean": "Oczyść tekst",
+   "stats": "Przed: {before} znaków — po: {after} znaków",
+   "input_label": "Tekst wejściowy",
+   "input_placeholder": "Wpisz tutaj tekst…",
+   "result_label": "Wynik",
+   "result_placeholder": "Wynik pojawi się tutaj…",
+   "copy_result": "Kopiuj wynik"
+  },
+  "text-to-slug": {
+   "intro": "Zamienia tytuł w czysty slug do linków — na Twoim urządzeniu.",
+   "title_label": "Tytuł",
+   "input_placeholder": "np. niemiecki dla początkujących",
+   "separator": "Separator:",
+   "hyphen": "- (myślnik)",
+   "underscore": "_ (podkreślenie)",
+   "lowercase": "Angielskie litery małe",
+   "convert": "Konwertuj na slug",
+   "copy_slug": "Kopiuj slug",
+   "result_label": "Wynik",
+   "result_placeholder": "Wynik pojawi się tutaj…"
+  },
+  "age-calculator": {
+   "intro": "Wpisz datę urodzenia i zobacz swój dokładny wiek w latach, miesiącach i dniach, przeżyte dni oraz dni pozostałe do następnych urodzin — na własnym urządzeniu.",
+   "birth_label": "Data urodzenia (gregoriańska)",
+   "asof_label": "Oblicz do dnia",
+   "calc": "Oblicz wiek",
+   "years": "lat",
+   "months": "miesięcy",
+   "days": "dni",
+   "total_days": "Przeżyte dni",
+   "total_weeks": "Przeżyte tygodnie",
+   "total_months": "Przeżyte miesiące",
+   "total_hours": "Przeżyte godziny",
+   "next_birthday": "Następne urodziny",
+   "born_weekday": "Dzień tygodnia urodzenia",
+   "birth_jalali": "Data urodzenia (kalendarz dżalali)",
+   "invalid": "Data urodzenia jest nieprawidłowa.",
+   "future": "Data urodzenia nie może być w przyszłości."
+  },
+  "bmi-calculator": {
+   "intro": "Wpisz swoją wagę i wzrost, aby zobaczyć swoje BMI, kategorię wagi oraz zdrowy zakres wagi dla swojego wzrostu — na własnym urządzeniu.",
+   "units_label": "Jednostki",
+   "metric": "Metryczne (kg, cm)",
+   "imperial": "Imperialne (lb, in)",
+   "weight_label": "Waga",
+   "height_label": "Wzrost",
+   "unit_kg": "kg",
+   "unit_lb": "lb",
+   "unit_cm": "cm",
+   "unit_in": "in",
+   "calc": "Oblicz BMI",
+   "your_bmi": "Twoje BMI",
+   "healthy_range": "Zdrowy zakres wagi dla Twojego wzrostu",
+   "gain_to_healthy": "Aby osiągnąć zdrowy zakres, przybierz {amount} {unit}.",
+   "lose_to_healthy": "Aby osiągnąć zdrowy zakres, schudnij {amount} {unit}.",
+   "in_healthy_range": "Twoja waga mieści się w zdrowym zakresie.",
+   "invalid": "Wpisz prawidłową wagę i wzrost.",
+   "note": "BMI to wskaźnik przesiewowy, a nie diagnoza medyczna; w celu pełnej oceny skonsultuj się z lekarzem.",
+   "cat_severe": "Ciężka niedowaga",
+   "cat_under": "Niedowaga",
+   "cat_normal": "Zdrowa waga",
+   "cat_over": "Nadwaga",
+   "cat_obese1": "Otyłość I stopnia",
+   "cat_obese2": "Otyłość II stopnia",
+   "cat_obese3": "Otyłość III stopnia"
+  },
+  "percent-discount": {
+   "intro": "Wpisz cenę i procent rabatu, aby zobaczyć kwotę rabatu i cenę końcową — na Twoim urządzeniu.",
+   "discount_title": "Rabat od ceny",
+   "price_label": "Cena",
+   "percent_label": "Procent rabatu",
+   "calc": "Oblicz",
+   "discount_amount": "Kwota rabatu",
+   "final_price": "Cena końcowa",
+   "percent_of_title": "Procent liczby",
+   "of_label": "z",
+   "result": "Wynik",
+   "reverse_title": "Cena pierwotna na podstawie ceny po rabacie",
+   "original_price": "Cena pierwotna"
+  },
+  "weight-converter": {
+   "intro": "Przeliczaj masę między kilogramami, gramami, tonami, funtami, uncjami i stone'ami — na Twoim urządzeniu.",
+   "kg": "Kilogram",
+   "g": "Gram",
+   "mg": "Miligram",
+   "t": "Tona",
+   "lb": "Funt",
+   "oz": "Uncja",
+   "st": "Stone",
+   "swap": "Zamień",
+   "result": "Wynik",
+   "all_units": "Wszystkie jednostki"
+  },
+  "length-converter": {
+   "intro": "Wpisz wartość i wybierz dwie jednostki, aby zobaczyć dokładną konwersję — na własnym urządzeniu.",
+   "converter_title": "Konwertuj długość",
+   "value_label": "Wartość",
+   "from_label": "Z",
+   "to_label": "Do",
+   "convert": "Konwertuj",
+   "swap": "Zamień",
+   "result": "Wynik",
+   "all_title": "Wszystkie konwersje",
+   "unit_millimeter": "Milimetr",
+   "unit_centimeter": "Centymetr",
+   "unit_meter": "Metr",
+   "unit_kilometer": "Kilometr",
+   "unit_inch": "Cal",
+   "unit_foot": "Stopa",
+   "unit_yard": "Jard",
+   "unit_mile": "Mila"
+  }
+ }
 }

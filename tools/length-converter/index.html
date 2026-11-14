@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل واحد طول — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="number"], select {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit;
+}
+input[type="number"] { width: 180px; }
+select { max-width: 200px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 16px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.result { font-size: 18px; margin: 8px 0; }
+.result b { color: var(--accent); }
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+td, th { padding: 8px; border-bottom: 1px solid var(--border); text-align: start; }
+td.val { font-weight: bold; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۱۱ — تبدیل‌کننده و واحدها</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../" data-i18n="ui.back">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1 data-i18n="tools.length-converter.name">تبدیل واحد طول</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.length-converter.intro">مقدار و دو واحد را انتخاب کن؛ تبدیل دقیق را می‌بینی — روی دستگاه خودت.</p>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.length-converter.converter_title">تبدیل طول</h2>
+    <div class="row">
+      <label><span data-i18n="tool_ui.length-converter.value_label">مقدار</span> <input type="number" id="value" value="1" min="0" step="any"></label>
+      <label><span data-i18n="tool_ui.length-converter.from_label">از واحد</span>
+        <select id="fromUnit">
+          <option value="millimeter" data-i18n="tool_ui.length-converter.unit_millimeter">میلی‌متر</option>
+          <option value="centimeter" data-i18n="tool_ui.length-converter.unit_centimeter">سانتی‌متر</option>
+          <option value="meter" data-i18n="tool_ui.length-converter.unit_meter">متر</option>
+          <option value="kilometer" selected data-i18n="tool_ui.length-converter.unit_kilometer">کیلومتر</option>
+          <option value="inch" data-i18n="tool_ui.length-converter.unit_inch">اینچ</option>
+          <option value="foot" data-i18n="tool_ui.length-converter.unit_foot">فوت</option>
+          <option value="yard" data-i18n="tool_ui.length-converter.unit_yard">یارد</option>
+          <option value="mile" data-i18n="tool_ui.length-converter.unit_mile">مایل</option>
+        </select>
+      </label>
+      <button id="swapBtn" data-i18n="tool_ui.length-converter.swap" title="جابه‌جا">⇄</button>
+      <label><span data-i18n="tool_ui.length-converter.to_label">به واحد</span>
+        <select id="toUnit">
+          <option value="millimeter" data-i18n="tool_ui.length-converter.unit_millimeter">میلی‌متر</option>
+          <option value="centimeter" data-i18n="tool_ui.length-converter.unit_centimeter">سانتی‌متر</option>
+          <option value="meter" selected data-i18n="tool_ui.length-converter.unit_meter">متر</option>
+          <option value="kilometer" data-i18n="tool_ui.length-converter.unit_kilometer">کیلومتر</option>
+          <option value="inch" data-i18n="tool_ui.length-converter.unit_inch">اینچ</option>
+          <option value="foot" data-i18n="tool_ui.length-converter.unit_foot">فوت</option>
+          <option value="yard" data-i18n="tool_ui.length-converter.unit_yard">یارد</option>
+          <option value="mile" data-i18n="tool_ui.length-converter.unit_mile">مایل</option>
+        </select>
+      </label>
+      <button class="primary" id="convertBtn" data-i18n="tool_ui.length-converter.convert">تبدیل</button>
+    </div>
+    <p class="result"><span data-i18n="tool_ui.length-converter.result">نتیجه</span>: <b id="resultOut">—</b> <span id="resultUnit"></span></p>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.length-converter.all_title">همه‌ی تبدیل‌ها</h2>
+    <table>
+      <tr><td data-i18n="tool_ui.length-converter.unit_millimeter">میلی‌متر</td><td class="val" data-all-unit="millimeter">—</td></tr>
+      <tr><td data-i18n="tool_ui.length-converter.unit_centimeter">سانتی‌متر</td><td class="val" data-all-unit="centimeter">—</td></tr>
+      <tr><td data-i18n="tool_ui.length-converter.unit_meter">متر</td><td class="val" data-all-unit="meter">—</td></tr>
+      <tr><td data-i18n="tool_ui.length-converter.unit_kilometer">کیلومتر</td><td class="val" data-all-unit="kilometer">—</td></tr>
+      <tr><td data-i18n="tool_ui.length-converter.unit_inch">اینچ</td><td class="val" data-all-unit="inch">—</td></tr>
+      <tr><td data-i18n="tool_ui.length-converter.unit_foot">فوت</td><td class="val" data-all-unit="foot">—</td></tr>
+      <tr><td data-i18n="tool_ui.length-converter.unit_yard">یارد</td><td class="val" data-all-unit="yard">—</td></tr>
+      <tr><td data-i18n="tool_ui.length-converter.unit_mile">مایل</td><td class="val" data-all-unit="mile">—</td></tr>
+    </table>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

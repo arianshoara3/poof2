@@ -1,179 +1,219 @@
 {
-  "meta": {
-    "code": "zh",
-    "name": "中文",
-    "dir": "ltr",
-    "locale": "zh-CN"
+ "meta": {
+  "code": "zh",
+  "name": "中文",
+  "dir": "ltr",
+  "locale": "zh-CN"
+ },
+ "ui": {
+  "tagline": "专业在线工具箱——一个网站，900 种工具",
+  "hero_title": "你需要的每一种工具，都在这里",
+  "hero_sub": "无需注册，无需服务器——一切都在您自己的设备上运行。",
+  "search_placeholder": "搜索工具……例如：字数统计",
+  "search_aria": "搜索工具",
+  "all": "全部",
+  "empty": "尚未添加任何工具。第一个工具即将推出。",
+  "tools_ready": "已就绪 {count} / 共 {total} 个工具——版本 v{version}",
+  "footer_text": "POOF2 — 由 Muse 打造 · 版本 v{version}",
+  "back": "返回全部工具",
+  "copy": "复制",
+  "clear": "清除",
+  "copied": "已复制。",
+  "language": "语言",
+  "tool_label": "工具"
+ },
+ "categories": {
+  "text": "文本与写作",
+  "pdf": "PDF 与文件",
+  "image": "图片与图像",
+  "audio": "音频与视频",
+  "finance": "计算器与金融",
+  "converter": "转换器与单位",
+  "dev": "开发者与代码",
+  "health": "健康与身体",
+  "business": "商务与效率",
+  "language": "语言"
+ },
+ "tools": {
+  "word-counter": {
+   "name": "字词与字符计数器",
+   "description": "实时统计字符、单词、句子、段落和阅读时间——不向服务器发送任何内容。"
   },
-  "ui": {
-    "tagline": "专业在线工具箱——一个网站，900 种工具",
-    "hero_title": "你需要的每一种工具，都在这里",
-    "hero_sub": "无需注册，无需服务器——一切都在您自己的设备上运行。",
-    "search_placeholder": "搜索工具……例如：字数统计",
-    "search_aria": "搜索工具",
-    "all": "全部",
-    "empty": "尚未添加任何工具。第一个工具即将推出。",
-    "tools_ready": "已就绪 {count} / 共 {total} 个工具——版本 v{version}",
-    "footer_text": "POOF2 — 由 Muse 打造 · 版本 v{version}",
-    "back": "返回全部工具",
-    "copy": "复制",
-    "clear": "清除",
-    "copied": "已复制。",
-    "language": "语言",
-    "tool_label": "工具"
+  "case-converter": {
+   "name": "英文大小写转换器",
+   "description": "将英文文本转换为大写、小写、标题式大小写、句首大写及反转——在您自己的设备上完成。"
   },
-  "categories": {
-    "text": "文本与写作",
-    "pdf": "PDF 与文件",
-    "image": "图片与图像",
-    "audio": "音频与视频",
-    "finance": "计算器与金融",
-    "converter": "转换器与单位",
-    "dev": "开发者与代码",
-    "health": "健康与身体",
-    "business": "商务与效率",
-    "language": "语言"
+  "trim-spaces": {
+   "name": "删除多余空格",
+   "description": "将多个空格合并为一个，整理行并删除空行。"
   },
-  "tools": {
-    "word-counter": {
-      "name": "字词与字符计数器",
-      "description": "实时统计字符、单词、句子、段落和阅读时间——不向服务器发送任何内容。"
-    },
-    "case-converter": {
-      "name": "英文大小写转换器",
-      "description": "将英文文本转换为大写、小写、标题式大小写、句首大写及反转——在您自己的设备上完成。"
-    },
-    "trim-spaces": {
-      "name": "删除多余空格",
-      "description": "将多个空格合并为一个，整理行并删除空行。"
-    },
-    "text-to-slug": {
-      "name": "文本转 Slug",
-      "description": "将标题转换为整洁的链接 slug，可自定义分隔符。"
-    },
-    "age-calculator": {
-      "name": "精确年龄计算器",
-      "description": "以年、月、日计算精确年龄、已生活天数、出生星期和距离下个生日的天数。"
-    },
-    "bmi-calculator": {
-      "name": "BMI 计算器",
-      "description": "身体质量指数、体重类别、适合您身高的健康体重范围，以及需要增减多少体重——全部在您自己的设备上完成。"
-    },
-    "percent-discount": {
-      "name": "百分比与折扣计算器",
-      "description": "折扣金额、最终价格、一个数字的百分比，以及从折后价推算原价——在你自己的设备上。"
-    }
+  "text-to-slug": {
+   "name": "文本转 Slug",
+   "description": "将标题转换为整洁的链接 slug，可自定义分隔符。"
   },
-  "tool_ui": {
-    "word-counter": {
-      "intro": "输入或粘贴文本；统计实时进行且仅在您自己的设备上完成——不向服务器发送任何内容。",
-      "input_placeholder": "在此输入文本…",
-      "chars_with_spaces": "字符（含空格）",
-      "chars_without_spaces": "字符（不含空格）",
-      "words": "单词",
-      "sentences": "句子",
-      "paragraphs": "段落",
-      "lines": "行",
-      "reading_time": "阅读时间",
-      "reading_minutes": "{minutes} 分钟",
-      "copy_text": "复制文本"
-    },
-    "case-converter": {
-      "intro": "输入英文文本并选择一种样式；转换在您自己的设备上完成。",
-      "input_label": "输入文本",
-      "input_placeholder": "Type or paste English text here…",
-      "upper": "全部大写 (UPPERCASE)",
-      "lower": "全部小写 (lowercase)",
-      "title_case": "每个单词首字母大写 (Title Case)",
-      "sentence_case": "句首字母大写 (Sentence case)",
-      "invert": "反转大小写",
-      "result_label": "结果",
-      "result_placeholder": "结果将显示在这里…",
-      "copy_result": "复制结果"
-    },
-    "trim-spaces": {
-      "intro": "将多个空格合并为一个并整理行——在您自己的设备上完成。",
-      "trim_lines": "删除每行开头和结尾的空格",
-      "remove_empty": "删除空行",
-      "clean": "清理文本",
-      "stats": "之前：{before} 个字符——之后：{after} 个字符",
-      "input_label": "输入文本",
-      "input_placeholder": "在此输入文本…",
-      "result_label": "结果",
-      "result_placeholder": "结果将显示在这里…",
-      "copy_result": "复制结果"
-    },
-    "text-to-slug": {
-      "intro": "将标题转换为整洁的链接 slug——在您自己的设备上完成。",
-      "title_label": "标题",
-      "input_placeholder": "例如：初学者德语",
-      "separator": "分隔符：",
-      "hyphen": "-（连字符）",
-      "underscore": "_（下划线）",
-      "lowercase": "英文字母小写",
-      "convert": "转换为 Slug",
-      "copy_slug": "复制 Slug",
-      "result_label": "结果",
-      "result_placeholder": "结果将显示在这里…"
-    },
-    "age-calculator": {
-      "intro": "输入出生日期，即可查看以年、月、日表示的精确年龄、已生活的天数以及距离下个生日的天数——全部在您自己的设备上完成。",
-      "birth_label": "出生日期（公历）",
-      "asof_label": "计算至",
-      "calc": "计算年龄",
-      "years": "岁",
-      "months": "个月",
-      "days": "天",
-      "total_days": "已生活天数",
-      "total_weeks": "已生活周数",
-      "total_months": "已生活月数",
-      "total_hours": "已生活小时数",
-      "next_birthday": "下个生日",
-      "born_weekday": "出生星期",
-      "birth_jalali": "波斯历出生日期",
-      "invalid": "出生日期无效。",
-      "future": "出生日期不能是未来日期。"
-    },
-    "bmi-calculator": {
-      "intro": "输入体重和身高，即可查看您的 BMI、体重类别以及适合您身高的健康体重范围——全部在您自己的设备上完成。",
-      "units_label": "单位",
-      "metric": "公制（千克、厘米）",
-      "imperial": "英制（磅、英寸）",
-      "weight_label": "体重",
-      "height_label": "身高",
-      "unit_kg": "千克",
-      "unit_lb": "磅",
-      "unit_cm": "厘米",
-      "unit_in": "英寸",
-      "calc": "计算 BMI",
-      "your_bmi": "您的 BMI",
-      "healthy_range": "适合您身高的健康体重范围",
-      "gain_to_healthy": "要达到健康范围，请增重 {amount} {unit}。",
-      "lose_to_healthy": "要达到健康范围，请减重 {amount} {unit}。",
-      "in_healthy_range": "您的体重在健康范围内。",
-      "invalid": "请输入有效的体重和身高。",
-      "note": "BMI 是一项筛查指标，不是医学诊断；如需全面评估，请咨询医生。",
-      "cat_severe": "重度偏瘦",
-      "cat_under": "偏瘦",
-      "cat_normal": "健康体重",
-      "cat_over": "超重",
-      "cat_obese1": "一级肥胖",
-      "cat_obese2": "二级肥胖",
-      "cat_obese3": "三级肥胖"
-    },
-    "percent-discount": {
-      "intro": "输入价格和折扣百分比，即可查看折扣金额和最终价格——在你自己的设备上。",
-      "discount_title": "价格折扣",
-      "price_label": "价格",
-      "percent_label": "折扣百分比",
-      "calc": "计算",
-      "discount_amount": "折扣金额",
-      "final_price": "最终价格",
-      "percent_of_title": "一个数字的百分比",
-      "of_label": "的",
-      "result": "结果",
-      "reverse_title": "从折后价推算原价",
-      "original_price": "原价"
-    }
+  "age-calculator": {
+   "name": "精确年龄计算器",
+   "description": "以年、月、日计算精确年龄、已生活天数、出生星期和距离下个生日的天数。"
+  },
+  "bmi-calculator": {
+   "name": "BMI 计算器",
+   "description": "身体质量指数、体重类别、适合您身高的健康体重范围，以及需要增减多少体重——全部在您自己的设备上完成。"
+  },
+  "percent-discount": {
+   "name": "百分比与折扣计算器",
+   "description": "折扣金额、最终价格、一个数字的百分比，以及从折后价推算原价——在你自己的设备上。"
+  },
+  "weight-converter": {
+   "name": "重量单位换算器",
+   "description": "在千克、克、毫克、吨、磅、盎司和英石之间换算重量——在你自己的设备上。"
+  },
+  "length-converter": {
+   "name": "长度单位换算",
+   "description": "在毫米、厘米、米、千米、英寸、英尺、码和英里之间换算——在你自己的设备上完成。"
   }
+ },
+ "tool_ui": {
+  "word-counter": {
+   "intro": "输入或粘贴文本；统计实时进行且仅在您自己的设备上完成——不向服务器发送任何内容。",
+   "input_placeholder": "在此输入文本…",
+   "chars_with_spaces": "字符（含空格）",
+   "chars_without_spaces": "字符（不含空格）",
+   "words": "单词",
+   "sentences": "句子",
+   "paragraphs": "段落",
+   "lines": "行",
+   "reading_time": "阅读时间",
+   "reading_minutes": "{minutes} 分钟",
+   "copy_text": "复制文本"
+  },
+  "case-converter": {
+   "intro": "输入英文文本并选择一种样式；转换在您自己的设备上完成。",
+   "input_label": "输入文本",
+   "input_placeholder": "Type or paste English text here…",
+   "upper": "全部大写 (UPPERCASE)",
+   "lower": "全部小写 (lowercase)",
+   "title_case": "每个单词首字母大写 (Title Case)",
+   "sentence_case": "句首字母大写 (Sentence case)",
+   "invert": "反转大小写",
+   "result_label": "结果",
+   "result_placeholder": "结果将显示在这里…",
+   "copy_result": "复制结果"
+  },
+  "trim-spaces": {
+   "intro": "将多个空格合并为一个并整理行——在您自己的设备上完成。",
+   "trim_lines": "删除每行开头和结尾的空格",
+   "remove_empty": "删除空行",
+   "clean": "清理文本",
+   "stats": "之前：{before} 个字符——之后：{after} 个字符",
+   "input_label": "输入文本",
+   "input_placeholder": "在此输入文本…",
+   "result_label": "结果",
+   "result_placeholder": "结果将显示在这里…",
+   "copy_result": "复制结果"
+  },
+  "text-to-slug": {
+   "intro": "将标题转换为整洁的链接 slug——在您自己的设备上完成。",
+   "title_label": "标题",
+   "input_placeholder": "例如：初学者德语",
+   "separator": "分隔符：",
+   "hyphen": "-（连字符）",
+   "underscore": "_（下划线）",
+   "lowercase": "英文字母小写",
+   "convert": "转换为 Slug",
+   "copy_slug": "复制 Slug",
+   "result_label": "结果",
+   "result_placeholder": "结果将显示在这里…"
+  },
+  "age-calculator": {
+   "intro": "输入出生日期，即可查看以年、月、日表示的精确年龄、已生活的天数以及距离下个生日的天数——全部在您自己的设备上完成。",
+   "birth_label": "出生日期（公历）",
+   "asof_label": "计算至",
+   "calc": "计算年龄",
+   "years": "岁",
+   "months": "个月",
+   "days": "天",
+   "total_days": "已生活天数",
+   "total_weeks": "已生活周数",
+   "total_months": "已生活月数",
+   "total_hours": "已生活小时数",
+   "next_birthday": "下个生日",
+   "born_weekday": "出生星期",
+   "birth_jalali": "波斯历出生日期",
+   "invalid": "出生日期无效。",
+   "future": "出生日期不能是未来日期。"
+  },
+  "bmi-calculator": {
+   "intro": "输入体重和身高，即可查看您的 BMI、体重类别以及适合您身高的健康体重范围——全部在您自己的设备上完成。",
+   "units_label": "单位",
+   "metric": "公制（千克、厘米）",
+   "imperial": "英制（磅、英寸）",
+   "weight_label": "体重",
+   "height_label": "身高",
+   "unit_kg": "千克",
+   "unit_lb": "磅",
+   "unit_cm": "厘米",
+   "unit_in": "英寸",
+   "calc": "计算 BMI",
+   "your_bmi": "您的 BMI",
+   "healthy_range": "适合您身高的健康体重范围",
+   "gain_to_healthy": "要达到健康范围，请增重 {amount} {unit}。",
+   "lose_to_healthy": "要达到健康范围，请减重 {amount} {unit}。",
+   "in_healthy_range": "您的体重在健康范围内。",
+   "invalid": "请输入有效的体重和身高。",
+   "note": "BMI 是一项筛查指标，不是医学诊断；如需全面评估，请咨询医生。",
+   "cat_severe": "重度偏瘦",
+   "cat_under": "偏瘦",
+   "cat_normal": "健康体重",
+   "cat_over": "超重",
+   "cat_obese1": "一级肥胖",
+   "cat_obese2": "二级肥胖",
+   "cat_obese3": "三级肥胖"
+  },
+  "percent-discount": {
+   "intro": "输入价格和折扣百分比，即可查看折扣金额和最终价格——在你自己的设备上。",
+   "discount_title": "价格折扣",
+   "price_label": "价格",
+   "percent_label": "折扣百分比",
+   "calc": "计算",
+   "discount_amount": "折扣金额",
+   "final_price": "最终价格",
+   "percent_of_title": "一个数字的百分比",
+   "of_label": "的",
+   "result": "结果",
+   "reverse_title": "从折后价推算原价",
+   "original_price": "原价"
+  },
+  "weight-converter": {
+   "intro": "在千克、克、吨、磅、盎司和英石之间换算重量——在你自己的设备上。",
+   "kg": "千克",
+   "g": "克",
+   "mg": "毫克",
+   "t": "吨",
+   "lb": "磅",
+   "oz": "盎司",
+   "st": "英石",
+   "swap": "交换",
+   "result": "结果",
+   "all_units": "所有单位"
+  },
+  "length-converter": {
+   "intro": "输入数值并选择两个单位，即可查看精确换算——在你自己的设备上完成。",
+   "converter_title": "长度换算",
+   "value_label": "数值",
+   "from_label": "从",
+   "to_label": "到",
+   "convert": "换算",
+   "swap": "交换",
+   "result": "结果",
+   "all_title": "全部换算",
+   "unit_millimeter": "毫米",
+   "unit_centimeter": "厘米",
+   "unit_meter": "米",
+   "unit_kilometer": "千米",
+   "unit_inch": "英寸",
+   "unit_foot": "英尺",
+   "unit_yard": "码",
+   "unit_mile": "英里"
+  }
+ }
 }

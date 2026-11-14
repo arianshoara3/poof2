@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل تاریخ شمسی/میلادی — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="date"], input[type="number"] {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit;
+}
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.row input[type="number"] { width: 110px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.result { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; font-size: 18px; margin: 12px 0; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۰۷ — تبدیل‌کننده و واحدها</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1>تبدیل تاریخ شمسی/میلادی</h1>
+  <p style="color:var(--muted)">تاریخ میلادی را به شمسی و برعکس تبدیل می‌کند — روی دستگاه خودت.</p>
+  <label for="gdate">میلادی به شمسی</label>
+  <div class="row">
+    <input type="date" id="gdate" value="2026-11-14">
+    <button class="primary" id="toJalaliBtn">به شمسی</button>
+  </div>
+  <div class="result" id="jalaliOut">—</div>
+  <label>شمسی به میلادی</label>
+  <div class="row">
+    <input type="number" id="jy" placeholder="سال" value="1405" min="1200" max="1500">
+    <input type="number" id="jm" placeholder="ماه" value="8" min="1" max="12">
+    <input type="number" id="jd" placeholder="روز" value="23" min="1" max="31">
+    <button class="primary" id="toGregBtn">به میلادی</button>
+  </div>
+  <div class="result" id="gregOut">—</div>
+  <p id="today" style="color:var(--muted)"></p>
+</main>
+<script src="tool.js"></script>
+</body>
+</html>

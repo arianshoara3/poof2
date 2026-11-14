@@ -87,8 +87,25 @@ a.back { color: var(--accent); text-decoration: none; }
       <tr><td data-i18n="tool_ui.length-converter.unit_mile">مایل</td><td class="val" data-all-unit="mile">—</td></tr>
     </table>
   </div>
+
+  <div class="card challenge" id="challengeCard">
+    <h2 data-i18n="tool_ui.length-converter.challenge_title">بازی چالش تبدیل</h2>
+    <p style="color:var(--muted)" data-i18n="tool_ui.length-converter.challenge_intro">۱۰ سؤال، هر سؤال ۱۵ ثانیه؛ هر جواب درست ۱۵ امتیاز — رکوردت را بشکن.</p>
+    <p><span data-i18n="game.best">رکورد</span>: <b id="bestScore">۰</b> / ۱۰</p>
+    <button class="primary" id="challengeStart" type="button" data-i18n="tool_ui.length-converter.challenge_start">شروع چالش</button>
+    <div id="challengePlay" hidden>
+      <p class="timer"><span data-i18n="tool_ui.length-converter.challenge_time">زمان</span>: <b id="timeLeft">۱۵</b></p>
+      <p class="q" id="qText"></p>
+      <div class="opts" id="qOpts"></div>
+      <p class="feedback" id="qFeedback"></p>
+      <p><span data-i18n="game.score">امتیاز</span>: <b id="qScore">۰</b> / ۱۰</p>
+    </div>
+    <p class="feedback" id="challengeDone" hidden></p>
+    <button id="challengeAgain" type="button" hidden data-i18n="tool_ui.length-converter.challenge_again">دوباره</button>
+  </div>
 </main>
 <script src="../../i18n.js"></script>
+<script src="../../game.js"></script>
 <script src="tool.js"></script>
 </body>
 </html>

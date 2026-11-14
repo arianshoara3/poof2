@@ -1,12 +1,12 @@
 :root {
-  --bg: #111111;
-  --surface: #1b1814;
-  --surface-2: #242019;
-  --text: #f5efe6;
-  --muted: #b8ad9c;
-  --accent: #e6b96f;
-  --accent-2: #c9a24f;
-  --border: #332d24;
+  --bg: #f4f7f4;
+  --surface: #ffffff;
+  --surface-2: #e8f0e9;
+  --text: #12291f;
+  --muted: #5a6f63;
+  --accent: #1b6b4a;
+  --accent-2: #0f3d5c;
+  --border: #d3e0d6;
 }
 * { box-sizing: border-box; }
 body {
@@ -58,7 +58,7 @@ main { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; }
   cursor: pointer;
   font-family: inherit;
 }
-.chip.active { background: var(--accent); color: #111; border-color: var(--accent); }
+.chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
 .card {
   background: var(--surface);

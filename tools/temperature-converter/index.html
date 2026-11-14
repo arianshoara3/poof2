@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل واحد دما — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="number"], select {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit;
+}
+input[type="number"] { width: 180px; }
+select { max-width: 200px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 16px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.result { font-size: 18px; margin: 8px 0; }
+.result b { color: var(--accent); }
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+td, th { padding: 8px; border-bottom: 1px solid var(--border); text-align: start; }
+td.val { font-weight: bold; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۱۳ — تبدیل‌کننده و واحدها</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../" data-i18n="ui.back">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1 data-i18n="tools.temperature-converter.name">تبدیل واحد دما</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.temperature-converter.intro">مقدار و دو واحد را انتخاب کن؛ تبدیل دقیق را می‌بینی — روی دستگاه خودت.</p>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.temperature-converter.converter_title">تبدیل دما</h2>
+    <div class="row">
+      <label><span data-i18n="tool_ui.temperature-converter.value_label">مقدار</span> <input type="number" id="value" value="25" step="any"></label>
+      <label><span data-i18n="tool_ui.temperature-converter.from_label">از واحد</span>
+        <select id="fromUnit">
+          <option value="celsius" selected data-i18n="tool_ui.temperature-converter.unit_celsius">سلسیوس (°C)</option>
+          <option value="fahrenheit" data-i18n="tool_ui.temperature-converter.unit_fahrenheit">فارنهایت (°F)</option>
+          <option value="kelvin" data-i18n="tool_ui.temperature-converter.unit_kelvin">کلوین (K)</option>
+        </select>
+      </label>
+      <button id="swapBtn" data-i18n="tool_ui.temperature-converter.swap" title="جابه‌جا">⇄</button>
+      <label><span data-i18n="tool_ui.temperature-converter.to_label">به واحد</span>
+        <select id="toUnit">
+          <option value="celsius" data-i18n="tool_ui.temperature-converter.unit_celsius">سلسیوس (°C)</option>
+          <option value="fahrenheit" selected data-i18n="tool_ui.temperature-converter.unit_fahrenheit">فارنهایت (°F)</option>
+          <option value="kelvin" data-i18n="tool_ui.temperature-converter.unit_kelvin">کلوین (K)</option>
+        </select>
+      </label>
+      <button class="primary" id="convertBtn" data-i18n="tool_ui.temperature-converter.convert">تبدیل</button>
+    </div>
+    <p class="result"><span data-i18n="tool_ui.temperature-converter.result">نتیجه</span>: <b id="resultOut">—</b> <span id="resultUnit"></span></p>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.temperature-converter.all_title">همه‌ی تبدیل‌ها</h2>
+    <table>
+      <tr><td data-i18n="tool_ui.temperature-converter.unit_celsius">سلسیوس (°C)</td><td class="val" data-all-unit="celsius">—</td></tr>
+      <tr><td data-i18n="tool_ui.temperature-converter.unit_fahrenheit">فارنهایت (°F)</td><td class="val" data-all-unit="fahrenheit">—</td></tr>
+      <tr><td data-i18n="tool_ui.temperature-converter.unit_kelvin">کلوین (K)</td><td class="val" data-all-unit="kelvin">—</td></tr>
+    </table>
+  </div>
+
+  <div class="card challenge" id="challengeCard">
+    <h2 data-i18n="tool_ui.temperature-converter.challenge_title">بازی چالش تبدیل</h2>
+    <p style="color:var(--muted)" data-i18n="tool_ui.temperature-converter.challenge_intro">۱۰ سؤال، هر سؤال ۱۵ ثانیه؛ هر جواب درست ۱۵ امتیاز — رکوردت را بشکن.</p>
+    <p><span data-i18n="game.best">رکورد</span>: <b id="bestScore">۰</b> / ۱۰</p>
+    <button class="primary" id="challengeStart" type="button" data-i18n="tool_ui.temperature-converter.challenge_start">شروع چالش</button>
+    <div id="challengePlay" hidden>
+      <p class="timer"><span data-i18n="tool_ui.temperature-converter.challenge_time">زمان</span>: <b id="timeLeft">۱۵</b></p>
+      <p class="q" id="qText"></p>
+      <div class="opts" id="qOpts"></div>
+      <p class="feedback" id="qFeedback"></p>
+      <p><span data-i18n="game.score">امتیاز</span>: <b id="qScore">۰</b> / ۱۰</p>
+    </div>
+    <p class="feedback" id="challengeDone" hidden></p>
+    <button id="challengeAgain" type="button" hidden data-i18n="tool_ui.temperature-converter.challenge_again">دوباره</button>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="../../game.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

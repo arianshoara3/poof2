@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Teks ke Slug",
       "description": "Ubah judul menjadi slug yang rapi untuk tautan, dengan pemisah pilihan Anda."
+    },
+    "age-calculator": {
+      "name": "Kalkulator Usia Akurat",
+      "description": "Usia tepat dalam tahun, bulan, dan hari, hari yang telah dijalani, hari lahir, dan hari hingga ulang tahun berikutnya."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Salin slug",
       "result_label": "Hasil",
       "result_placeholder": "Hasil akan muncul di sini…"
+    },
+    "age-calculator": {
+      "intro": "Masukkan tanggal lahir Anda dan lihat usia tepat Anda dalam tahun, bulan, dan hari, hari yang telah dijalani, serta hari yang tersisa hingga ulang tahun berikutnya — di perangkat Anda sendiri.",
+      "birth_label": "Tanggal lahir (Gregorian)",
+      "asof_label": "Hitung sampai",
+      "calc": "Hitung usia",
+      "years": "tahun",
+      "months": "bulan",
+      "days": "hari",
+      "total_days": "Hari yang dijalani",
+      "total_weeks": "Minggu yang dijalani",
+      "total_months": "Bulan yang dijalani",
+      "total_hours": "Jam yang dijalani",
+      "next_birthday": "Ulang tahun berikutnya",
+      "born_weekday": "Hari lahir",
+      "birth_jalali": "Tanggal lahir (kalender Jalali)",
+      "invalid": "Tanggal lahir tidak valid.",
+      "future": "Tanggal lahir tidak boleh di masa depan."
     }
   }
 }

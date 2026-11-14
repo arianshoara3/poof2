@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Metni Slug'a Dönüştür",
       "description": "Bir başlığı, seçtiğiniz ayırıcıyla bağlantılar için temiz bir slug'a dönüştürün."
+    },
+    "age-calculator": {
+      "name": "Kesin Yaş Hesaplayıcı",
+      "description": "Yıl, ay ve gün olarak tam yaş, yaşanmış günler, doğum günü haftanın günü ve sonraki doğum gününe kalan günler."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Slug'u kopyala",
       "result_label": "Sonuç",
       "result_placeholder": "Sonuç burada görünecek…"
+    },
+    "age-calculator": {
+      "intro": "Doğum tarihinizi girin; yıl, ay ve gün olarak tam yaşınızı, yaşadığınız günleri ve sonraki doğum gününüze kalan günleri görün — kendi cihazınızda.",
+      "birth_label": "Doğum tarihi (Miladi)",
+      "asof_label": "Hesaplama tarihi",
+      "calc": "Yaşı hesapla",
+      "years": "yıl",
+      "months": "ay",
+      "days": "gün",
+      "total_days": "Yaşanmış gün",
+      "total_weeks": "Yaşanmış hafta",
+      "total_months": "Yaşanmış ay",
+      "total_hours": "Yaşanmış saat",
+      "next_birthday": "Sonraki doğum günü",
+      "born_weekday": "Doğum günü haftanın günü",
+      "birth_jalali": "Celali takvimde doğum tarihi",
+      "invalid": "Doğum tarihi geçerli değil.",
+      "future": "Doğum tarihi gelecekte olamaz."
     }
   }
 }

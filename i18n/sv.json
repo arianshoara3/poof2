@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Text till slug",
       "description": "Gör en rubrik till en ren slug för länkar, med valfri avgränsare."
+    },
+    "age-calculator": {
+      "name": "Exakt åldersräknare",
+      "description": "Exakt ålder i år, månader och dagar, levda dagar, födelsedagens veckodag och dagar till nästa födelsedag."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Kopiera slug",
       "result_label": "Resultat",
       "result_placeholder": "Resultatet visas här…"
+    },
+    "age-calculator": {
+      "intro": "Ange ditt födelsedatum och se din exakta ålder i år, månader och dagar, levda dagar och dagar kvar till din nästa födelsedag — på din egen enhet.",
+      "birth_label": "Födelsedatum (gregorianskt)",
+      "asof_label": "Beräkna till",
+      "calc": "Beräkna ålder",
+      "years": "år",
+      "months": "månader",
+      "days": "dagar",
+      "total_days": "Levda dagar",
+      "total_weeks": "Levda veckor",
+      "total_months": "Levda månader",
+      "total_hours": "Levda timmar",
+      "next_birthday": "Nästa födelsedag",
+      "born_weekday": "Födelsedagens veckodag",
+      "birth_jalali": "Födelsedatum (jalali-kalendern)",
+      "invalid": "Födelsedatumet är ogiltigt.",
+      "future": "Födelsedatumet kan inte ligga i framtiden."
     }
   }
 }

@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "文本转 Slug",
       "description": "将标题转换为整洁的链接 slug，可自定义分隔符。"
+    },
+    "age-calculator": {
+      "name": "精确年龄计算器",
+      "description": "以年、月、日计算精确年龄、已生活天数、出生星期和距离下个生日的天数。"
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "复制 Slug",
       "result_label": "结果",
       "result_placeholder": "结果将显示在这里…"
+    },
+    "age-calculator": {
+      "intro": "输入出生日期，即可查看以年、月、日表示的精确年龄、已生活的天数以及距离下个生日的天数——全部在您自己的设备上完成。",
+      "birth_label": "出生日期（公历）",
+      "asof_label": "计算至",
+      "calc": "计算年龄",
+      "years": "岁",
+      "months": "个月",
+      "days": "天",
+      "total_days": "已生活天数",
+      "total_weeks": "已生活周数",
+      "total_months": "已生活月数",
+      "total_hours": "已生活小时数",
+      "next_birthday": "下个生日",
+      "born_weekday": "出生星期",
+      "birth_jalali": "波斯历出生日期",
+      "invalid": "出生日期无效。",
+      "future": "出生日期不能是未来日期。"
     }
   }
 }

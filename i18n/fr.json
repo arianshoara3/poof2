@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Texte en slug",
       "description": "Transformez un titre en slug propre pour les liens, avec le séparateur de votre choix."
+    },
+    "age-calculator": {
+      "name": "Calculateur d'âge précis",
+      "description": "Âge exact en années, mois et jours, jours vécus, jour de la semaine de naissance et jours restant avant le prochain anniversaire."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Copier le slug",
       "result_label": "Résultat",
       "result_placeholder": "Le résultat apparaîtra ici…"
+    },
+    "age-calculator": {
+      "intro": "Entrez votre date de naissance et voyez votre âge exact en années, mois et jours, les jours vécus et les jours restant avant votre prochain anniversaire — sur votre propre appareil.",
+      "birth_label": "Date de naissance (grégorienne)",
+      "asof_label": "Calculer jusqu'au",
+      "calc": "Calculer l'âge",
+      "years": "ans",
+      "months": "mois",
+      "days": "jours",
+      "total_days": "Jours vécus",
+      "total_weeks": "Semaines vécues",
+      "total_months": "Mois vécus",
+      "total_hours": "Heures vécues",
+      "next_birthday": "Prochain anniversaire",
+      "born_weekday": "Jour de la semaine de naissance",
+      "birth_jalali": "Date de naissance (calendrier jalali)",
+      "invalid": "La date de naissance n'est pas valide.",
+      "future": "La date de naissance ne peut pas être dans le futur."
     }
   }
 }

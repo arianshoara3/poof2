@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Texto para slug",
       "description": "Transforme um título em um slug limpo para links, com o separador de sua escolha."
+    },
+    "age-calculator": {
+      "name": "Calculadora de idade exata",
+      "description": "Idade exata em anos, meses e dias, dias vividos, dia da semana do nascimento e dias até ao próximo aniversário."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Copiar slug",
       "result_label": "Resultado",
       "result_placeholder": "O resultado aparecerá aqui…"
+    },
+    "age-calculator": {
+      "intro": "Introduz a tua data de nascimento e vê a tua idade exata em anos, meses e dias, os dias vividos e os dias que faltam para o teu próximo aniversário — no teu próprio dispositivo.",
+      "birth_label": "Data de nascimento (gregoriana)",
+      "asof_label": "Calcular até",
+      "calc": "Calcular idade",
+      "years": "anos",
+      "months": "meses",
+      "days": "dias",
+      "total_days": "Dias vividos",
+      "total_weeks": "Semanas vividas",
+      "total_months": "Meses vividos",
+      "total_hours": "Horas vividas",
+      "next_birthday": "Próximo aniversário",
+      "born_weekday": "Dia da semana do nascimento",
+      "birth_jalali": "Data de nascimento (calendário jalali)",
+      "invalid": "A data de nascimento não é válida.",
+      "future": "A data de nascimento não pode estar no futuro."
     }
   }
 }

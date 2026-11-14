@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Tekst na slug",
       "description": "Zamień tytuł w czysty slug do linków, z wybranym separatorem."
+    },
+    "age-calculator": {
+      "name": "Dokładny kalkulator wieku",
+      "description": "Dokładny wiek w latach, miesiącach i dniach, przeżyte dni, dzień tygodnia urodzenia i dni do następnych urodzin."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Kopiuj slug",
       "result_label": "Wynik",
       "result_placeholder": "Wynik pojawi się tutaj…"
+    },
+    "age-calculator": {
+      "intro": "Wpisz datę urodzenia i zobacz swój dokładny wiek w latach, miesiącach i dniach, przeżyte dni oraz dni pozostałe do następnych urodzin — na własnym urządzeniu.",
+      "birth_label": "Data urodzenia (gregoriańska)",
+      "asof_label": "Oblicz do dnia",
+      "calc": "Oblicz wiek",
+      "years": "lat",
+      "months": "miesięcy",
+      "days": "dni",
+      "total_days": "Przeżyte dni",
+      "total_weeks": "Przeżyte tygodnie",
+      "total_months": "Przeżyte miesiące",
+      "total_hours": "Przeżyte godziny",
+      "next_birthday": "Następne urodziny",
+      "born_weekday": "Dzień tygodnia urodzenia",
+      "birth_jalali": "Data urodzenia (kalendarz dżalali)",
+      "invalid": "Data urodzenia jest nieprawidłowa.",
+      "future": "Data urodzenia nie może być w przyszłości."
     }
   }
 }

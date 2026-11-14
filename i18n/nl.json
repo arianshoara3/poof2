@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Tekst naar slug",
       "description": "Zet een titel om in een nette slug voor links, met het scheidingsteken van je keuze."
+    },
+    "age-calculator": {
+      "name": "Precieze leeftijdsberekenaar",
+      "description": "Exacte leeftijd in jaren, maanden en dagen, geleefde dagen, weekdag van geboorte en dagen tot je volgende verjaardag."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Slug kopiëren",
       "result_label": "Resultaat",
       "result_placeholder": "Het resultaat verschijnt hier…"
+    },
+    "age-calculator": {
+      "intro": "Voer je geboortedatum in en zie je exacte leeftijd in jaren, maanden en dagen, de geleefde dagen en de dagen tot je volgende verjaardag — op je eigen apparaat.",
+      "birth_label": "Geboortedatum (gregoriaans)",
+      "asof_label": "Berekenen tot",
+      "calc": "Leeftijd berekenen",
+      "years": "jaar",
+      "months": "maanden",
+      "days": "dagen",
+      "total_days": "Geleefde dagen",
+      "total_weeks": "Geleefde weken",
+      "total_months": "Geleefde maanden",
+      "total_hours": "Geleefde uren",
+      "next_birthday": "Volgende verjaardag",
+      "born_weekday": "Weekdag van geboorte",
+      "birth_jalali": "Geboortedatum (jalali-kalender)",
+      "invalid": "De geboortedatum is ongeldig.",
+      "future": "De geboortedatum kan niet in de toekomst liggen."
     }
   }
 }

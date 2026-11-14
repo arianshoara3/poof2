@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "テキストをスラッグに変換",
       "description": "タイトルをリンク用のきれいなスラッグに変換します。区切り文字も選べます。"
+    },
+    "age-calculator": {
+      "name": "正確な年齢計算機",
+      "description": "年・月・日での正確な年齢、生きてきた日数、生まれた曜日、次の誕生日までの日数。"
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "スラッグをコピー",
       "result_label": "結果",
       "result_placeholder": "結果はここに表示されます…"
+    },
+    "age-calculator": {
+      "intro": "生年月日を入力すると、年・月・日での正確な年齢、生きてきた日数、次の誕生日までの日数が表示されます——すべて自分のデバイス上で。",
+      "birth_label": "生年月日（西暦）",
+      "asof_label": "計算対象日",
+      "calc": "年齢を計算",
+      "years": "歳",
+      "months": "か月",
+      "days": "日",
+      "total_days": "生きてきた日数",
+      "total_weeks": "生きてきた週数",
+      "total_months": "生きてきた月数",
+      "total_hours": "生きてきた時間数",
+      "next_birthday": "次の誕生日",
+      "born_weekday": "生まれた曜日",
+      "birth_jalali": "ジャラーリ暦での誕生日",
+      "invalid": "生年月日が無効です。",
+      "future": "生年月日は未来の日付にできません。"
     }
   }
 }

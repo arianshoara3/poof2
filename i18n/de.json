@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Text zu Slug",
       "description": "Einen Titel in einen sauberen Slug für Links umwandeln – mit frei wählbarem Trennzeichen."
+    },
+    "age-calculator": {
+      "name": "Genauer Altersrechner",
+      "description": "Exaktes Alter in Jahren, Monaten und Tagen, gelebte Tage, Wochentag der Geburt und Tage bis zum nächsten Geburtstag."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Slug kopieren",
       "result_label": "Ergebnis",
       "result_placeholder": "Das Ergebnis erscheint hier…"
+    },
+    "age-calculator": {
+      "intro": "Gib dein Geburtsdatum ein und sieh dein genaues Alter in Jahren, Monaten und Tagen, die gelebten Tage und die Tage bis zu deinem nächsten Geburtstag — auf deinem eigenen Gerät.",
+      "birth_label": "Geburtsdatum (gregorianisch)",
+      "asof_label": "Berechnen bis",
+      "calc": "Alter berechnen",
+      "years": "Jahre",
+      "months": "Monate",
+      "days": "Tage",
+      "total_days": "Gelebte Tage",
+      "total_weeks": "Gelebte Wochen",
+      "total_months": "Gelebte Monate",
+      "total_hours": "Gelebte Stunden",
+      "next_birthday": "Nächster Geburtstag",
+      "born_weekday": "Wochentag der Geburt",
+      "birth_jalali": "Geburtsdatum (Dschalali)",
+      "invalid": "Das Geburtsdatum ist ungültig.",
+      "future": "Das Geburtsdatum darf nicht in der Zukunft liegen."
     }
   }
 }

@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Văn bản thành slug",
       "description": "Chuyển tiêu đề thành slug gọn gàng cho liên kết, với dấu phân cách tùy chọn."
+    },
+    "age-calculator": {
+      "name": "Máy tính tuổi chính xác",
+      "description": "Tuổi chính xác theo năm, tháng và ngày, số ngày đã sống, thứ trong tuần của ngày sinh và số ngày đến sinh nhật tiếp theo."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Sao chép slug",
       "result_label": "Kết quả",
       "result_placeholder": "Kết quả sẽ xuất hiện tại đây…"
+    },
+    "age-calculator": {
+      "intro": "Nhập ngày sinh của bạn để xem tuổi chính xác theo năm, tháng và ngày, số ngày đã sống và số ngày còn lại đến sinh nhật tiếp theo — ngay trên thiết bị của bạn.",
+      "birth_label": "Ngày sinh (dương lịch)",
+      "asof_label": "Tính đến ngày",
+      "calc": "Tính tuổi",
+      "years": "năm",
+      "months": "tháng",
+      "days": "ngày",
+      "total_days": "Số ngày đã sống",
+      "total_weeks": "Số tuần đã sống",
+      "total_months": "Số tháng đã sống",
+      "total_hours": "Số giờ đã sống",
+      "next_birthday": "Sinh nhật tiếp theo",
+      "born_weekday": "Thứ trong tuần của ngày sinh",
+      "birth_jalali": "Ngày sinh (lịch Jalali)",
+      "invalid": "Ngày sinh không hợp lệ.",
+      "future": "Ngày sinh không thể ở tương lai."
     }
   }
 }

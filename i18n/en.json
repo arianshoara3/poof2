@@ -50,6 +50,10 @@
     "text-to-slug": {
       "name": "Text to Slug",
       "description": "Turn a title into a clean slug for links, with your chosen separator."
+    },
+    "age-calculator": {
+      "name": "Precise Age Calculator",
+      "description": "Exact age in years, months and days, days lived, weekday of birth and days until your next birthday."
     }
   },
   "tool_ui": {
@@ -103,6 +107,24 @@
       "copy_slug": "Copy slug",
       "result_label": "Result",
       "result_placeholder": "The result will appear here…"
+    },
+    "age-calculator": {
+      "intro": "Enter your birth date and see your exact age in years, months and days, the days you have lived, and the days left until your next birthday — on your own device.",
+      "birth_label": "Date of birth (Gregorian)",
+      "asof_label": "Calculate as of",
+      "calc": "Calculate age",
+      "years": "years",
+      "months": "months",
+      "days": "days",
+      "total_days": "Days lived",
+      "total_weeks": "Weeks lived",
+      "total_months": "Months lived",
+      "total_hours": "Hours lived",
+      "next_birthday": "Next birthday",
+      "born_weekday": "Weekday of birth",
+      "birth_jalali": "Birth date in Jalali",
+      "invalid": "The birth date is not valid.",
+      "future": "The birth date cannot be in the future."
     }
   }
 }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>محاسبه‌ی سن دقیق — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="date"] {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit;
+}
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.big { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0; }
+.big .age-part {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 16px 22px; text-align: center; min-width: 110px; flex: 1;
+}
+.big .age-part b { display: block; font-size: 34px; color: var(--accent); }
+.big .age-part span { color: var(--muted); font-size: 13px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; margin: 16px 0; }
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+.stat b { display: block; font-size: 20px; color: var(--accent-2); }
+.stat span { color: var(--muted); font-size: 13px; }
+.error { color: #b3261e; margin: 12px 0; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle"><span data-i18n="ui.tool_label">ابزار</span> ۰۰۸ — <span data-i18n="categories.finance">محاسبه‌گر و مالی</span></div>
+  <select class="lang-select" aria-label="زبان" data-i18n-aria="ui.language"></select>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../"><span class="back-arrow" aria-hidden="true">←</span> <span data-i18n="ui.back">بازگشت به همه‌ی ابزارها</span></a></p>
+  <h1 data-i18n="tools.age-calculator.name">محاسبه‌ی سن دقیق</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.age-calculator.intro">تاریخ تولد را وارد کن؛ سن دقیق به سال، ماه و روز، روزهای سپری‌شده و روزهای مانده تا تولد بعدی را می‌بینی — روی دستگاه خودت.</p>
+
+  <label for="birth" data-i18n="tool_ui.age-calculator.birth_label">تاریخ تولد (میلادی)</label>
+  <div class="row"><input type="date" id="birth" value="2000-01-01"></div>
+
+  <label for="asof" data-i18n="tool_ui.age-calculator.asof_label">محاسبه تا تاریخ</label>
+  <div class="row"><input type="date" id="asof"></div>
+
+  <div class="actions">
+    <button class="primary" id="calcBtn" data-i18n="tool_ui.age-calculator.calc">محاسبه‌ی سن</button>
+  </div>
+  <p class="error" id="error"></p>
+
+  <div id="result" hidden>
+    <div class="big">
+      <div class="age-part"><b id="ageYears">۰</b><span data-i18n="tool_ui.age-calculator.years">سال</span></div>
+      <div class="age-part"><b id="ageMonths">۰</b><span data-i18n="tool_ui.age-calculator.months">ماه</span></div>
+      <div class="age-part"><b id="ageDays">۰</b><span data-i18n="tool_ui.age-calculator.days">روز</span></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="totalDays">۰</b><span data-i18n="tool_ui.age-calculator.total_days">روزهای سپری‌شده</span></div>
+      <div class="stat"><b id="totalWeeks">۰</b><span data-i18n="tool_ui.age-calculator.total_weeks">هفته‌های سپری‌شده</span></div>
+      <div class="stat"><b id="totalMonths">۰</b><span data-i18n="tool_ui.age-calculator.total_months">ماه‌های سپری‌شده</span></div>
+      <div class="stat"><b id="totalHours">۰</b><span data-i18n="tool_ui.age-calculator.total_hours">ساعت‌های سپری‌شده</span></div>
+      <div class="stat"><b id="nextBirthday">—</b><span data-i18n="tool_ui.age-calculator.next_birthday">تولد بعدی</span></div>
+      <div class="stat"><b id="bornWeekday">—</b><span data-i18n="tool_ui.age-calculator.born_weekday">روز هفته‌ی تولد</span></div>
+      <div class="stat"><b id="birthJalali">—</b><span data-i18n="tool_ui.age-calculator.birth_jalali">تاریخ تولد به شمسی</span></div>
+    </div>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

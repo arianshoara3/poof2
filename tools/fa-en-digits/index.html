@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل اعداد فارسی/انگلیسی — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+textarea {
+  width: 100%; min-height: 160px; padding: 14px;
+  border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; line-height: 1.9; font-family: inherit; resize: vertical;
+}
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۰۶ — متن و نوشتن</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1>تبدیل اعداد فارسی/انگلیسی</h1>
+  <p style="color:var(--muted)">اعداد فارسی (۰۱۲۳) و انگلیسی (0123) را به هم تبدیل می‌کند — روی دستگاه خودت.</p>
+  <label for="input">متن</label>
+  <textarea id="input" placeholder="مثلاً: قیمت ۱۲۵۰۰۰ تومان یا 2026"></textarea>
+  <div class="actions">
+    <button class="primary" id="toEnBtn">به انگلیسی</button>
+    <button class="primary" id="toFaBtn">به فارسی</button>
+    <button id="clearBtn">پاک کردن</button>
+  </div>
+  <label for="output">نتیجه</label>
+  <textarea id="output" readonly placeholder="نتیجه اینجا می‌آید…"></textarea>
+  <div class="actions">
+    <button class="primary" id="copyBtn">کپی نتیجه</button>
+  </div>
+  <p id="copied" style="color:var(--accent)"></p>
+</main>
+<script src="tool.js"></script>
+</body>
+</html>

@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "Generador de códigos QR",
       "description": "Crea códigos QR para texto, enlaces, Wi-Fi y tarjetas de visita — con historial, estadísticas y juego de desafío."
+    },
+    "color-lab": {
+      "name": "Laboratorio de color",
+      "description": "Convierte colores entre HEX, RGB y HSL, crea paletas, comprueba el contraste y juega a adivinar colores — con desafío y puntos."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "¿Cuántos bytes caben en esta versión con el nivel M?",
       "challenge_q_type": "¿Qué tipo de contenido es esta cadena?",
       "challenge_hint_biggest": "Pista: un texto más largo necesita una versión mayor."
+    },
+    "color-lab": {
+      "intro": "Convierte colores entre HEX, RGB y HSL, crea paletas, mide el contraste del texto y adivina colores en el juego de desafío.",
+      "converter_title": "Convertidor de color",
+      "base_label": "Color base",
+      "hex_label": "Código HEX",
+      "hex_placeholder": "p. ej., #FF5733",
+      "hex_invalid": "No es un código HEX válido: prueba con #FF5733 o #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "Copiar HEX",
+      "copy_rgb": "Copiar RGB",
+      "copied": "¡Copiado!",
+      "preview_label": "Vista previa",
+      "palette_title": "Creador de paletas",
+      "palette_hint": "Toca cualquier color para copiar su código HEX.",
+      "palette_complementary": "Complementario",
+      "palette_analogous": "Análogo",
+      "palette_triadic": "Triádico",
+      "palette_shades": "Tonos del mismo color",
+      "contrast_title": "Comprobador de contraste",
+      "fg_label": "Color del texto",
+      "bg_label": "Color de fondo",
+      "ratio_label": "Relación de contraste",
+      "aa_normal": "AA — texto normal (4,5:1)",
+      "aa_large": "AA — texto grande (3:1)",
+      "aaa_normal": "AAA — texto normal (7:1)",
+      "aaa_large": "AAA — texto grande (4,5:1)",
+      "pass": "Aprobado",
+      "fail": "Suspendido",
+      "sample_text": "Texto de ejemplo para comprobar la legibilidad",
+      "tips_title": "Algunas notas sobre el color",
+      "tip1": "La rueda de color: los colores complementarios se oponen (como el rojo y el cian) y juntos atraen la mirada; los colores análogos están lado a lado y transmiten calma.",
+      "tip2": "El contraste es la diferencia de brillo entre el texto y el fondo; para la legibilidad, el texto normal necesita una relación de contraste de al menos 4,5 (la norma WCAG).",
+      "tip3": "¿Qué es HEX? #FF5733 significa rojo 255, verde 87 y azul 51; cada dos dígitos son un canal de color, y #F53 es la forma corta de #FF5533.",
+      "tip4": "¿Por qué los colores se ven distintos en cada pantalla? Cada pantalla muestra el color de forma un poco diferente, y la luz ambiental cambia cómo se percibe un color — así que mide siempre el contraste.",
+      "challenge_title": "Juego de desafío de color",
+      "challenge_intro": "10 rondas, 15 segundos cada una: adivina el HEX de un color, encuentra el color de un código y elige el mejor contraste.",
+      "challenge_start": "Iniciar desafío",
+      "challenge_again": "Otra vez",
+      "challenge_time": "Tiempo",
+      "challenge_correct": "¡Correcto!",
+      "challenge_wrong": "Incorrecto.",
+      "challenge_done": "¡Listo!",
+      "challenge_q_hex": "¿Cuál es el código HEX de este color?",
+      "challenge_q_swatch": "¿Qué color es este código HEX?",
+      "challenge_q_contrast": "¿Qué color tiene el mejor contraste sobre fondo blanco?",
+      "challenge_hint_contrast": "Mejor opción"
     }
   },
   "game": {

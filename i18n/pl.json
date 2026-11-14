@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "Generator kodów QR",
       "description": "Twórz kody QR dla tekstu, linków, Wi-Fi i wizytówek — z historią, statystykami i grą-wyzwaniem."
+    },
+    "color-lab": {
+      "name": "Laboratorium kolorów",
+      "description": "Konwertuj kolory między HEX, RGB i HSL, twórz palety, sprawdzaj kontrast i graj w zgadywanie kolorów — z wyzwaniem i punktami."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "Ile bajtów mieści się w tej wersji na poziomie M?",
       "challenge_q_type": "Jakiego typu treścią jest ten ciąg?",
       "challenge_hint_biggest": "Wskazówka: dłuższy tekst wymaga większej wersji."
+    },
+    "color-lab": {
+      "intro": "Konwertuj kolory między HEX, RGB i HSL, twórz palety, mierz kontrast tekstu i zgaduj kolory w grze-wyzwaniu.",
+      "converter_title": "Konwerter kolorów",
+      "base_label": "Kolor bazowy",
+      "hex_label": "Kod HEX",
+      "hex_placeholder": "np. #FF5733",
+      "hex_invalid": "Nieprawidłowy kod HEX — spróbuj #FF5733 lub #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "Kopiuj HEX",
+      "copy_rgb": "Kopiuj RGB",
+      "copied": "Skopiowano!",
+      "preview_label": "Podgląd",
+      "palette_title": "Twórca palet",
+      "palette_hint": "Dotknij koloru, aby skopiować jego kod HEX.",
+      "palette_complementary": "Dopełniający",
+      "palette_analogous": "Analogiczny",
+      "palette_triadic": "Triadyczny",
+      "palette_shades": "Odcienie tego samego koloru",
+      "contrast_title": "Sprawdzanie kontrastu",
+      "fg_label": "Kolor tekstu",
+      "bg_label": "Kolor tła",
+      "ratio_label": "Współczynnik kontrastu",
+      "aa_normal": "AA — zwykły tekst (4,5:1)",
+      "aa_large": "AA — duży tekst (3:1)",
+      "aaa_normal": "AAA — zwykły tekst (7:1)",
+      "aaa_large": "AAA — duży tekst (4,5:1)",
+      "pass": "Zaliczony",
+      "fail": "Niezaliczony",
+      "sample_text": "Przykładowy tekst do sprawdzenia czytelności",
+      "tips_title": "Kilka uwag o kolorach",
+      "tip1": "Koło barw: kolory dopełniające leżą naprzeciw siebie (jak czerwony i cyjan) i razem przyciągają wzrok; kolory analogiczne leżą obok siebie i działają uspokajająco.",
+      "tip2": "Kontrast to różnica jasności między tekstem a tłem; dla czytelności zwykły tekst potrzebuje współczynnika kontrastu co najmniej 4,5 (standard WCAG).",
+      "tip3": "Czym jest HEX? #FF5733 oznacza czerwony 255, zielony 87 i niebieski 51; każde dwie cyfry to jeden kanał koloru, a #F53 to krótka forma #FF5533.",
+      "tip4": "Dlaczego kolory wyglądają inaczej na każdym ekranie? Każdy wyświetlacz pokazuje kolory nieco inaczej, a światło otoczenia zmienia sposób postrzegania koloru — dlatego zawsze mierz kontrast.",
+      "challenge_title": "Gra-wyzwanie kolorów",
+      "challenge_intro": "10 rund, po 15 sekund każda — zgadnij kod HEX koloru, znajdź kolor kodu i wybierz najlepszy kontrast.",
+      "challenge_start": "Rozpocznij wyzwanie",
+      "challenge_again": "Jeszcze raz",
+      "challenge_time": "Czas",
+      "challenge_correct": "Dobrze!",
+      "challenge_wrong": "Źle.",
+      "challenge_done": "Gotowe!",
+      "challenge_q_hex": "Jaki jest kod HEX tego koloru?",
+      "challenge_q_swatch": "Który kolor to ten kod HEX?",
+      "challenge_q_contrast": "Który kolor ma najlepszy kontrast na białym tle?",
+      "challenge_hint_contrast": "Najlepszy wybór"
     }
   },
   "game": {

@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "二维码生成器",
       "description": "为文本、链接、Wi-Fi 和名片生成二维码——附带历史记录、统计数据和挑战游戏。"
+    },
+    "color-lab": {
+      "name": "色彩实验室",
+      "description": "在 HEX、RGB 和 HSL 之间转换颜色，创建配色方案，检查对比度，并玩猜颜色游戏——附带挑战与积分。"
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "M 级下这个版本能装多少字节？",
       "challenge_q_type": "这个字符串是什么类型的内容？",
       "challenge_hint_biggest": "提示：文本越长，需要的版本越大。"
+    },
+    "color-lab": {
+      "intro": "在 HEX、RGB 和 HSL 之间转换颜色，创建配色方案，测量文字对比度，并在挑战游戏中猜颜色。",
+      "converter_title": "颜色转换器",
+      "base_label": "基础颜色",
+      "hex_label": "HEX 代码",
+      "hex_placeholder": "例如：#FF5733",
+      "hex_invalid": "不是有效的 HEX 代码——试试 #FF5733 或 #F53。",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "复制 HEX",
+      "copy_rgb": "复制 RGB",
+      "copied": "已复制！",
+      "preview_label": "预览",
+      "palette_title": "配色方案生成器",
+      "palette_hint": "点任意颜色即可复制它的 HEX 代码。",
+      "palette_complementary": "互补色",
+      "palette_analogous": "类似色",
+      "palette_triadic": "三角色",
+      "palette_shades": "同色深浅",
+      "contrast_title": "对比度检查器",
+      "fg_label": "文字颜色",
+      "bg_label": "背景颜色",
+      "ratio_label": "对比度",
+      "aa_normal": "AA —— 正文（4.5:1）",
+      "aa_large": "AA —— 大号文字（3:1）",
+      "aaa_normal": "AAA —— 正文（7:1）",
+      "aaa_large": "AAA —— 大号文字（4.5:1）",
+      "pass": "通过",
+      "fail": "未通过",
+      "sample_text": "用于检查可读性的示例文字",
+      "tips_title": "关于颜色的几点说明",
+      "tip1": "色轮：互补色彼此相对（如红色与青色），放在一起能吸引目光；类似色彼此相邻，给人平静的感觉。",
+      "tip2": "对比度是文字与背景之间的亮度差异；为了可读性，正文的对比度至少应为 4.5（WCAG 标准）。",
+      "tip3": "什么是 HEX？#FF5733 表示红色 255、绿色 87、蓝色 51；每两位数字是一个颜色通道，#F53 是 #FF5533 的简写。",
+      "tip4": "为什么颜色在每个屏幕上看起来都不一样？每个显示屏呈现颜色的方式略有不同，环境光也会改变颜色的观感——所以一定要测量对比度。",
+      "challenge_title": "颜色挑战游戏",
+      "challenge_intro": "10 轮，每轮 15 秒——猜颜色的 HEX 代码，找出代码对应的颜色，并选出最佳对比度。",
+      "challenge_start": "开始挑战",
+      "challenge_again": "再来一次",
+      "challenge_time": "时间",
+      "challenge_correct": "答对了！",
+      "challenge_wrong": "答错了。",
+      "challenge_done": "完成！",
+      "challenge_q_hex": "这个颜色的 HEX 代码是什么？",
+      "challenge_q_swatch": "这个 HEX 代码是哪种颜色？",
+      "challenge_q_contrast": "哪种颜色在白色背景上的对比度最好？",
+      "challenge_hint_contrast": "最佳选择"
     }
   },
   "game": {

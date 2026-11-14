@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "QR-kodgenerator",
       "description": "Skapa QR-koder för text, länkar, wifi och visitkort — med historik, statistik och utmaningsspel."
+    },
+    "color-lab": {
+      "name": "Färglabb",
+      "description": "Konvertera färger mellan HEX, RGB och HSL, skapa paletter, kontrollera kontrast och spela färggissningsspelet — med utmaning och poäng."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "Hur många byte får plats i den här versionen på nivå M?",
       "challenge_q_type": "Vilken typ av innehåll är den här strängen?",
       "challenge_hint_biggest": "Ledtråd: längre text behöver en större version."
+    },
+    "color-lab": {
+      "intro": "Konvertera färger mellan HEX, RGB och HSL, skapa paletter, mät textkontrasten och gissa färger i utmaningsspelet.",
+      "converter_title": "Färgomvandlare",
+      "base_label": "Basfärg",
+      "hex_label": "HEX-kod",
+      "hex_placeholder": "t.ex. #FF5733",
+      "hex_invalid": "Ingen giltig HEX-kod — prova #FF5733 eller #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "Kopiera HEX",
+      "copy_rgb": "Kopiera RGB",
+      "copied": "Kopierat!",
+      "preview_label": "Förhandsgranskning",
+      "palette_title": "Palettskapare",
+      "palette_hint": "Tryck på en färg för att kopiera dess HEX-kod.",
+      "palette_complementary": "Komplementär",
+      "palette_analogous": "Analog",
+      "palette_triadic": "Triadisk",
+      "palette_shades": "Nyanser av samma färg",
+      "contrast_title": "Kontrastkontroll",
+      "fg_label": "Textfärg",
+      "bg_label": "Bakgrundsfärg",
+      "ratio_label": "Kontrastförhållande",
+      "aa_normal": "AA — vanlig text (4,5:1)",
+      "aa_large": "AA — stor text (3:1)",
+      "aaa_normal": "AAA — vanlig text (7:1)",
+      "aaa_large": "AAA — stor text (4,5:1)",
+      "pass": "Godkänd",
+      "fail": "Underkänd",
+      "sample_text": "Exempeltext för att kontrollera läsbarheten",
+      "tips_title": "Några anteckningar om färg",
+      "tip1": "Färgcirkeln: komplementfärger står mitt emot varandra (som rött och cyan) och drar tillsammans blicken till sig; analoga färger står bredvid varandra och känns lugna.",
+      "tip2": "Kontrast är skillnaden i ljusstyrka mellan text och bakgrund; för läsbarhet behöver vanlig text ett kontrastförhållande på minst 4,5 (WCAG-standarden).",
+      "tip3": "Vad är HEX? #FF5733 betyder rött 255, grönt 87 och blått 51; vartannat sifferpar är en färgkanal, och #F53 är kortformen av #FF5533.",
+      "tip4": "Varför ser färger olika ut på varje skärm? Varje skärm visar färger lite olika, och omgivande ljus förändrar hur en färg uppfattas — så mät alltid kontrasten.",
+      "challenge_title": "Färgutmaningsspel",
+      "challenge_intro": "10 rundor, 15 sekunder per runda — gissa en färgs HEX, hitta färgen för en kod och välj den bästa kontrasten.",
+      "challenge_start": "Starta utmaningen",
+      "challenge_again": "Igen",
+      "challenge_time": "Tid",
+      "challenge_correct": "Rätt!",
+      "challenge_wrong": "Fel.",
+      "challenge_done": "Klart!",
+      "challenge_q_hex": "Vad är HEX-koden för den här färgen?",
+      "challenge_q_swatch": "Vilken färg är den här HEX-koden?",
+      "challenge_q_contrast": "Vilken färg har bäst kontrast på vit bakgrund?",
+      "challenge_hint_contrast": "Bästa valet"
     }
   },
   "game": {

@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "Generator kode QR",
       "description": "Buat kode QR untuk teks, tautan, Wi-Fi, dan kartu nama — dengan riwayat, statistik, dan permainan tantangan."
+    },
+    "color-lab": {
+      "name": "Laboratorium warna",
+      "description": "Ubah warna antara HEX, RGB, dan HSL, buat palet, periksa kontras, dan mainkan permainan tebak warna — dengan tantangan dan poin."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "Berapa byte yang muat dalam versi ini pada level M?",
       "challenge_q_type": "String ini konten jenis apa?",
       "challenge_hint_biggest": "Petunjuk: teks yang lebih panjang butuh versi yang lebih besar."
+    },
+    "color-lab": {
+      "intro": "Ubah warna antara HEX, RGB, dan HSL, buat palet, ukur kontras teks, dan tebak warna dalam permainan tantangan.",
+      "converter_title": "Pengubah warna",
+      "base_label": "Warna dasar",
+      "hex_label": "Kode HEX",
+      "hex_placeholder": "cth. #FF5733",
+      "hex_invalid": "Bukan kode HEX yang valid — coba #FF5733 atau #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "Salin HEX",
+      "copy_rgb": "Salin RGB",
+      "copied": "Disalin!",
+      "preview_label": "Pratinjau",
+      "palette_title": "Pembuat palet",
+      "palette_hint": "Ketuk warna apa pun untuk menyalin kode HEX-nya.",
+      "palette_complementary": "Komplementer",
+      "palette_analogous": "Analog",
+      "palette_triadic": "Triadik",
+      "palette_shades": "Gradasi warna yang sama",
+      "contrast_title": "Pemeriksa kontras",
+      "fg_label": "Warna teks",
+      "bg_label": "Warna latar",
+      "ratio_label": "Rasio kontras",
+      "aa_normal": "AA — teks biasa (4,5:1)",
+      "aa_large": "AA — teks besar (3:1)",
+      "aaa_normal": "AAA — teks biasa (7:1)",
+      "aaa_large": "AAA — teks besar (4,5:1)",
+      "pass": "Lolos",
+      "fail": "Gagal",
+      "sample_text": "Teks contoh untuk memeriksa keterbacaan",
+      "tips_title": "Beberapa catatan tentang warna",
+      "tip1": "Roda warna: warna komplementer berhadapan (seperti merah dan sian) dan bersama-sama menarik mata; warna analog berdampingan dan terasa tenang.",
+      "tip2": "Kontras adalah perbedaan kecerahan antara teks dan latar; agar mudah dibaca, teks biasa membutuhkan rasio kontras minimal 4,5 (standar WCAG).",
+      "tip3": "Apa itu HEX? #FF5733 berarti merah 255, hijau 87, dan biru 51; setiap dua digit adalah satu kanal warna, dan #F53 adalah bentuk pendek dari #FF5533.",
+      "tip4": "Mengapa warna terlihat berbeda di setiap layar? Setiap layar menampilkan warna sedikit berbeda, dan cahaya sekitar mengubah cara warna terlihat — jadi selalu ukur kontrasnya.",
+      "challenge_title": "Permainan tantangan warna",
+      "challenge_intro": "10 ronde, 15 detik per ronde — tebak HEX sebuah warna, temukan warna dari sebuah kode, dan pilih kontras terbaik.",
+      "challenge_start": "Mulai tantangan",
+      "challenge_again": "Lagi",
+      "challenge_time": "Waktu",
+      "challenge_correct": "Benar!",
+      "challenge_wrong": "Salah.",
+      "challenge_done": "Selesai!",
+      "challenge_q_hex": "Apa kode HEX dari warna ini?",
+      "challenge_q_swatch": "Warna apa kode HEX ini?",
+      "challenge_q_contrast": "Warna apa yang memiliki kontras terbaik di atas latar putih?",
+      "challenge_hint_contrast": "Pilihan terbaik"
     }
   },
   "game": {

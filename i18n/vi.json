@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "Trình tạo mã QR",
       "description": "Tạo mã QR cho văn bản, liên kết, Wi-Fi và danh thiếp — kèm lịch sử, thống kê và trò chơi thử thách."
+    },
+    "color-lab": {
+      "name": "Phòng thí nghiệm màu sắc",
+      "description": "Chuyển đổi màu giữa HEX, RGB và HSL, tạo bảng màu, kiểm tra độ tương phản và chơi trò đoán màu — với thử thách và điểm số."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "Phiên bản này ở mức M chứa được bao nhiêu byte?",
       "challenge_q_type": "Chuỗi này thuộc loại nội dung nào?",
       "challenge_hint_biggest": "Gợi ý: văn bản dài hơn cần phiên bản lớn hơn."
+    },
+    "color-lab": {
+      "intro": "Chuyển đổi màu giữa HEX, RGB và HSL, tạo bảng màu, đo độ tương phản của văn bản và đoán màu trong trò chơi thử thách.",
+      "converter_title": "Bộ chuyển đổi màu",
+      "base_label": "Màu cơ sở",
+      "hex_label": "Mã HEX",
+      "hex_placeholder": "vd. #FF5733",
+      "hex_invalid": "Không phải mã HEX hợp lệ — thử #FF5733 hoặc #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "Sao chép HEX",
+      "copy_rgb": "Sao chép RGB",
+      "copied": "Đã sao chép!",
+      "preview_label": "Xem trước",
+      "palette_title": "Trình tạo bảng màu",
+      "palette_hint": "Chạm vào bất kỳ màu nào để sao chép mã HEX của nó.",
+      "palette_complementary": "Bổ sung",
+      "palette_analogous": "Tương tự",
+      "palette_triadic": "Bộ ba",
+      "palette_shades": "Các sắc độ của cùng một màu",
+      "contrast_title": "Bộ kiểm tra độ tương phản",
+      "fg_label": "Màu chữ",
+      "bg_label": "Màu nền",
+      "ratio_label": "Tỷ lệ tương phản",
+      "aa_normal": "AA — chữ thường (4,5:1)",
+      "aa_large": "AA — chữ lớn (3:1)",
+      "aaa_normal": "AAA — chữ thường (7:1)",
+      "aaa_large": "AAA — chữ lớn (4,5:1)",
+      "pass": "Đạt",
+      "fail": "Không đạt",
+      "sample_text": "Văn bản mẫu để kiểm tra khả năng đọc",
+      "tips_title": "Vài ghi chú về màu sắc",
+      "tip1": "Vòng tròn màu: các màu bổ sung đối diện nhau (như đỏ và xanh lơ) và cùng nhau thu hút ánh nhìn; các màu tương tự nằm cạnh nhau và tạo cảm giác yên bình.",
+      "tip2": "Độ tương phản là sự chênh lệch độ sáng giữa chữ và nền; để dễ đọc, chữ thường cần tỷ lệ tương phản ít nhất 4,5 (tiêu chuẩn WCAG).",
+      "tip3": "HEX là gì? #FF5733 nghĩa là đỏ 255, xanh lá 87 và xanh dương 51; mỗi hai chữ số là một kênh màu, và #F53 là dạng rút gọn của #FF5533.",
+      "tip4": "Tại sao màu sắc trông khác nhau trên mỗi màn hình? Mỗi màn hình hiển thị màu hơi khác nhau, và ánh sáng xung quanh cũng thay đổi cách cảm nhận màu — vì vậy hãy luôn đo độ tương phản.",
+      "challenge_title": "Trò chơi thử thách màu sắc",
+      "challenge_intro": "10 vòng, 15 giây mỗi vòng — đoán mã HEX của một màu, tìm màu của một mã và chọn độ tương phản tốt nhất.",
+      "challenge_start": "Bắt đầu thử thách",
+      "challenge_again": "Chơi lại",
+      "challenge_time": "Thời gian",
+      "challenge_correct": "Đúng!",
+      "challenge_wrong": "Sai.",
+      "challenge_done": "Xong!",
+      "challenge_q_hex": "Mã HEX của màu này là gì?",
+      "challenge_q_swatch": "Mã HEX này là màu nào?",
+      "challenge_q_contrast": "Màu nào có độ tương phản tốt nhất trên nền trắng?",
+      "challenge_hint_contrast": "Lựa chọn tốt nhất"
     }
   },
   "game": {

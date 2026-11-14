@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "QR-Code-Generator",
       "description": "QR-Codes für Text, Links, WLAN und Visitenkarten erstellen — mit Verlauf, Statistiken und Herausforderungsspiel."
+    },
+    "color-lab": {
+      "name": "Farblabor",
+      "description": "Farben zwischen HEX, RGB und HSL umwandeln, Paletten erstellen, Kontrast prüfen und im Ratespiel Farben erraten — mit Herausforderung und Punkten."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "Wie viele Bytes passen in dieser Version bei Stufe M?",
       "challenge_q_type": "Um welche Art von Inhalt handelt es sich bei dieser Zeichenkette?",
       "challenge_hint_biggest": "Hinweis: Längerer Text braucht eine größere Version."
+    },
+    "color-lab": {
+      "intro": "Wandle Farben zwischen HEX, RGB und HSL um, erstelle Paletten, miss den Textkontrast und rate Farben im Herausforderungsspiel.",
+      "converter_title": "Farbkonverter",
+      "base_label": "Basisfarbe",
+      "hex_label": "HEX-Code",
+      "hex_placeholder": "z. B. #FF5733",
+      "hex_invalid": "Kein gültiger HEX-Code — versuch es mit #FF5733 oder #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "HEX kopieren",
+      "copy_rgb": "RGB kopieren",
+      "copied": "Kopiert!",
+      "preview_label": "Vorschau",
+      "palette_title": "Paletten-Generator",
+      "palette_hint": "Tippe auf eine Farbe, um ihren HEX-Code zu kopieren.",
+      "palette_complementary": "Komplementär",
+      "palette_analogous": "Analog",
+      "palette_triadic": "Triadisch",
+      "palette_shades": "Abstufungen derselben Farbe",
+      "contrast_title": "Kontrastprüfer",
+      "fg_label": "Textfarbe",
+      "bg_label": "Hintergrundfarbe",
+      "ratio_label": "Kontrastverhältnis",
+      "aa_normal": "AA — normaler Text (4,5:1)",
+      "aa_large": "AA — großer Text (3:1)",
+      "aaa_normal": "AAA — normaler Text (7:1)",
+      "aaa_large": "AAA — großer Text (4,5:1)",
+      "pass": "Bestanden",
+      "fail": "Nicht bestanden",
+      "sample_text": "Beispieltext zur Prüfung der Lesbarkeit",
+      "tips_title": "Ein paar Hinweise zu Farben",
+      "tip1": "Der Farbkreis: Komplementärfarben liegen sich gegenüber (wie Rot und Cyan) und ziehen gemeinsam den Blick an; analoge Farben liegen nebeneinander und wirken ruhig.",
+      "tip2": "Kontrast ist der Helligkeitsunterschied zwischen Text und Hintergrund; für Lesbarkeit braucht normaler Text ein Kontrastverhältnis von mindestens 4,5 (der WCAG-Standard).",
+      "tip3": "Was ist HEX? #FF5733 bedeutet Rot 255, Grün 87 und Blau 51; je zwei Ziffern sind ein Farbkanal, und #F53 ist die Kurzform von #FF5533.",
+      "tip4": "Warum sehen Farben auf jedem Bildschirm anders aus? Jedes Display stellt Farben etwas anders dar, und das Umgebungslicht verändert, wie eine Farbe wahrgenommen wird — also immer den Kontrast messen.",
+      "challenge_title": "Farb-Herausforderungsspiel",
+      "challenge_intro": "10 Runden, je 15 Sekunden — rate den HEX-Code einer Farbe, finde die Farbe zu einem Code und wähle den besten Kontrast.",
+      "challenge_start": "Herausforderung starten",
+      "challenge_again": "Nochmal",
+      "challenge_time": "Zeit",
+      "challenge_correct": "Richtig!",
+      "challenge_wrong": "Falsch.",
+      "challenge_done": "Fertig!",
+      "challenge_q_hex": "Wie lautet der HEX-Code dieser Farbe?",
+      "challenge_q_swatch": "Welche Farbe ist dieser HEX-Code?",
+      "challenge_q_contrast": "Welche Farbe hat den besten Kontrast auf weißem Hintergrund?",
+      "challenge_hint_contrast": "Beste Wahl"
     }
   },
   "game": {

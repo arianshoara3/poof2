@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "QR code generator",
       "description": "Create QR codes for text, links, Wi-Fi and business cards — with history, stats and a challenge game."
+    },
+    "color-lab": {
+      "name": "Color lab",
+      "description": "Convert colors between HEX, RGB and HSL, build palettes, check contrast and play the color-guessing game — with a challenge and points."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "How many bytes fit in this version at level M?",
       "challenge_q_type": "What kind of content is this string?",
       "challenge_hint_biggest": "Hint: longer text needs a bigger version."
+    },
+    "color-lab": {
+      "intro": "Convert colors between HEX, RGB and HSL, build palettes, measure text contrast and guess colors in the challenge game.",
+      "converter_title": "Color converter",
+      "base_label": "Base color",
+      "hex_label": "HEX code",
+      "hex_placeholder": "e.g. #FF5733",
+      "hex_invalid": "Not a valid HEX code — try #FF5733 or #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "Copy HEX",
+      "copy_rgb": "Copy RGB",
+      "copied": "Copied!",
+      "preview_label": "Preview",
+      "palette_title": "Palette builder",
+      "palette_hint": "Tap any color to copy its HEX code.",
+      "palette_complementary": "Complementary",
+      "palette_analogous": "Analogous",
+      "palette_triadic": "Triadic",
+      "palette_shades": "Shades of the same color",
+      "contrast_title": "Contrast checker",
+      "fg_label": "Text color",
+      "bg_label": "Background color",
+      "ratio_label": "Contrast ratio",
+      "aa_normal": "AA — normal text (4.5:1)",
+      "aa_large": "AA — large text (3:1)",
+      "aaa_normal": "AAA — normal text (7:1)",
+      "aaa_large": "AAA — large text (4.5:1)",
+      "pass": "Pass",
+      "fail": "Fail",
+      "sample_text": "Sample text to check readability",
+      "tips_title": "A few notes about color",
+      "tip1": "The color wheel: complementary colors sit opposite each other (like red and cyan) and grab the eye together; analogous colors sit side by side and feel calm.",
+      "tip2": "Contrast is the difference in brightness between text and background; for readability, normal text needs a contrast ratio of at least 4.5 (the WCAG standard).",
+      "tip3": "What is HEX? #FF5733 means red 255, green 87 and blue 51; every two digits are one color channel, and #F53 is the short form of #FF5533.",
+      "tip4": "Why do colors look different on each screen? Every display renders color a little differently, and ambient light changes how a color is seen — so always measure the contrast.",
+      "challenge_title": "Color challenge game",
+      "challenge_intro": "10 rounds, 15 seconds each — guess a color's HEX, find the color of a code, and pick the best contrast.",
+      "challenge_start": "Start challenge",
+      "challenge_again": "Again",
+      "challenge_time": "Time",
+      "challenge_correct": "Correct!",
+      "challenge_wrong": "Wrong.",
+      "challenge_done": "Done!",
+      "challenge_q_hex": "What is the HEX code of this color?",
+      "challenge_q_swatch": "Which color is this HEX code?",
+      "challenge_q_contrast": "Which color has the best contrast on a white background?",
+      "challenge_hint_contrast": "Best choice"
     }
   },
   "game": {

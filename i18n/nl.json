@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "QR-codegenerator",
       "description": "Maak QR-codes voor tekst, links, wifi en visitekaartjes — met geschiedenis, statistieken en een uitdagingsspel."
+    },
+    "color-lab": {
+      "name": "Kleurenlab",
+      "description": "Converteer kleuren tussen HEX, RGB en HSL, maak paletten, controleer contrast en speel het kleurenraadspel — met uitdaging en punten."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "Hoeveel bytes passen er in deze versie op niveau M?",
       "challenge_q_type": "Wat voor soort inhoud is deze tekenreeks?",
       "challenge_hint_biggest": "Tip: langere tekst vraagt om een grotere versie."
+    },
+    "color-lab": {
+      "intro": "Converteer kleuren tussen HEX, RGB en HSL, maak paletten, meet het tekstcontrast en raad kleuren in het uitdaagspel.",
+      "converter_title": "Kleurenconverter",
+      "base_label": "Basiskleur",
+      "hex_label": "HEX-code",
+      "hex_placeholder": "bijv. #FF5733",
+      "hex_invalid": "Geen geldige HEX-code — probeer #FF5733 of #F53.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "HEX kopiëren",
+      "copy_rgb": "RGB kopiëren",
+      "copied": "Gekopieerd!",
+      "preview_label": "Voorbeeld",
+      "palette_title": "Palettenmaker",
+      "palette_hint": "Tik op een kleur om de HEX-code te kopiëren.",
+      "palette_complementary": "Complementair",
+      "palette_analogous": "Analoog",
+      "palette_triadic": "Triadisch",
+      "palette_shades": "Tinten van dezelfde kleur",
+      "contrast_title": "Contrastcontrole",
+      "fg_label": "Tekstkleur",
+      "bg_label": "Achtergrondkleur",
+      "ratio_label": "Contrastverhouding",
+      "aa_normal": "AA — normale tekst (4,5:1)",
+      "aa_large": "AA — grote tekst (3:1)",
+      "aaa_normal": "AAA — normale tekst (7:1)",
+      "aaa_large": "AAA — grote tekst (4,5:1)",
+      "pass": "Geslaagd",
+      "fail": "Gezakt",
+      "sample_text": "Voorbeeldtekst om de leesbaarheid te controleren",
+      "tips_title": "Een paar opmerkingen over kleur",
+      "tip1": "Het kleurenwiel: complementaire kleuren staan tegenover elkaar (zoals rood en cyaan) en trekken samen de aandacht; analoge kleuren staan naast elkaar en voelen rustig aan.",
+      "tip2": "Contrast is het helderheidsverschil tussen tekst en achtergrond; voor leesbaarheid heeft normale tekst een contrastverhouding van minstens 4,5 nodig (de WCAG-standaard).",
+      "tip3": "Wat is HEX? #FF5733 betekent rood 255, groen 87 en blauw 51; elke twee cijfers zijn één kleurkanaal, en #F53 is de korte vorm van #FF5533.",
+      "tip4": "Waarom zien kleuren er op elk scherm anders uit? Elk scherm geeft kleuren net iets anders weer, en omgevingslicht verandert hoe een kleur wordt waargenomen — meet dus altijd het contrast.",
+      "challenge_title": "Kleurenuitdaagspel",
+      "challenge_intro": "10 rondes, 15 seconden per ronde — raad de HEX van een kleur, vind de kleur van een code en kies het beste contrast.",
+      "challenge_start": "Uitdaging starten",
+      "challenge_again": "Opnieuw",
+      "challenge_time": "Tijd",
+      "challenge_correct": "Goed!",
+      "challenge_wrong": "Fout.",
+      "challenge_done": "Klaar!",
+      "challenge_q_hex": "Wat is de HEX-code van deze kleur?",
+      "challenge_q_swatch": "Welke kleur is deze HEX-code?",
+      "challenge_q_contrast": "Welke kleur heeft het beste contrast op een witte achtergrond?",
+      "challenge_hint_contrast": "Beste keuze"
     }
   },
   "game": {

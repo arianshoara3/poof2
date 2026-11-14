@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "QR kod oluşturucu",
       "description": "Metin, bağlantı, Wi-Fi ve kartvizit için QR kod oluşturun — geçmiş, istatistik ve meydan okuma oyunuyla."
+    },
+    "color-lab": {
+      "name": "Renk laboratuvarı",
+      "description": "Renkleri HEX, RGB ve HSL arasında dönüştürün, paletler oluşturun, kontrastı ölçün ve renk tahmin oyununu oynayın — meydan okuma ve puanlarla."
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "M düzeyinde bu sürüme kaç bayt sığar?",
       "challenge_q_type": "Bu dize ne tür bir içeriktir?",
       "challenge_hint_biggest": "İpucu: Daha uzun metin daha büyük sürüm ister."
+    },
+    "color-lab": {
+      "intro": "Renkleri HEX, RGB ve HSL arasında dönüştür, palet oluştur, metin kontrastını ölç ve meydan okuma oyununda renkleri tahmin et.",
+      "converter_title": "Renk dönüştürücü",
+      "base_label": "Temel renk",
+      "hex_label": "HEX kodu",
+      "hex_placeholder": "ör. #FF5733",
+      "hex_invalid": "Geçerli bir HEX kodu değil — #FF5733 veya #F53 dene.",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "HEX kopyala",
+      "copy_rgb": "RGB kopyala",
+      "copied": "Kopyalandı!",
+      "preview_label": "Önizleme",
+      "palette_title": "Palet oluşturucu",
+      "palette_hint": "HEX kodunu kopyalamak için herhangi bir renge dokun.",
+      "palette_complementary": "Tamamlayıcı",
+      "palette_analogous": "Benzer",
+      "palette_triadic": "Üçlü",
+      "palette_shades": "Aynı rengin tonları",
+      "contrast_title": "Kontrast denetleyici",
+      "fg_label": "Metin rengi",
+      "bg_label": "Arka plan rengi",
+      "ratio_label": "Kontrast oranı",
+      "aa_normal": "AA — normal metin (4,5:1)",
+      "aa_large": "AA — büyük metin (3:1)",
+      "aaa_normal": "AAA — normal metin (7:1)",
+      "aaa_large": "AAA — büyük metin (4,5:1)",
+      "pass": "Geçti",
+      "fail": "Kaldı",
+      "sample_text": "Okunabilirliği denetlemek için örnek metin",
+      "tips_title": "Renkler hakkında birkaç not",
+      "tip1": "Renk çemberi: tamamlayıcı renkler karşılıklı durur (kırmızı ve turkuaz gibi) ve birlikte gözü çeker; benzer renkler yan yana durur ve sakin hissettirir.",
+      "tip2": "Kontrast, metin ile arka plan arasındaki parlaklık farkıdır; okunabilirlik için normal metnin kontrast oranının en az 4,5 olması gerekir (WCAG standardı).",
+      "tip3": "HEX nedir? #FF5733; kırmızı 255, yeşil 87 ve mavi 51 demektir; her iki hane bir renk kanalıdır ve #F53, #FF5533'ün kısa halidir.",
+      "tip4": "Renkler her ekranda neden farklı görünür? Her ekran rengi biraz farklı gösterir ve ortam ışığı bir rengin algılanışını değiştirir — bu yüzden kontrastı her zaman ölç.",
+      "challenge_title": "Renk meydan okuma oyunu",
+      "challenge_intro": "10 tur, her tur 15 saniye — bir rengin HEX kodunu tahmin et, bir kodun rengini bul ve en iyi kontrastı seç.",
+      "challenge_start": "Meydan okumayı başlat",
+      "challenge_again": "Tekrar",
+      "challenge_time": "Süre",
+      "challenge_correct": "Doğru!",
+      "challenge_wrong": "Yanlış.",
+      "challenge_done": "Bitti!",
+      "challenge_q_hex": "Bu rengin HEX kodu nedir?",
+      "challenge_q_swatch": "Bu HEX kodu hangi renktir?",
+      "challenge_q_contrast": "Beyaz arka planda en iyi kontrasta hangi renk sahiptir?",
+      "challenge_hint_contrast": "En iyi seçim"
     }
   },
   "game": {

@@ -86,6 +86,10 @@
     "qr-generator": {
       "name": "QRコード生成ツール",
       "description": "テキスト、リンク、Wi-Fi、名刺のQRコードを作成——履歴、統計、チャレンジゲーム付き。"
+    },
+    "color-lab": {
+      "name": "カラーラボ",
+      "description": "HEX・RGB・HSL間で色を変換し、パレットを作成し、コントラストをチェックして、色当てゲームで遊ぼう——チャレンジとポイント付き。"
     }
   },
   "tool_ui": {
@@ -410,6 +414,54 @@
       "challenge_q_capacity": "レベルMでこのバージョンには何バイト入りますか？",
       "challenge_q_type": "この文字列はどんな種類のコンテンツですか？",
       "challenge_hint_biggest": "ヒント：テキストが長いほど大きなバージョンが必要です。"
+    },
+    "color-lab": {
+      "intro": "HEX・RGB・HSL間で色を変換し、パレットを作り、テキストのコントラストを測り、チャレンジゲームで色を当てよう。",
+      "converter_title": "色変換ツール",
+      "base_label": "基本色",
+      "hex_label": "HEXコード",
+      "hex_placeholder": "例：#FF5733",
+      "hex_invalid": "有効なHEXコードではありません——#FF5733 や #F53 を試してください。",
+      "rgb_label": "RGB",
+      "hsl_label": "HSL",
+      "copy_hex": "HEXをコピー",
+      "copy_rgb": "RGBをコピー",
+      "copied": "コピーしました！",
+      "preview_label": "プレビュー",
+      "palette_title": "パレット作成",
+      "palette_hint": "色をタップするとHEXコードがコピーされます。",
+      "palette_complementary": "補色",
+      "palette_analogous": "類似色",
+      "palette_triadic": "三色配色",
+      "palette_shades": "同系色の濃淡",
+      "contrast_title": "コントラストチェッカー",
+      "fg_label": "文字色",
+      "bg_label": "背景色",
+      "ratio_label": "コントラスト比",
+      "aa_normal": "AA — 通常の文字（4.5:1）",
+      "aa_large": "AA — 大きな文字（3:1）",
+      "aaa_normal": "AAA — 通常の文字（7:1）",
+      "aaa_large": "AAA — 大きな文字（4.5:1）",
+      "pass": "合格",
+      "fail": "不合格",
+      "sample_text": "読みやすさを確認するためのサンプルテキスト",
+      "tips_title": "色についての豆知識",
+      "tip1": "色相環：補色は向かい合っています（赤とシアンのように）。一緒に使うと目を引きます。類似色は隣り合っていて穏やかな印象を与えます。",
+      "tip2": "コントラストは文字と背景の明るさの差です。読みやすさのため、通常の文字には少なくとも4.5のコントラスト比が必要です（WCAG標準）。",
+      "tip3": "HEXとは？ #FF5733は赤255、緑87、青51を意味します。2桁ごとに1つの色チャンネルで、#F53は#FF5533の短縮形です。",
+      "tip4": "なぜ色は画面ごとに違って見えるの？ 各ディスプレイは色を少しずつ違って表示し、周りの光も色の見え方を変えます。だからコントラストは必ず測りましょう。",
+      "challenge_title": "カラーチャレンジゲーム",
+      "challenge_intro": "10ラウンド、各15秒——色のHEXを当て、コードの色を見つけ、最適なコントラストを選ぼう。",
+      "challenge_start": "チャレンジ開始",
+      "challenge_again": "もう一度",
+      "challenge_time": "時間",
+      "challenge_correct": "正解！",
+      "challenge_wrong": "不正解。",
+      "challenge_done": "完了！",
+      "challenge_q_hex": "この色のHEXコードは？",
+      "challenge_q_swatch": "このHEXコードはどの色？",
+      "challenge_q_contrast": "白い背景で最もコントラストが高い色はどれ？",
+      "challenge_hint_contrast": "最適な選択"
     }
   },
   "game": {

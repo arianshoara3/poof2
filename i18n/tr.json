@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Sıcaklık Birimi Dönüştürücü",
       "description": "Sıcaklığı Celsius, Fahrenheit ve Kelvin arasında dönüştür — dönüştürme meydan okuma oyunu, süre ve puanlarla."
+    },
+    "mental-math-challenge": {
+      "name": "Hızlı Zihinsel Matematik Mücadelesi",
+      "description": "Hızlı püf noktalarıyla zihinden toplama, çıkarma, çarpma ve bölme — pratik yap, rekorunu kır, XP kazan."
     }
   },
   "tool_ui": {
@@ -244,6 +248,36 @@
       "challenge_title": "Dönüştürme meydan okuma oyunu",
       "challenge_intro": "10 soru, her soru 15 saniye; her doğru cevap 15 puan — rekorunu kır.",
       "challenge_start": "Meydan okumayı başlat",
+      "challenge_time": "Süre",
+      "challenge_again": "Tekrar",
+      "challenge_correct": "Doğru!",
+      "challenge_wrong": "Yanlış.",
+      "challenge_time_up": "Süre doldu!",
+      "challenge_done": "Bitti!"
+    },
+    "mental-math-challenge": {
+      "intro": "Hızlı püf noktalarıyla zihinden toplama, çıkarma, çarpma ve bölme — pratik yap, rekorunu kır, XP kazan.",
+      "practice_title": "Alıştırma",
+      "op_label": "İşlem",
+      "level_label": "Seviye",
+      "level_easy": "Kolay",
+      "level_medium": "Orta",
+      "level_hard": "Zor",
+      "op_add": "Toplama (+)",
+      "op_sub": "Çıkarma (−)",
+      "op_mul": "Çarpma (×)",
+      "op_div": "Bölme (÷)",
+      "op_mixed": "Karışık",
+      "new_question": "Yeni soru",
+      "answer_label": "Cevap",
+      "check": "Kontrol et",
+      "correct": "Doğru!",
+      "wrong": "Yanlış.",
+      "shortcut_label": "Hızlı yol:",
+      "practice_streak": "Üst üste doğru cevaplar",
+      "challenge_title": "Zihinsel Matematik Mücadele Oyunu",
+      "challenge_intro": "10 soru, her soru 15 saniye; her doğru cevap 15 puan — rekorunu kır.",
+      "challenge_start": "Mücadeleye başla",
       "challenge_time": "Süre",
       "challenge_again": "Tekrar",
       "challenge_correct": "Doğru!",

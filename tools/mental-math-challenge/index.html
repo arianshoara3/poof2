@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>چالش محاسبه‌ی سریع ذهنی — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="number"], select {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit;
+}
+input[type="number"] { width: 160px; }
+select { max-width: 220px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 16px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.practice-q { font-size: 28px; font-weight: 800; margin: 12px 0; }
+.hint { color: var(--muted); font-size: 15px; margin: 8px 0; min-height: 1.5em; direction: ltr; text-align: start; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۱۴ — محاسبه‌گر و مالی</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../" data-i18n="ui.back">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1 data-i18n="tools.mental-math-challenge.name">چالش محاسبه‌ی سریع ذهنی</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.mental-math-challenge.intro">جمع، تفریق، ضرب و تقسیم ذهنی با ترفندهای سریع — تمرین کن، رکورد بزن، XP بگیر.</p>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.mental-math-challenge.practice_title">تمرین</h2>
+    <div class="row">
+      <label><span data-i18n="tool_ui.mental-math-challenge.op_label">عمل</span>
+        <select id="opSelect">
+          <option value="mixed" selected data-i18n="tool_ui.mental-math-challenge.op_mixed">ترکیبی</option>
+          <option value="add" data-i18n="tool_ui.mental-math-challenge.op_add">جمع (+)</option>
+          <option value="sub" data-i18n="tool_ui.mental-math-challenge.op_sub">تفریق (−)</option>
+          <option value="mul" data-i18n="tool_ui.mental-math-challenge.op_mul">ضرب (×)</option>
+          <option value="div" data-i18n="tool_ui.mental-math-challenge.op_div">تقسیم (÷)</option>
+        </select>
+      </label>
+      <label><span data-i18n="tool_ui.mental-math-challenge.level_label">سطح</span>
+        <select id="levelSelect">
+          <option value="easy" data-i18n="tool_ui.mental-math-challenge.level_easy">آسان</option>
+          <option value="medium" selected data-i18n="tool_ui.mental-math-challenge.level_medium">متوسط</option>
+          <option value="hard" data-i18n="tool_ui.mental-math-challenge.level_hard">سخت</option>
+        </select>
+      </label>
+    </div>
+    <p class="practice-q" id="practiceQ">—</p>
+    <div class="row">
+      <label><span data-i18n="tool_ui.mental-math-challenge.answer_label">جواب</span>
+        <input type="number" id="answerInput" step="any" inputmode="numeric">
+      </label>
+      <button class="primary" id="checkBtn" type="button" data-i18n="tool_ui.mental-math-challenge.check">بررسی</button>
+      <button id="newBtn" type="button" data-i18n="tool_ui.mental-math-challenge.new_question">سؤال جدید</button>
+    </div>
+    <p class="feedback" id="practiceFeedback"></p>
+    <p class="hint" id="practiceHint"></p>
+    <p><span data-i18n="tool_ui.mental-math-challenge.practice_streak">پاسخ‌های درست پی‌درپی</span>: <b id="practiceStreak">۰</b></p>
+  </div>
+
+  <div class="card challenge" id="challengeCard">
+    <h2 data-i18n="tool_ui.mental-math-challenge.challenge_title">بازی چالش محاسبه‌ی ذهنی</h2>
+    <p style="color:var(--muted)" data-i18n="tool_ui.mental-math-challenge.challenge_intro">۱۰ سؤال، هر سؤال ۱۵ ثانیه؛ هر جواب درست ۱۵ امتیاز — رکوردت را بشکن.</p>
+    <p><span data-i18n="game.best">رکورد</span>: <b id="bestScore">۰</b> / ۱۰</p>
+    <button class="primary" id="challengeStart" type="button" data-i18n="tool_ui.mental-math-challenge.challenge_start">شروع چالش</button>
+    <div id="challengePlay" hidden>
+      <p class="timer"><span data-i18n="tool_ui.mental-math-challenge.challenge_time">زمان</span>: <b id="timeLeft">۱۵</b></p>
+      <p class="q" id="qText"></p>
+      <div class="opts" id="qOpts"></div>
+      <p class="feedback" id="qFeedback"></p>
+      <p class="hint" id="qHint"></p>
+      <p><span data-i18n="game.score">امتیاز</span>: <b id="qScore">۰</b> / ۱۰</p>
+    </div>
+    <p class="feedback" id="challengeDone" hidden></p>
+    <button id="challengeAgain" type="button" hidden data-i18n="tool_ui.mental-math-challenge.challenge_again">دوباره</button>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="../../game.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

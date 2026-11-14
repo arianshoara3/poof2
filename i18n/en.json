@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Temperature Unit Converter",
       "description": "Convert temperature between Celsius, Fahrenheit and Kelvin — with a conversion challenge game, timer and points."
+    },
+    "mental-math-challenge": {
+      "name": "Mental Math Speed Challenge",
+      "description": "Mental addition, subtraction, multiplication and division with quick tricks — practice, beat your record, earn XP."
     }
   },
   "tool_ui": {
@@ -249,6 +253,36 @@
       "challenge_correct": "Correct!",
       "challenge_wrong": "Wrong.",
       "challenge_time_up": "Time is up!",
+      "challenge_done": "Done!"
+    },
+    "mental-math-challenge": {
+      "intro": "Mental addition, subtraction, multiplication and division with quick tricks — practice, beat your record, earn XP.",
+      "practice_title": "Practice",
+      "op_label": "Operation",
+      "level_label": "Level",
+      "level_easy": "Easy",
+      "level_medium": "Medium",
+      "level_hard": "Hard",
+      "op_add": "Addition (+)",
+      "op_sub": "Subtraction (−)",
+      "op_mul": "Multiplication (×)",
+      "op_div": "Division (÷)",
+      "op_mixed": "Mixed",
+      "new_question": "New question",
+      "answer_label": "Answer",
+      "check": "Check",
+      "correct": "Correct!",
+      "wrong": "Wrong.",
+      "shortcut_label": "Quick way:",
+      "practice_streak": "Correct answers in a row",
+      "challenge_title": "Mental Math Challenge Game",
+      "challenge_intro": "10 questions, 15 seconds each; 15 points per correct answer — beat your record.",
+      "challenge_start": "Start challenge",
+      "challenge_time": "Time",
+      "challenge_again": "Again",
+      "challenge_correct": "Correct!",
+      "challenge_wrong": "Wrong.",
+      "challenge_time_up": "Time's up!",
       "challenge_done": "Done!"
     }
   },

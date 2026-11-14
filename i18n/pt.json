@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Conversor de unidades de temperatura",
       "description": "Converta a temperatura entre Celsius, Fahrenheit e Kelvin — com jogo de desafio de conversão, cronômetro e pontos."
+    },
+    "mental-math-challenge": {
+      "name": "Desafio de cálculo mental rápido",
+      "description": "Adição, subtração, multiplicação e divisão mental com truques rápidos — pratique, supere seu recorde e ganhe XP."
     }
   },
   "tool_ui": {
@@ -246,6 +250,36 @@
       "challenge_start": "Começar o desafio",
       "challenge_time": "Tempo",
       "challenge_again": "De novo",
+      "challenge_correct": "Correto!",
+      "challenge_wrong": "Errado.",
+      "challenge_time_up": "Tempo esgotado!",
+      "challenge_done": "Pronto!"
+    },
+    "mental-math-challenge": {
+      "intro": "Adição, subtração, multiplicação e divisão mental com truques rápidos — pratique, supere seu recorde e ganhe XP.",
+      "practice_title": "Prática",
+      "op_label": "Operação",
+      "level_label": "Nível",
+      "level_easy": "Fácil",
+      "level_medium": "Médio",
+      "level_hard": "Difícil",
+      "op_add": "Adição (+)",
+      "op_sub": "Subtração (−)",
+      "op_mul": "Multiplicação (×)",
+      "op_div": "Divisão (÷)",
+      "op_mixed": "Misto",
+      "new_question": "Nova pergunta",
+      "answer_label": "Resposta",
+      "check": "Verificar",
+      "correct": "Correto!",
+      "wrong": "Errado.",
+      "shortcut_label": "Truque rápido:",
+      "practice_streak": "Respostas corretas seguidas",
+      "challenge_title": "Jogo de desafio de cálculo mental",
+      "challenge_intro": "10 perguntas, 15 segundos por pergunta; 15 pontos por resposta correta — supere seu recorde.",
+      "challenge_start": "Começar o desafio",
+      "challenge_time": "Tempo",
+      "challenge_again": "Novamente",
       "challenge_correct": "Correto!",
       "challenge_wrong": "Errado.",
       "challenge_time_up": "Tempo esgotado!",

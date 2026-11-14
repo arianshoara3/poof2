@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Temperaturumrechner",
       "description": "Temperatur zwischen Celsius, Fahrenheit und Kelvin umrechnen — mit Umrechnungsspiel, Timer und Punkten."
+    },
+    "mental-math-challenge": {
+      "name": "Kopfrechnen-Challenge",
+      "description": "Kopfrechnen mit Addition, Subtraktion, Multiplikation und Division und schnellen Tricks — üben, Rekord brechen, XP sammeln."
     }
   },
   "tool_ui": {
@@ -244,6 +248,36 @@
       "challenge_title": "Umrechnungsspiel",
       "challenge_intro": "10 Fragen, je 15 Sekunden; 15 Punkte pro richtiger Antwort — brich deinen Rekord.",
       "challenge_start": "Herausforderung starten",
+      "challenge_time": "Zeit",
+      "challenge_again": "Nochmal",
+      "challenge_correct": "Richtig!",
+      "challenge_wrong": "Falsch.",
+      "challenge_time_up": "Zeit um!",
+      "challenge_done": "Fertig!"
+    },
+    "mental-math-challenge": {
+      "intro": "Kopfrechnen mit Addition, Subtraktion, Multiplikation und Division und schnellen Tricks — üben, Rekord brechen, XP sammeln.",
+      "practice_title": "Üben",
+      "op_label": "Rechenart",
+      "level_label": "Stufe",
+      "level_easy": "Leicht",
+      "level_medium": "Mittel",
+      "level_hard": "Schwer",
+      "op_add": "Addition (+)",
+      "op_sub": "Subtraktion (−)",
+      "op_mul": "Multiplikation (×)",
+      "op_div": "Division (÷)",
+      "op_mixed": "Gemischt",
+      "new_question": "Neue Aufgabe",
+      "answer_label": "Antwort",
+      "check": "Prüfen",
+      "correct": "Richtig!",
+      "wrong": "Falsch.",
+      "shortcut_label": "Schneller Weg:",
+      "practice_streak": "Richtige Antworten in Folge",
+      "challenge_title": "Kopfrechnen-Challenge-Spiel",
+      "challenge_intro": "10 Aufgaben, 15 Sekunden pro Aufgabe; 15 Punkte pro richtiger Antwort — brich deinen Rekord.",
+      "challenge_start": "Challenge starten",
       "challenge_time": "Zeit",
       "challenge_again": "Nochmal",
       "challenge_correct": "Richtig!",

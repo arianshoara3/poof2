@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Temperaturomvandlare",
       "description": "Omvandla temperatur mellan Celsius, Fahrenheit och Kelvin — med omvandlingsutmaningsspel, timer och poäng."
+    },
+    "mental-math-challenge": {
+      "name": "Snabb huvudräkningsutmaning",
+      "description": "Huvudräkning med addition, subtraktion, multiplikation och division med snabba knep — öva, slå ditt rekord och tjäna XP."
     }
   },
   "tool_ui": {
@@ -249,6 +253,36 @@
       "challenge_correct": "Rätt!",
       "challenge_wrong": "Fel.",
       "challenge_time_up": "Tiden ute!",
+      "challenge_done": "Klart!"
+    },
+    "mental-math-challenge": {
+      "intro": "Huvudräkning med addition, subtraktion, multiplikation och division med snabba knep — öva, slå ditt rekord och tjäna XP.",
+      "practice_title": "Övning",
+      "op_label": "Räknesätt",
+      "level_label": "Nivå",
+      "level_easy": "Lätt",
+      "level_medium": "Medel",
+      "level_hard": "Svår",
+      "op_add": "Addition (+)",
+      "op_sub": "Subtraktion (−)",
+      "op_mul": "Multiplikation (×)",
+      "op_div": "Division (÷)",
+      "op_mixed": "Blandat",
+      "new_question": "Ny fråga",
+      "answer_label": "Svar",
+      "check": "Kontrollera",
+      "correct": "Rätt!",
+      "wrong": "Fel.",
+      "shortcut_label": "Snabbt sätt:",
+      "practice_streak": "Rätta svar i rad",
+      "challenge_title": "Huvudräkningsutmaningsspel",
+      "challenge_intro": "10 frågor, 15 sekunder per fråga; 15 poäng per rätt svar — slå ditt rekord.",
+      "challenge_start": "Starta utmaningen",
+      "challenge_time": "Tid",
+      "challenge_again": "Igen",
+      "challenge_correct": "Rätt!",
+      "challenge_wrong": "Fel.",
+      "challenge_time_up": "Tiden är ute!",
       "challenge_done": "Klart!"
     }
   },

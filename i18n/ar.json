@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "محوّل وحدات الحرارة",
       "description": "تحويل الحرارة بين مئوية وفهرنهايت وكلفن — مع لعبة تحدّي التحويل والمؤقت والنقاط."
+    },
+    "mental-math-challenge": {
+      "name": "تحدي الحساب الذهني السريع",
+      "description": "جمع وطرح وضرب وقسمة ذهنيًا مع حيل سريعة — تدرّب، وحطّم رقمك القياسي، واكسب نقاط XP."
     }
   },
   "tool_ui": {
@@ -250,6 +254,36 @@
       "challenge_wrong": "خطأ.",
       "challenge_time_up": "انتهى الوقت!",
       "challenge_done": "تم!"
+    },
+    "mental-math-challenge": {
+      "intro": "جمع وطرح وضرب وقسمة ذهنيًا مع حيل سريعة — تدرّب، وحطّم رقمك القياسي، واكسب نقاط XP.",
+      "practice_title": "تمرين",
+      "op_label": "العملية",
+      "level_label": "المستوى",
+      "level_easy": "سهل",
+      "level_medium": "متوسط",
+      "level_hard": "صعب",
+      "op_add": "جمع (+)",
+      "op_sub": "طرح (−)",
+      "op_mul": "ضرب (×)",
+      "op_div": "قسمة (÷)",
+      "op_mixed": "مختلط",
+      "new_question": "سؤال جديد",
+      "answer_label": "الإجابة",
+      "check": "تحقق",
+      "correct": "صحيح!",
+      "wrong": "خطأ.",
+      "shortcut_label": "الطريقة السريعة:",
+      "practice_streak": "إجابات صحيحة متتالية",
+      "challenge_title": "لعبة تحدي الحساب الذهني",
+      "challenge_intro": "١٠ أسئلة، ١٥ ثانية لكل سؤال؛ ١٥ نقطة لكل إجابة صحيحة — حطّم رقمك القياسي.",
+      "challenge_start": "ابدأ التحدي",
+      "challenge_time": "الوقت",
+      "challenge_again": "مرة أخرى",
+      "challenge_correct": "صحيح!",
+      "challenge_wrong": "خطأ.",
+      "challenge_time_up": "انتهى الوقت!",
+      "challenge_done": "انتهى!"
     }
   },
   "game": {

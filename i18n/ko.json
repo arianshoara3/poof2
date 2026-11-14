@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "온도 단위 변환기",
       "description": "섭씨, 화씨, 켈빈 간 온도 변환——변환 챌린지 게임, 타이머, 포인트와 함께."
+    },
+    "mental-math-challenge": {
+      "name": "암산 속도 챌린지",
+      "description": "빠른 요령으로 암산 덧셈, 뺄셈, 곱셈, 나눗셈 — 연습하고, 기록을 깨고, XP를 받으세요."
     }
   },
   "tool_ui": {
@@ -246,6 +250,36 @@
       "challenge_start": "챌린지 시작",
       "challenge_time": "시간",
       "challenge_again": "다시",
+      "challenge_correct": "정답!",
+      "challenge_wrong": "오답.",
+      "challenge_time_up": "시간 종료!",
+      "challenge_done": "완료!"
+    },
+    "mental-math-challenge": {
+      "intro": "빠른 요령으로 암산 덧셈, 뺄셈, 곱셈, 나눗셈 — 연습하고, 기록을 깨고, XP를 받으세요.",
+      "practice_title": "연습",
+      "op_label": "연산",
+      "level_label": "난이도",
+      "level_easy": "쉬움",
+      "level_medium": "보통",
+      "level_hard": "어려움",
+      "op_add": "덧셈 (+)",
+      "op_sub": "뺄셈 (−)",
+      "op_mul": "곱셈 (×)",
+      "op_div": "나눗셈 (÷)",
+      "op_mixed": "혼합",
+      "new_question": "새 문제",
+      "answer_label": "답",
+      "check": "확인",
+      "correct": "정답!",
+      "wrong": "오답.",
+      "shortcut_label": "빠른 방법:",
+      "practice_streak": "연속 정답",
+      "challenge_title": "암산 챌린지 게임",
+      "challenge_intro": "10문제, 문제당 15초; 정답 1개당 15점 — 기록을 깨보세요.",
+      "challenge_start": "챌린지 시작",
+      "challenge_time": "시간",
+      "challenge_again": "다시 하기",
       "challenge_correct": "정답!",
       "challenge_wrong": "오답.",
       "challenge_time_up": "시간 종료!",

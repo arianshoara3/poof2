@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Bộ chuyển đổi đơn vị nhiệt độ",
       "description": "Chuyển đổi nhiệt độ giữa Celsius, Fahrenheit và Kelvin — với trò chơi thử thách chuyển đổi, bộ đếm giờ và điểm."
+    },
+    "mental-math-challenge": {
+      "name": "Thử thách tính nhẩm nhanh",
+      "description": "Cộng, trừ, nhân, chia nhẩm với các mẹo nhanh — luyện tập, phá kỷ lục của bạn, nhận XP."
     }
   },
   "tool_ui": {
@@ -243,6 +247,36 @@
       "unit_kelvin": "Kelvin (K)",
       "challenge_title": "Trò chơi thử thách chuyển đổi",
       "challenge_intro": "10 câu hỏi, mỗi câu 15 giây; 15 điểm cho mỗi câu đúng — phá kỷ lục của bạn.",
+      "challenge_start": "Bắt đầu thử thách",
+      "challenge_time": "Thời gian",
+      "challenge_again": "Chơi lại",
+      "challenge_correct": "Đúng!",
+      "challenge_wrong": "Sai.",
+      "challenge_time_up": "Hết giờ!",
+      "challenge_done": "Xong!"
+    },
+    "mental-math-challenge": {
+      "intro": "Cộng, trừ, nhân, chia nhẩm với các mẹo nhanh — luyện tập, phá kỷ lục của bạn, nhận XP.",
+      "practice_title": "Luyện tập",
+      "op_label": "Phép tính",
+      "level_label": "Cấp độ",
+      "level_easy": "Dễ",
+      "level_medium": "Trung bình",
+      "level_hard": "Khó",
+      "op_add": "Cộng (+)",
+      "op_sub": "Trừ (−)",
+      "op_mul": "Nhân (×)",
+      "op_div": "Chia (÷)",
+      "op_mixed": "Hỗn hợp",
+      "new_question": "Câu hỏi mới",
+      "answer_label": "Đáp án",
+      "check": "Kiểm tra",
+      "correct": "Đúng!",
+      "wrong": "Sai.",
+      "shortcut_label": "Cách nhanh:",
+      "practice_streak": "Câu trả lời đúng liên tiếp",
+      "challenge_title": "Trò chơi thử thách tính nhẩm",
+      "challenge_intro": "10 câu hỏi, 15 giây mỗi câu; 15 điểm cho mỗi câu đúng — phá kỷ lục của bạn.",
       "challenge_start": "Bắt đầu thử thách",
       "challenge_time": "Thời gian",
       "challenge_again": "Chơi lại",

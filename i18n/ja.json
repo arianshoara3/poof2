@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "温度単位変換機",
       "description": "摂氏、華氏、ケルビン間で温度を変換——変換チャレンジゲーム、タイマー、ポイント付き。"
+    },
+    "mental-math-challenge": {
+      "name": "暗算スピードチャレンジ",
+      "description": "速算テクニックで暗算の足し算・引き算・かけ算・わり算——練習して、記録を更新して、XPを稼ごう。"
     }
   },
   "tool_ui": {
@@ -250,6 +254,36 @@
       "challenge_wrong": "不正解。",
       "challenge_time_up": "時間切れ！",
       "challenge_done": "完了！"
+    },
+    "mental-math-challenge": {
+      "intro": "速算テクニックで暗算の足し算・引き算・かけ算・わり算——練習して、記録を更新して、XPを稼ごう。",
+      "practice_title": "練習",
+      "op_label": "演算",
+      "level_label": "レベル",
+      "level_easy": "かんたん",
+      "level_medium": "ふつう",
+      "level_hard": "むずかしい",
+      "op_add": "足し算 (+)",
+      "op_sub": "引き算 (−)",
+      "op_mul": "かけ算 (×)",
+      "op_div": "わり算 (÷)",
+      "op_mixed": "ミックス",
+      "new_question": "新しい問題",
+      "answer_label": "答え",
+      "check": "チェック",
+      "correct": "正解！",
+      "wrong": "不正解。",
+      "shortcut_label": "速算のコツ：",
+      "practice_streak": "連続正解数",
+      "challenge_title": "暗算チャレンジゲーム",
+      "challenge_intro": "10問、各15秒；正解1問で15ポイント——記録を更新しよう。",
+      "challenge_start": "チャレンジ開始",
+      "challenge_time": "時間",
+      "challenge_again": "もう一度",
+      "challenge_correct": "正解！",
+      "challenge_wrong": "不正解。",
+      "challenge_time_up": "時間切れ！",
+      "challenge_done": "終了！"
     }
   },
   "game": {

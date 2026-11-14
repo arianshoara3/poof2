@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Konwerter jednostek temperatury",
       "description": "Przeliczaj temperaturę między Celsjuszem, Fahrenheitem i kelwinami — z grą-wyzwaniem konwersji, timerem i punktami."
+    },
+    "mental-math-challenge": {
+      "name": "Wyzwanie szybkiego liczenia w pamięci",
+      "description": "Dodawanie, odejmowanie, mnożenie i dzielenie w pamięci ze szybkimi trikami — ćwicz, pobij swój rekord i zdobywaj XP."
     }
   },
   "tool_ui": {
@@ -243,6 +247,36 @@
       "unit_kelvin": "Kelwin (K)",
       "challenge_title": "Gra-wyzwanie konwersji",
       "challenge_intro": "10 pytań, po 15 sekund; 15 punktów za dobrą odpowiedź — pobij swój rekord.",
+      "challenge_start": "Rozpocznij wyzwanie",
+      "challenge_time": "Czas",
+      "challenge_again": "Jeszcze raz",
+      "challenge_correct": "Dobrze!",
+      "challenge_wrong": "Źle.",
+      "challenge_time_up": "Czas minął!",
+      "challenge_done": "Gotowe!"
+    },
+    "mental-math-challenge": {
+      "intro": "Dodawanie, odejmowanie, mnożenie i dzielenie w pamięci ze szybkimi trikami — ćwicz, pobij swój rekord i zdobywaj XP.",
+      "practice_title": "Ćwiczenie",
+      "op_label": "Działanie",
+      "level_label": "Poziom",
+      "level_easy": "Łatwy",
+      "level_medium": "Średni",
+      "level_hard": "Trudny",
+      "op_add": "Dodawanie (+)",
+      "op_sub": "Odejmowanie (−)",
+      "op_mul": "Mnożenie (×)",
+      "op_div": "Dzielenie (÷)",
+      "op_mixed": "Mieszane",
+      "new_question": "Nowe pytanie",
+      "answer_label": "Odpowiedź",
+      "check": "Sprawdź",
+      "correct": "Dobrze!",
+      "wrong": "Źle.",
+      "shortcut_label": "Szybki sposób:",
+      "practice_streak": "Poprawne odpowiedzi z rzędu",
+      "challenge_title": "Gra — wyzwanie liczenia w pamięci",
+      "challenge_intro": "10 pytań, 15 sekund na pytanie; 15 punktów za dobrą odpowiedź — pobij swój rekord.",
       "challenge_start": "Rozpocznij wyzwanie",
       "challenge_time": "Czas",
       "challenge_again": "Jeszcze raz",

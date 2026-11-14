@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "तापमान इकाई परिवर्तक",
       "description": "सेल्सियस, फ़ारेनहाइट और केल्विन के बीच तापमान बदलें — रूपांतरण चुनौती खेल, टाइमर और अंकों के साथ।"
+    },
+    "mental-math-challenge": {
+      "name": "मानसिक गणित गति चुनौती",
+      "description": "तेज़ तरकीबों के साथ मानसिक जोड़, घटाव, गुणा और भाग — अभ्यास करें, अपना रिकॉर्ड तोड़ें, XP कमाएँ।"
     }
   },
   "tool_ui": {
@@ -243,6 +247,36 @@
       "unit_kelvin": "केल्विन (K)",
       "challenge_title": "रूपांतरण चुनौती खेल",
       "challenge_intro": "10 प्रश्न, प्रत्येक 15 सेकंड; सही उत्तर पर 15 अंक — अपना रिकॉर्ड तोड़ें।",
+      "challenge_start": "चुनौती शुरू करें",
+      "challenge_time": "समय",
+      "challenge_again": "फिर से",
+      "challenge_correct": "सही!",
+      "challenge_wrong": "गलत।",
+      "challenge_time_up": "समय समाप्त!",
+      "challenge_done": "हो गया!"
+    },
+    "mental-math-challenge": {
+      "intro": "तेज़ तरकीबों के साथ मानसिक जोड़, घटाव, गुणा और भाग — अभ्यास करें, अपना रिकॉर्ड तोड़ें, XP कमाएँ।",
+      "practice_title": "अभ्यास",
+      "op_label": "संक्रिया",
+      "level_label": "स्तर",
+      "level_easy": "आसान",
+      "level_medium": "मध्यम",
+      "level_hard": "कठिन",
+      "op_add": "जोड़ (+)",
+      "op_sub": "घटाव (−)",
+      "op_mul": "गुणा (×)",
+      "op_div": "भाग (÷)",
+      "op_mixed": "मिश्रित",
+      "new_question": "नया प्रश्न",
+      "answer_label": "उत्तर",
+      "check": "जाँचें",
+      "correct": "सही!",
+      "wrong": "गलत।",
+      "shortcut_label": "तेज़ तरीका:",
+      "practice_streak": "लगातार सही उत्तर",
+      "challenge_title": "मानसिक गणित चुनौती खेल",
+      "challenge_intro": "10 प्रश्न, प्रत्येक के लिए 15 सेकंड; प्रत्येक सही उत्तर पर 15 अंक — अपना रिकॉर्ड तोड़ें।",
       "challenge_start": "चुनौती शुरू करें",
       "challenge_time": "समय",
       "challenge_again": "फिर से",

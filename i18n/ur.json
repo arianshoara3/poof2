@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "درجہ حرارت کی اکائیوں کا کنورٹر",
       "description": "سیلسیس، فارن ہائٹ اور کیلون کے درمیان درجہ حرارت بدلیں — تبدیلی کے چیلنج کھیل، ٹائمر اور پوائنٹس کے ساتھ۔"
+    },
+    "mental-math-challenge": {
+      "name": "ذہنی حساب کی رفتار چیلنج",
+      "description": "تیز ترکیبوں کے ساتھ ذہنی جمع، تفریق، ضرب اور تقسیم — مشق کریں، اپنا ریکارڈ توڑیں، XP کمائیں۔"
     }
   },
   "tool_ui": {
@@ -243,6 +247,36 @@
       "unit_kelvin": "کیلون (K)",
       "challenge_title": "تبدیلی کا چیلنج کھیل",
       "challenge_intro": "۱۰ سوالات، ہر سوال ۱۵ سیکنڈ؛ درست جواب پر ۱۵ پوائنٹس — اپنا ریکارڈ توڑیں۔",
+      "challenge_start": "چیلنج شروع کریں",
+      "challenge_time": "وقت",
+      "challenge_again": "دوبارہ",
+      "challenge_correct": "درست!",
+      "challenge_wrong": "غلط۔",
+      "challenge_time_up": "وقت ختم!",
+      "challenge_done": "ہو گیا!"
+    },
+    "mental-math-challenge": {
+      "intro": "تیز ترکیبوں کے ساتھ ذہنی جمع، تفریق، ضرب اور تقسیم — مشق کریں، اپنا ریکارڈ توڑیں، XP کمائیں۔",
+      "practice_title": "مشق",
+      "op_label": "عمل",
+      "level_label": "سطح",
+      "level_easy": "آسان",
+      "level_medium": "درمیانہ",
+      "level_hard": "مشکل",
+      "op_add": "جمع (+)",
+      "op_sub": "تفریق (−)",
+      "op_mul": "ضرب (×)",
+      "op_div": "تقسیم (÷)",
+      "op_mixed": "مخلوط",
+      "new_question": "نیا سوال",
+      "answer_label": "جواب",
+      "check": "جانچیں",
+      "correct": "درست!",
+      "wrong": "غلط۔",
+      "shortcut_label": "تیز طریقہ:",
+      "practice_streak": "مسلسل درست جوابات",
+      "challenge_title": "ذہنی حساب چیلنج گیم",
+      "challenge_intro": "۱۰ سوالات، ہر سوال کے لیے ۱۵ سیکنڈ؛ ہر درست جواب پر ۱۵ پوائنٹس — اپنا ریکارڈ توڑیں۔",
       "challenge_start": "چیلنج شروع کریں",
       "challenge_time": "وقت",
       "challenge_again": "دوبارہ",

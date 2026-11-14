@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "تبدیل واحد دما",
       "description": "تبدیل دما بین سلسیوس، فارنهایت و کلوین — با بازی چالش تبدیل، تایمر و امتیاز."
+    },
+    "mental-math-challenge": {
+      "name": "چالش محاسبه‌ی سریع ذهنی",
+      "description": "جمع، تفریق، ضرب و تقسیم ذهنی با ترفندهای سریع — تمرین کن، رکورد بزن، XP بگیر."
     }
   },
   "tool_ui": {
@@ -242,6 +246,36 @@
       "unit_fahrenheit": "فارنهایت (°F)",
       "unit_kelvin": "کلوین (K)",
       "challenge_title": "بازی چالش تبدیل",
+      "challenge_intro": "۱۰ سؤال، هر سؤال ۱۵ ثانیه؛ هر جواب درست ۱۵ امتیاز — رکوردت را بشکن.",
+      "challenge_start": "شروع چالش",
+      "challenge_time": "زمان",
+      "challenge_again": "دوباره",
+      "challenge_correct": "درست!",
+      "challenge_wrong": "اشتباه شد.",
+      "challenge_time_up": "وقت تمام شد!",
+      "challenge_done": "تمام شد!"
+    },
+    "mental-math-challenge": {
+      "intro": "جمع، تفریق، ضرب و تقسیم ذهنی با ترفندهای سریع — تمرین کن، رکورد بزن، XP بگیر.",
+      "practice_title": "تمرین",
+      "op_label": "عمل",
+      "level_label": "سطح",
+      "level_easy": "آسان",
+      "level_medium": "متوسط",
+      "level_hard": "سخت",
+      "op_add": "جمع (+)",
+      "op_sub": "تفریق (−)",
+      "op_mul": "ضرب (×)",
+      "op_div": "تقسیم (÷)",
+      "op_mixed": "ترکیبی",
+      "new_question": "سؤال جدید",
+      "answer_label": "جواب",
+      "check": "بررسی",
+      "correct": "درست!",
+      "wrong": "اشتباه شد.",
+      "shortcut_label": "راه‌حل سریع:",
+      "practice_streak": "پاسخ‌های درست پی‌درپی",
+      "challenge_title": "بازی چالش محاسبه‌ی ذهنی",
       "challenge_intro": "۱۰ سؤال، هر سؤال ۱۵ ثانیه؛ هر جواب درست ۱۵ امتیاز — رکوردت را بشکن.",
       "challenge_start": "شروع چالش",
       "challenge_time": "زمان",

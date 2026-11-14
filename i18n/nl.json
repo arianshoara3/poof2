@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Temperatuureenhedenomzetter",
       "description": "Zet temperatuur om tussen Celsius, Fahrenheit en Kelvin — met een omzettingsuitdagingsspel, timer en punten."
+    },
+    "mental-math-challenge": {
+      "name": "Snelle hoofdreken-uitdaging",
+      "description": "Hoofdrekenen met optellen, aftrekken, vermenigvuldigen en delen met snelle trucs — oefen, verbreek je record en verdien XP."
     }
   },
   "tool_ui": {
@@ -247,6 +251,36 @@
       "challenge_time": "Tijd",
       "challenge_again": "Opnieuw",
       "challenge_correct": "Juist!",
+      "challenge_wrong": "Fout.",
+      "challenge_time_up": "Tijd om!",
+      "challenge_done": "Klaar!"
+    },
+    "mental-math-challenge": {
+      "intro": "Hoofdrekenen met optellen, aftrekken, vermenigvuldigen en delen met snelle trucs — oefen, verbreek je record en verdien XP.",
+      "practice_title": "Oefenen",
+      "op_label": "Bewerking",
+      "level_label": "Niveau",
+      "level_easy": "Makkelijk",
+      "level_medium": "Gemiddeld",
+      "level_hard": "Moeilijk",
+      "op_add": "Optellen (+)",
+      "op_sub": "Aftrekken (−)",
+      "op_mul": "Vermenigvuldigen (×)",
+      "op_div": "Delen (÷)",
+      "op_mixed": "Gemengd",
+      "new_question": "Nieuwe vraag",
+      "answer_label": "Antwoord",
+      "check": "Controleren",
+      "correct": "Goed!",
+      "wrong": "Fout.",
+      "shortcut_label": "Snelle manier:",
+      "practice_streak": "Goede antwoorden op rij",
+      "challenge_title": "Hoofdreken-uitdagingsspel",
+      "challenge_intro": "10 vragen, 15 seconden per vraag; 15 punten per goed antwoord — verbreek je record.",
+      "challenge_start": "Start de uitdaging",
+      "challenge_time": "Tijd",
+      "challenge_again": "Opnieuw",
+      "challenge_correct": "Goed!",
       "challenge_wrong": "Fout.",
       "challenge_time_up": "Tijd om!",
       "challenge_done": "Klaar!"

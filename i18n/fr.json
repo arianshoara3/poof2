@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Convertisseur d'unités de température",
       "description": "Convertir la température entre Celsius, Fahrenheit et Kelvin — avec un jeu de défi de conversion, un minuteur et des points."
+    },
+    "mental-math-challenge": {
+      "name": "Défi de calcul mental rapide",
+      "description": "Addition, soustraction, multiplication et division de tête avec des astuces rapides — entraîne-toi, bats ton record, gagne des XP."
     }
   },
   "tool_ui": {
@@ -243,6 +247,36 @@
       "unit_kelvin": "Kelvin (K)",
       "challenge_title": "Jeu de défi de conversion",
       "challenge_intro": "10 questions, 15 secondes chacune ; 15 points par bonne réponse — battez votre record.",
+      "challenge_start": "Commencer le défi",
+      "challenge_time": "Temps",
+      "challenge_again": "Encore",
+      "challenge_correct": "Correct !",
+      "challenge_wrong": "Faux.",
+      "challenge_time_up": "Temps écoulé !",
+      "challenge_done": "Terminé !"
+    },
+    "mental-math-challenge": {
+      "intro": "Addition, soustraction, multiplication et division de tête avec des astuces rapides — entraîne-toi, bats ton record, gagne des XP.",
+      "practice_title": "Entraînement",
+      "op_label": "Opération",
+      "level_label": "Niveau",
+      "level_easy": "Facile",
+      "level_medium": "Moyen",
+      "level_hard": "Difficile",
+      "op_add": "Addition (+)",
+      "op_sub": "Soustraction (−)",
+      "op_mul": "Multiplication (×)",
+      "op_div": "Division (÷)",
+      "op_mixed": "Mixte",
+      "new_question": "Nouvelle question",
+      "answer_label": "Réponse",
+      "check": "Vérifier",
+      "correct": "Correct !",
+      "wrong": "Faux.",
+      "shortcut_label": "Astuce rapide :",
+      "practice_streak": "Bonnes réponses d'affilée",
+      "challenge_title": "Jeu de défi de calcul mental",
+      "challenge_intro": "10 questions, 15 secondes par question ; 15 points par bonne réponse — bats ton record.",
       "challenge_start": "Commencer le défi",
       "challenge_time": "Temps",
       "challenge_again": "Encore",

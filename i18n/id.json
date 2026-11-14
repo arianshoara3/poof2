@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "Konverter Satuan Suhu",
       "description": "Konversi suhu antara Celsius, Fahrenheit, dan Kelvin — dengan permainan tantangan konversi, pengatur waktu, dan poin."
+    },
+    "mental-math-challenge": {
+      "name": "Tantangan Berhitung Cepat",
+      "description": "Penjumlahan, pengurangan, perkalian, dan pembagian mental dengan trik cepat — berlatih, pecahkan rekormu, raih XP."
     }
   },
   "tool_ui": {
@@ -243,6 +247,36 @@
       "unit_kelvin": "Kelvin (K)",
       "challenge_title": "Permainan tantangan konversi",
       "challenge_intro": "10 soal, masing-masing 15 detik; 15 poin per jawaban benar — kalahkan rekormu.",
+      "challenge_start": "Mulai tantangan",
+      "challenge_time": "Waktu",
+      "challenge_again": "Lagi",
+      "challenge_correct": "Benar!",
+      "challenge_wrong": "Salah.",
+      "challenge_time_up": "Waktu habis!",
+      "challenge_done": "Selesai!"
+    },
+    "mental-math-challenge": {
+      "intro": "Penjumlahan, pengurangan, perkalian, dan pembagian mental dengan trik cepat — berlatih, pecahkan rekormu, raih XP.",
+      "practice_title": "Latihan",
+      "op_label": "Operasi",
+      "level_label": "Tingkat",
+      "level_easy": "Mudah",
+      "level_medium": "Sedang",
+      "level_hard": "Sulit",
+      "op_add": "Penjumlahan (+)",
+      "op_sub": "Pengurangan (−)",
+      "op_mul": "Perkalian (×)",
+      "op_div": "Pembagian (÷)",
+      "op_mixed": "Campuran",
+      "new_question": "Soal baru",
+      "answer_label": "Jawaban",
+      "check": "Periksa",
+      "correct": "Benar!",
+      "wrong": "Salah.",
+      "shortcut_label": "Cara cepat:",
+      "practice_streak": "Jawaban benar beruntun",
+      "challenge_title": "Permainan tantangan berhitung",
+      "challenge_intro": "10 soal, 15 detik per soal; 15 poin per jawaban benar — pecahkan rekormu.",
       "challenge_start": "Mulai tantangan",
       "challenge_time": "Waktu",
       "challenge_again": "Lagi",

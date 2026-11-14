@@ -74,6 +74,10 @@
     "temperature-converter": {
       "name": "温度单位换算器",
       "description": "在摄氏度、华氏度和开尔文之间换算温度——带换算挑战游戏、计时器和积分。"
+    },
+    "mental-math-challenge": {
+      "name": "心算速度挑战",
+      "description": "用速算技巧进行心算加减乘除——练习、打破纪录、赚取 XP。"
     }
   },
   "tool_ui": {
@@ -248,6 +252,36 @@
       "challenge_again": "再来一次",
       "challenge_correct": "答对了！",
       "challenge_wrong": "答错了。",
+      "challenge_time_up": "时间到！",
+      "challenge_done": "完成！"
+    },
+    "mental-math-challenge": {
+      "intro": "用速算技巧进行心算加减乘除——练习、打破纪录、赚取 XP。",
+      "practice_title": "练习",
+      "op_label": "运算",
+      "level_label": "难度",
+      "level_easy": "简单",
+      "level_medium": "中等",
+      "level_hard": "困难",
+      "op_add": "加法 (+)",
+      "op_sub": "减法 (−)",
+      "op_mul": "乘法 (×)",
+      "op_div": "除法 (÷)",
+      "op_mixed": "混合",
+      "new_question": "新题目",
+      "answer_label": "答案",
+      "check": "检查",
+      "correct": "正确！",
+      "wrong": "错误。",
+      "shortcut_label": "速算方法：",
+      "practice_streak": "连续答对",
+      "challenge_title": "心算挑战游戏",
+      "challenge_intro": "10 道题，每题 15 秒；答对一题 15 分——打破你的纪录。",
+      "challenge_start": "开始挑战",
+      "challenge_time": "时间",
+      "challenge_again": "再来一次",
+      "challenge_correct": "正确！",
+      "challenge_wrong": "错误。",
       "challenge_time_up": "时间到！",
       "challenge_done": "完成！"
     }

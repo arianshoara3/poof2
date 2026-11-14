@@ -213,7 +213,42 @@
    "unit_inch": "인치",
    "unit_foot": "피트",
    "unit_yard": "야드",
-   "unit_mile": "마일"
+   "unit_mile": "마일",
+   "challenge_title": "변환 챌린지",
+   "challenge_intro": "10문제, 문제당 15초; 정답마다 15 XP — 기록을 깨세요.",
+   "challenge_start": "챌린지 시작",
+   "challenge_time": "시간",
+   "challenge_again": "다시 하기",
+   "challenge_correct": "정답!",
+   "challenge_wrong": "틀렸습니다.",
+   "challenge_time_up": "시간 초과!",
+   "challenge_done": "완료!"
   }
+ },
+ "game": {
+  "level": "레벨",
+  "xp": "XP",
+  "streak": "연속",
+  "streak_days": "연속 일",
+  "today_mission": "오늘의 미션",
+  "continue": "계속하기",
+  "achievements": "업적",
+  "locked": "잠김",
+  "xp_to_next": "다음 레벨까지",
+  "mission_done": "미션 완료!",
+  "new_level": "새 레벨!",
+  "achievement_unlocked": "업적 달성!",
+  "theme_dark": "다크 모드",
+  "theme_light": "라이트 모드",
+  "tools_used": "사용한 도구",
+  "start": "시작",
+  "this_week": "이번 주",
+  "best_week": "최고의 주",
+  "score": "점수",
+  "best": "최고 기록",
+  "mission_m3tools": "서로 다른 도구 3개 열기",
+  "mission_m50xp": "오늘 50 XP 얻기",
+  "mission_mconverter": "변환 도구 열기",
+  "mission_mtext": "텍스트 도구 열기"
  }
 }

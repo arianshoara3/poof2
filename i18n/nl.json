@@ -213,7 +213,42 @@
    "unit_inch": "Inch",
    "unit_foot": "Voet",
    "unit_yard": "Yard",
-   "unit_mile": "Mijl"
+   "unit_mile": "Mijl",
+   "challenge_title": "Conversie-uitdaging",
+   "challenge_intro": "10 vragen, 15 seconden per vraag; elk goed antwoord is 15 XP — verbreek je record.",
+   "challenge_start": "Start de uitdaging",
+   "challenge_time": "Tijd",
+   "challenge_again": "Opnieuw",
+   "challenge_correct": "Goed!",
+   "challenge_wrong": "Fout.",
+   "challenge_time_up": "Tijd om!",
+   "challenge_done": "Klaar!"
   }
+ },
+ "game": {
+  "level": "Niveau",
+  "xp": "XP",
+  "streak": "Reeks",
+  "streak_days": "dagen op rij",
+  "today_mission": "Missie van vandaag",
+  "continue": "Doorgaan",
+  "achievements": "Prestaties",
+  "locked": "Vergrendeld",
+  "xp_to_next": "tot het volgende level",
+  "mission_done": "Missie voltooid!",
+  "new_level": "Nieuw level!",
+  "achievement_unlocked": "Prestatie ontgrendeld!",
+  "theme_dark": "Donkere modus",
+  "theme_light": "Lichte modus",
+  "tools_used": "Gebruikte tools",
+  "start": "Starten",
+  "this_week": "Deze week",
+  "best_week": "Beste week",
+  "score": "Score",
+  "best": "Beste",
+  "mission_m3tools": "Open 3 verschillende tools",
+  "mission_m50xp": "Verdien vandaag 50 XP",
+  "mission_mconverter": "Open een conversietool",
+  "mission_mtext": "Open een teksttool"
  }
 }

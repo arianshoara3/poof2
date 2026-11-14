@@ -10,11 +10,44 @@
 <header class="topbar">
   <div class="brand">POOF2</div>
   <div class="subtitle" data-i18n="ui.tagline">جعبه‌ابزار حرفه‌ای فارسی — ۹۰۰ ابزار در یک سایت</div>
+  <button id="themeToggle" class="theme-toggle" type="button" aria-label="حالت تیره" data-i18n-aria="game.theme_dark">🌙</button>
   <select id="langSelect" class="lang-select" aria-label="زبان" data-i18n-aria="ui.language"></select>
 </header>
 <main>
+  <section class="dash" id="dashboard" aria-label="داشبورد پیشرفت">
+    <div class="dash-card xp-card">
+      <div class="xp-head">
+        <span data-i18n="game.level">سطح</span>
+        <span class="level-num" id="levelNum">۱</span>
+        <span class="level-title" id="levelTitle"></span>
+      </div>
+      <div class="xp-bar-wrap"><div class="xp-bar" id="xpBar" style="width:0%"></div></div>
+      <p class="xp-text" id="xpText"></p>
+      <span class="league-chip" id="leagueChip"></span>
+    </div>
+    <div class="dash-card streak-card">
+      <div class="streak-flame" aria-hidden="true">🔥</div>
+      <div>
+        <span class="streak-num" id="streakNum">۰</span>
+        <span data-i18n="game.streak_days">روز پیاپی</span>
+        <p><span data-i18n="game.tools_used">ابزار استفاده‌شده</span>: <b id="toolsUsedNum">۰</b></p>
+      </div>
+    </div>
+    <div class="dash-card mission-card">
+      <h3 data-i18n="game.today_mission">مأموریت امروز</h3>
+      <p id="missionText"></p>
+      <div class="xp-bar-wrap"><div class="xp-bar" id="missionBar" style="width:0%"></div></div>
+      <p id="missionProgress"></p>
+    </div>
+    <div class="dash-card continue-card" id="continueCard" hidden>
+      <h3 data-i18n="game.continue">ادامه بده</h3>
+      <a id="continueLink" href="#"></a>
+    </div>
+  </section>
+  <p class="badges-title" data-i18n="game.achievements">دستاوردها</p>
+  <div class="badges" id="achievements" aria-label="دستاوردها"></div>
   <section class="hero">
-    <h1 data-i18n="ui.hero_title">هر ابزاری که لازم داری، همین‌جاست</h1>
+    <h1><span class="grad" data-i18n="ui.hero_title">هر ابزاری که لازم داری، همین‌جاست</span></h1>
     <p data-i18n="ui.hero_sub">بدون ثبت‌نام، بدون سرور، روی دستگاه خودت کار می‌کند.</p>
     <input id="search" type="search" placeholder="جست‌وجوی ابزار… مثلاً شمارنده کلمات" data-i18n-placeholder="ui.search_placeholder" aria-label="جست‌وجوی ابزار" data-i18n-aria="ui.search_aria">
     <div class="progress">
@@ -29,7 +62,9 @@
 <footer>
   <p id="footerLine">POOF2 — ساخته‌شده توسط Muse · نسخه‌ی v0</p>
 </footer>
+<div class="toast" id="toast" hidden></div>
 <script src="i18n.js"></script>
+<script src="game.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

@@ -213,7 +213,42 @@
    "unit_inch": "İnç",
    "unit_foot": "Fit",
    "unit_yard": "Yarda",
-   "unit_mile": "Mil"
+   "unit_mile": "Mil",
+   "challenge_title": "Dönüştürme Yarışması",
+   "challenge_intro": "10 soru, her soru 15 saniye; her doğru cevap 15 puan — rekorunu kır.",
+   "challenge_start": "Yarışmayı başlat",
+   "challenge_time": "Süre",
+   "challenge_again": "Tekrar",
+   "challenge_correct": "Doğru!",
+   "challenge_wrong": "Yanlış.",
+   "challenge_time_up": "Süre doldu!",
+   "challenge_done": "Bitti!"
   }
+ },
+ "game": {
+  "level": "Seviye",
+  "xp": "Puan",
+  "streak": "Seri",
+  "streak_days": "gün üst üste",
+  "today_mission": "Bugünün görevi",
+  "continue": "Devam et",
+  "achievements": "Başarılar",
+  "locked": "Kilitli",
+  "xp_to_next": "sonraki seviyeye",
+  "mission_done": "Görev tamamlandı!",
+  "new_level": "Yeni seviye!",
+  "achievement_unlocked": "Başarı açıldı!",
+  "theme_dark": "Koyu mod",
+  "theme_light": "Açık mod",
+  "tools_used": "Kullanılan araçlar",
+  "start": "Başla",
+  "this_week": "Bu hafta",
+  "best_week": "En iyi hafta",
+  "score": "Skor",
+  "best": "En iyi",
+  "mission_m3tools": "3 farklı araç aç",
+  "mission_m50xp": "Bugün 50 puan kazan",
+  "mission_mconverter": "Bir dönüştürücü aç",
+  "mission_mtext": "Bir metin aracı aç"
  }
 }

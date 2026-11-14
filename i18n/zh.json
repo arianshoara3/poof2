@@ -213,7 +213,42 @@
    "unit_inch": "英寸",
    "unit_foot": "英尺",
    "unit_yard": "码",
-   "unit_mile": "英里"
+   "unit_mile": "英里",
+   "challenge_title": "换算挑战",
+   "challenge_intro": "10 道题，每题 15 秒；答对一题得 15 经验——打破你的纪录。",
+   "challenge_start": "开始挑战",
+   "challenge_time": "时间",
+   "challenge_again": "再来一次",
+   "challenge_correct": "答对了！",
+   "challenge_wrong": "答错了。",
+   "challenge_time_up": "时间到！",
+   "challenge_done": "完成！"
   }
+ },
+ "game": {
+  "level": "等级",
+  "xp": "经验",
+  "streak": "连胜",
+  "streak_days": "连续天数",
+  "today_mission": "今日任务",
+  "continue": "继续",
+  "achievements": "成就",
+  "locked": "未解锁",
+  "xp_to_next": "距下一级",
+  "mission_done": "任务完成！",
+  "new_level": "新等级！",
+  "achievement_unlocked": "新成就解锁！",
+  "theme_dark": "深色模式",
+  "theme_light": "浅色模式",
+  "tools_used": "已用工具",
+  "start": "开始",
+  "this_week": "本周",
+  "best_week": "最佳周",
+  "score": "得分",
+  "best": "最佳纪录",
+  "mission_m3tools": "打开 3 个不同的工具",
+  "mission_m50xp": "今天获得 50 经验",
+  "mission_mconverter": "打开一个换算工具",
+  "mission_mtext": "打开一个文本工具"
  }
 }

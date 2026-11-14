@@ -213,7 +213,42 @@
    "unit_inch": "Cal",
    "unit_foot": "Stopa",
    "unit_yard": "Jard",
-   "unit_mile": "Mila"
+   "unit_mile": "Mila",
+   "challenge_title": "Wyzwanie konwersji",
+   "challenge_intro": "10 pytań, po 15 sekund; każda dobra odpowiedź to 15 pkt — pobij swój rekord.",
+   "challenge_start": "Rozpocznij wyzwanie",
+   "challenge_time": "Czas",
+   "challenge_again": "Jeszcze raz",
+   "challenge_correct": "Dobrze!",
+   "challenge_wrong": "Źle.",
+   "challenge_time_up": "Czas minął!",
+   "challenge_done": "Gotowe!"
   }
+ },
+ "game": {
+  "level": "Poziom",
+  "xp": "Punkty",
+  "streak": "Seria",
+  "streak_days": "dni z rzędu",
+  "today_mission": "Dzisiejsza misja",
+  "continue": "Kontynuuj",
+  "achievements": "Osiągnięcia",
+  "locked": "Zablokowane",
+  "xp_to_next": "do następnego poziomu",
+  "mission_done": "Misja wykonana!",
+  "new_level": "Nowy poziom!",
+  "achievement_unlocked": "Osiągnięcie odblokowane!",
+  "theme_dark": "Tryb ciemny",
+  "theme_light": "Tryb jasny",
+  "tools_used": "Użyte narzędzia",
+  "start": "Start",
+  "this_week": "W tym tygodniu",
+  "best_week": "Najlepszy tydzień",
+  "score": "Wynik",
+  "best": "Rekord",
+  "mission_m3tools": "Otwórz 3 różne narzędzia",
+  "mission_m50xp": "Zdobądź dziś 50 pkt",
+  "mission_mconverter": "Otwórz konwerter",
+  "mission_mtext": "Otwórz narzędzie tekstowe"
  }
 }

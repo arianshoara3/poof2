@@ -213,7 +213,42 @@
    "unit_inch": "Tum",
    "unit_foot": "Fot",
    "unit_yard": "Yard",
-   "unit_mile": "Mil"
+   "unit_mile": "Mil",
+   "challenge_title": "Omvandlingsutmaning",
+   "challenge_intro": "10 frågor, 15 sekunder per fråga; varje rätt svar ger 15 XP — slå ditt rekord.",
+   "challenge_start": "Starta utmaningen",
+   "challenge_time": "Tid",
+   "challenge_again": "Igen",
+   "challenge_correct": "Rätt!",
+   "challenge_wrong": "Fel.",
+   "challenge_time_up": "Tiden är ute!",
+   "challenge_done": "Klart!"
   }
+ },
+ "game": {
+  "level": "Nivå",
+  "xp": "XP",
+  "streak": "Svit",
+  "streak_days": "dagar i rad",
+  "today_mission": "Dagens uppdrag",
+  "continue": "Fortsätt",
+  "achievements": "Prestationer",
+  "locked": "Låst",
+  "xp_to_next": "till nästa nivå",
+  "mission_done": "Uppdrag klart!",
+  "new_level": "Ny nivå!",
+  "achievement_unlocked": "Prestation upplåst!",
+  "theme_dark": "Mörkt läge",
+  "theme_light": "Ljust läge",
+  "tools_used": "Använda verktyg",
+  "start": "Starta",
+  "this_week": "Denna vecka",
+  "best_week": "Bästa veckan",
+  "score": "Poäng",
+  "best": "Bästa",
+  "mission_m3tools": "Öppna 3 olika verktyg",
+  "mission_m50xp": "Tjäna 50 XP idag",
+  "mission_mconverter": "Öppna ett omvandlingsverktyg",
+  "mission_mtext": "Öppna ett textverktyg"
  }
 }

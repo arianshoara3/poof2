@@ -213,7 +213,42 @@
    "unit_inch": "インチ",
    "unit_foot": "フィート",
    "unit_yard": "ヤード",
-   "unit_mile": "マイル"
+   "unit_mile": "マイル",
+   "challenge_title": "変換チャレンジ",
+   "challenge_intro": "10問、各15秒。正解1つで15XP——記録を破ろう。",
+   "challenge_start": "チャレンジ開始",
+   "challenge_time": "時間",
+   "challenge_again": "もう一度",
+   "challenge_correct": "正解！",
+   "challenge_wrong": "不正解。",
+   "challenge_time_up": "時間切れ！",
+   "challenge_done": "完了！"
   }
+ },
+ "game": {
+  "level": "レベル",
+  "xp": "XP",
+  "streak": "ストリーク",
+  "streak_days": "連続日数",
+  "today_mission": "今日のミッション",
+  "continue": "続ける",
+  "achievements": "実績",
+  "locked": "ロック中",
+  "xp_to_next": "次のレベルまで",
+  "mission_done": "ミッション完了！",
+  "new_level": "新しいレベル！",
+  "achievement_unlocked": "実績解除！",
+  "theme_dark": "ダークモード",
+  "theme_light": "ライトモード",
+  "tools_used": "使ったツール",
+  "start": "はじめる",
+  "this_week": "今週",
+  "best_week": "ベストウィーク",
+  "score": "スコア",
+  "best": "ベスト",
+  "mission_m3tools": "3つの違うツールを開く",
+  "mission_m50xp": "今日50XPを稼ぐ",
+  "mission_mconverter": "変換ツールを開く",
+  "mission_mtext": "テキストツールを開く"
  }
 }

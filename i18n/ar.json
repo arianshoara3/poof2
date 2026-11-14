@@ -213,7 +213,42 @@
    "unit_inch": "بوصة",
    "unit_foot": "قدم",
    "unit_yard": "ياردة",
-   "unit_mile": "ميل"
+   "unit_mile": "ميل",
+   "challenge_title": "تحدي التحويل",
+   "challenge_intro": "١٠ أسئلة، ١٥ ثانية لكل سؤال؛ كل إجابة صحيحة ١٥ نقطة — حطم رقمك القياسي.",
+   "challenge_start": "ابدأ التحدي",
+   "challenge_time": "الوقت",
+   "challenge_again": "مرة أخرى",
+   "challenge_correct": "صحيح!",
+   "challenge_wrong": "خطأ.",
+   "challenge_time_up": "انتهى الوقت!",
+   "challenge_done": "انتهى!"
   }
+ },
+ "game": {
+  "level": "المستوى",
+  "xp": "نقاط",
+  "streak": "السلسلة",
+  "streak_days": "أيام متتالية",
+  "today_mission": "مهمة اليوم",
+  "continue": "متابعة",
+  "achievements": "الإنجازات",
+  "locked": "مقفل",
+  "xp_to_next": "إلى المستوى التالي",
+  "mission_done": "اكتملت المهمة!",
+  "new_level": "مستوى جديد!",
+  "achievement_unlocked": "إنجاز جديد!",
+  "theme_dark": "الوضع الداكن",
+  "theme_light": "الوضع الفاتح",
+  "tools_used": "الأدوات المستخدمة",
+  "start": "ابدأ",
+  "this_week": "هذا الأسبوع",
+  "best_week": "أفضل أسبوع",
+  "score": "النقاط",
+  "best": "الأفضل",
+  "mission_m3tools": "افتح ٣ أدوات مختلفة",
+  "mission_m50xp": "اكسب ٥٠ نقطة اليوم",
+  "mission_mconverter": "افتح أداة تحويل",
+  "mission_mtext": "افتح أداة نصية"
  }
 }

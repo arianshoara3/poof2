@@ -213,7 +213,42 @@
    "unit_inch": "इंच",
    "unit_foot": "फुट",
    "unit_yard": "गज",
-   "unit_mile": "मील"
+   "unit_mile": "मील",
+   "challenge_title": "रूपांतरण चुनौती",
+   "challenge_intro": "10 प्रश्न, प्रत्येक 15 सेकंड; हर सही उत्तर 15 अंक — अपना रिकॉर्ड तोड़ें।",
+   "challenge_start": "चुनौती शुरू करें",
+   "challenge_time": "समय",
+   "challenge_again": "फिर से",
+   "challenge_correct": "सही!",
+   "challenge_wrong": "गलत।",
+   "challenge_time_up": "समय समाप्त!",
+   "challenge_done": "पूरा हुआ!"
   }
+ },
+ "game": {
+  "level": "स्तर",
+  "xp": "अंक",
+  "streak": "स्ट्रीक",
+  "streak_days": "लगातार दिन",
+  "today_mission": "आज का मिशन",
+  "continue": "जारी रखें",
+  "achievements": "उपलब्धियां",
+  "locked": "लॉक्ड",
+  "xp_to_next": "अगले स्तर तक",
+  "mission_done": "मिशन पूरा!",
+  "new_level": "नया स्तर!",
+  "achievement_unlocked": "उपलब्धि अनलॉक!",
+  "theme_dark": "डार्क मोड",
+  "theme_light": "लाइट मोड",
+  "tools_used": "उपयोग किए गए टूल",
+  "start": "शुरू करें",
+  "this_week": "इस सप्ताह",
+  "best_week": "सर्वश्रेष्ठ सप्ताह",
+  "score": "स्कोर",
+  "best": "सर्वश्रेष्ठ",
+  "mission_m3tools": "3 अलग-अलग टूल खोलें",
+  "mission_m50xp": "आज 50 अंक कमाएं",
+  "mission_mconverter": "एक कन्वर्टर खोलें",
+  "mission_mtext": "एक टेक्स्ट टूल खोलें"
  }
 }

@@ -213,7 +213,42 @@
    "unit_inch": "Polegada",
    "unit_foot": "Pé",
    "unit_yard": "Jarda",
-   "unit_mile": "Milha"
+   "unit_mile": "Milha",
+   "challenge_title": "Desafio de conversão",
+   "challenge_intro": "10 perguntas, 15 segundos cada; cada acerto vale 15 XP — supere seu recorde.",
+   "challenge_start": "Começar o desafio",
+   "challenge_time": "Tempo",
+   "challenge_again": "De novo",
+   "challenge_correct": "Correto!",
+   "challenge_wrong": "Errado.",
+   "challenge_time_up": "Tempo esgotado!",
+   "challenge_done": "Feito!"
   }
+ },
+ "game": {
+  "level": "Nível",
+  "xp": "XP",
+  "streak": "Sequência",
+  "streak_days": "dias seguidos",
+  "today_mission": "Missão de hoje",
+  "continue": "Continuar",
+  "achievements": "Conquistas",
+  "locked": "Bloqueado",
+  "xp_to_next": "até o próximo nível",
+  "mission_done": "Missão cumprida!",
+  "new_level": "Novo nível!",
+  "achievement_unlocked": "Conquista desbloqueada!",
+  "theme_dark": "Modo escuro",
+  "theme_light": "Modo claro",
+  "tools_used": "Ferramentas usadas",
+  "start": "Começar",
+  "this_week": "Esta semana",
+  "best_week": "Melhor semana",
+  "score": "Pontuação",
+  "best": "Recorde",
+  "mission_m3tools": "Abra 3 ferramentas diferentes",
+  "mission_m50xp": "Ganhe 50 XP hoje",
+  "mission_mconverter": "Abra uma ferramenta de conversão",
+  "mission_mtext": "Abra uma ferramenta de texto"
  }
 }

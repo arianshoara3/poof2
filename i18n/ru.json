@@ -213,7 +213,42 @@
    "unit_inch": "Дюйм",
    "unit_foot": "Фут",
    "unit_yard": "Ярд",
-   "unit_mile": "Миля"
+   "unit_mile": "Миля",
+   "challenge_title": "Челлендж конвертации",
+   "challenge_intro": "10 вопросов, по 15 секунд; каждый верный ответ — 15 очков. Побей свой рекорд.",
+   "challenge_start": "Начать челлендж",
+   "challenge_time": "Время",
+   "challenge_again": "Ещё раз",
+   "challenge_correct": "Верно!",
+   "challenge_wrong": "Неверно.",
+   "challenge_time_up": "Время вышло!",
+   "challenge_done": "Готово!"
   }
+ },
+ "game": {
+  "level": "Уровень",
+  "xp": "Очки",
+  "streak": "Серия",
+  "streak_days": "дней подряд",
+  "today_mission": "Задание дня",
+  "continue": "Продолжить",
+  "achievements": "Достижения",
+  "locked": "Закрыто",
+  "xp_to_next": "до следующего уровня",
+  "mission_done": "Задание выполнено!",
+  "new_level": "Новый уровень!",
+  "achievement_unlocked": "Достижение открыто!",
+  "theme_dark": "Тёмная тема",
+  "theme_light": "Светлая тема",
+  "tools_used": "Использованные инструменты",
+  "start": "Начать",
+  "this_week": "На этой неделе",
+  "best_week": "Лучшая неделя",
+  "score": "Счёт",
+  "best": "Рекорд",
+  "mission_m3tools": "Откройте 3 разных инструмента",
+  "mission_m50xp": "Заработайте сегодня 50 очков",
+  "mission_mconverter": "Откройте конвертер",
+  "mission_mtext": "Откройте текстовый инструмент"
  }
 }

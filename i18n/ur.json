@@ -213,7 +213,42 @@
    "unit_inch": "انچ",
    "unit_foot": "فٹ",
    "unit_yard": "گز",
-   "unit_mile": "میل"
+   "unit_mile": "میل",
+   "challenge_title": "تبدیلی چیلنج",
+   "challenge_intro": "10 سوالات، ہر سوال 15 سیکنڈ؛ ہر درست جواب 15 پوائنٹس — اپنا ریکارڈ توڑیں۔",
+   "challenge_start": "چیلنج شروع کریں",
+   "challenge_time": "وقت",
+   "challenge_again": "دوبارہ",
+   "challenge_correct": "درست!",
+   "challenge_wrong": "غلط۔",
+   "challenge_time_up": "وقت ختم!",
+   "challenge_done": "مکمل!"
   }
+ },
+ "game": {
+  "level": "درجہ",
+  "xp": "پوائنٹس",
+  "streak": "سلسلہ",
+  "streak_days": "مسلسل دن",
+  "today_mission": "آج کا مشن",
+  "continue": "جاری رکھیں",
+  "achievements": "کارنامے",
+  "locked": "مقفل",
+  "xp_to_next": "اگلے درجے تک",
+  "mission_done": "مشن مکمل!",
+  "new_level": "نیا درجہ!",
+  "achievement_unlocked": "کارنامہ انلاک!",
+  "theme_dark": "ڈارک موڈ",
+  "theme_light": "لائٹ موڈ",
+  "tools_used": "استعمال شدہ ٹولز",
+  "start": "شروع کریں",
+  "this_week": "اس ہفتے",
+  "best_week": "بہترین ہفتہ",
+  "score": "اسکور",
+  "best": "بہترین",
+  "mission_m3tools": "3 مختلف ٹولز کھولیں",
+  "mission_m50xp": "آج 50 پوائنٹس حاصل کریں",
+  "mission_mconverter": "ایک کنورٹر کھولیں",
+  "mission_mtext": "ایک ٹیکسٹ ٹول کھولیں"
  }
 }

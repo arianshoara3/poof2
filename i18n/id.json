@@ -213,7 +213,42 @@
    "unit_inch": "Inci",
    "unit_foot": "Kaki",
    "unit_yard": "Yard",
-   "unit_mile": "Mil"
+   "unit_mile": "Mil",
+   "challenge_title": "Tantangan konversi",
+   "challenge_intro": "10 soal, 15 detik tiap soal; setiap jawaban benar 15 XP — kalahkan rekor Anda.",
+   "challenge_start": "Mulai tantangan",
+   "challenge_time": "Waktu",
+   "challenge_again": "Lagi",
+   "challenge_correct": "Benar!",
+   "challenge_wrong": "Salah.",
+   "challenge_time_up": "Waktu habis!",
+   "challenge_done": "Selesai!"
   }
+ },
+ "game": {
+  "level": "Level",
+  "xp": "Poin",
+  "streak": "Beruntun",
+  "streak_days": "hari berturut-turut",
+  "today_mission": "Misi hari ini",
+  "continue": "Lanjutkan",
+  "achievements": "Pencapaian",
+  "locked": "Terkunci",
+  "xp_to_next": "ke level berikutnya",
+  "mission_done": "Misi selesai!",
+  "new_level": "Level baru!",
+  "achievement_unlocked": "Pencapaian terbuka!",
+  "theme_dark": "Mode gelap",
+  "theme_light": "Mode terang",
+  "tools_used": "Alat yang digunakan",
+  "start": "Mulai",
+  "this_week": "Minggu ini",
+  "best_week": "Minggu terbaik",
+  "score": "Skor",
+  "best": "Terbaik",
+  "mission_m3tools": "Buka 3 alat berbeda",
+  "mission_m50xp": "Dapatkan 50 XP hari ini",
+  "mission_mconverter": "Buka alat konversi",
+  "mission_mtext": "Buka alat teks"
  }
 }

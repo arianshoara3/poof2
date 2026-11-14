@@ -213,7 +213,42 @@
    "unit_inch": "Inch",
    "unit_foot": "Foot",
    "unit_yard": "Yard",
-   "unit_mile": "Dặm"
+   "unit_mile": "Dặm",
+   "challenge_title": "Thử thách chuyển đổi",
+   "challenge_intro": "10 câu hỏi, mỗi câu 15 giây; mỗi câu đúng được 15 XP — phá kỷ lục của bạn.",
+   "challenge_start": "Bắt đầu thử thách",
+   "challenge_time": "Thời gian",
+   "challenge_again": "Chơi lại",
+   "challenge_correct": "Đúng!",
+   "challenge_wrong": "Sai.",
+   "challenge_time_up": "Hết giờ!",
+   "challenge_done": "Xong!"
   }
+ },
+ "game": {
+  "level": "Cấp độ",
+  "xp": "Điểm",
+  "streak": "Chuỗi",
+  "streak_days": "ngày liên tiếp",
+  "today_mission": "Nhiệm vụ hôm nay",
+  "continue": "Tiếp tục",
+  "achievements": "Thành tích",
+  "locked": "Đã khóa",
+  "xp_to_next": "đến cấp tiếp theo",
+  "mission_done": "Hoàn thành nhiệm vụ!",
+  "new_level": "Cấp độ mới!",
+  "achievement_unlocked": "Mở khóa thành tích!",
+  "theme_dark": "Chế độ tối",
+  "theme_light": "Chế độ sáng",
+  "tools_used": "Công cụ đã dùng",
+  "start": "Bắt đầu",
+  "this_week": "Tuần này",
+  "best_week": "Tuần tốt nhất",
+  "score": "Điểm số",
+  "best": "Kỷ lục",
+  "mission_m3tools": "Mở 3 công cụ khác nhau",
+  "mission_m50xp": "Kiếm 50 XP hôm nay",
+  "mission_mconverter": "Mở một công cụ chuyển đổi",
+  "mission_mtext": "Mở một công cụ văn bản"
  }
 }

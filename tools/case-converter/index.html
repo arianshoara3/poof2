@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل حروف بزرگ و کوچک انگلیسی — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+textarea {
+  width: 100%; min-height: 160px; padding: 14px;
+  border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; line-height: 1.9; font-family: inherit; resize: vertical;
+}
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #111; border-color: var(--accent); }
+a.back { color: var(--accent); text-decoration: none; }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۰۲ — متن و نوشتن</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1>تبدیل حروف بزرگ و کوچک انگلیسی</h1>
+  <p style="color:var(--muted)">متن انگلیسی را بنویس، یک حالت را انتخاب کن؛ تبدیل روی دستگاه خودت انجام می‌شود.</p>
+  <label for="input">متن ورودی</label>
+  <textarea id="input" placeholder="Type or paste English text here…"></textarea>
+  <div class="actions">
+    <button class="primary" data-mode="upper">همه بزرگ (UPPERCASE)</button>
+    <button data-mode="lower">همه کوچک (lowercase)</button>
+    <button data-mode="title">اول هر کلمه بزرگ (Title Case)</button>
+    <button data-mode="sentence">اول جمله بزرگ (Sentence case)</button>
+    <button data-mode="invert">برعکس کردن حروف</button>
+  </div>
+  <label for="output">نتیجه</label>
+  <textarea id="output" readonly placeholder="نتیجه اینجا می‌آید…"></textarea>
+  <div class="actions">
+    <button class="primary" id="copyBtn">کپی نتیجه</button>
+    <button id="clearBtn">پاک کردن</button>
+  </div>
+  <p id="copied" style="color:var(--accent)"></p>
+</main>
+<script src="tool.js"></script>
+</body>
+</html>

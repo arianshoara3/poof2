@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": "fa",
+    "name": "فارسی",
+    "dir": "rtl",
+    "locale": "fa-IR"
+  },
+  "ui": {
+    "tagline": "جعبه‌ابزار حرفه‌ای فارسی — ۹۰۰ ابزار در یک سایت",
+    "hero_title": "هر ابزاری که لازم داری، همین‌جاست",
+    "hero_sub": "بدون ثبت‌نام، بدون سرور، روی دستگاه خودت کار می‌کند.",
+    "search_placeholder": "جست‌وجوی ابزار… مثلاً شمارنده کلمات",
+    "search_aria": "جست‌وجوی ابزار",
+    "all": "همه",
+    "empty": "هنوز ابزاری اضافه نشده است. ابزار اول به‌زودی می‌آید.",
+    "tools_ready": "{count} از {total} ابزار آماده است — نسخه‌ی v{version}",
+    "footer_text": "POOF2 — ساخته‌شده توسط Muse · نسخه‌ی v{version}",
+    "back": "بازگشت به همه‌ی ابزارها",
+    "copy": "کپی",
+    "clear": "پاک کردن",
+    "copied": "کپی شد.",
+    "language": "زبان",
+    "tool_label": "ابزار"
+  },
+  "categories": {
+    "text": "متن و نوشتن",
+    "pdf": "PDF و فایل",
+    "image": "عکس و تصویر",
+    "audio": "صدا و ویدیو",
+    "finance": "محاسبه‌گر و مالی",
+    "converter": "تبدیل‌کننده و واحدها",
+    "dev": "توسعه‌دهنده و کد",
+    "health": "سلامت و بدن",
+    "business": "کسب‌وکار و بهره‌وری",
+    "language": "زبان"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "شمارنده‌ی کلمات و کاراکتر",
+      "description": "شمارش زنده‌ی کاراکتر، کلمه، جمله، پاراگراف و زمان خواندن — بدون ارسال متن به سرور."
+    },
+    "case-converter": {
+      "name": "تبدیل حروف بزرگ و کوچک انگلیسی",
+      "description": "تبدیل متن انگلیسی به حروف بزرگ، کوچک، Title Case، Sentence case و برعکس — روی دستگاه خودت."
+    },
+    "trim-spaces": {
+      "name": "حذف فاصله‌های اضافه",
+      "description": "تبدیل فاصله‌های چندتایی به یکی، مرتب کردن خط‌ها و حذف خط‌های خالی."
+    },
+    "text-to-slug": {
+      "name": "تبدیل متن به slug",
+      "description": "تبدیل عنوان به slug تمیز برای لینک، با جداکننده‌ی دلخواه."
+    }
+  },
+  "tool_ui": {
+    "word-counter": {
+      "intro": "متن را بنویس یا بچسبان؛ شمارش زنده و روی دستگاه خودت انجام می‌شود، چیزی به سرور فرستاده نمی‌شود.",
+      "input_placeholder": "متن را اینجا بنویسید…",
+      "chars_with_spaces": "کاراکتر (با فاصله)",
+      "chars_without_spaces": "کاراکتر (بدون فاصله)",
+      "words": "کلمه",
+      "sentences": "جمله",
+      "paragraphs": "پاراگراف",
+      "lines": "خط",
+      "reading_time": "زمان خواندن",
+      "reading_minutes": "{minutes} دقیقه",
+      "copy_text": "کپی متن"
+    },
+    "case-converter": {
+      "intro": "متن انگلیسی را بنویس، یک حالت را انتخاب کن؛ تبدیل روی دستگاه خودت انجام می‌شود.",
+      "input_label": "متن ورودی",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "همه بزرگ (UPPERCASE)",
+      "lower": "همه کوچک (lowercase)",
+      "title_case": "اول هر کلمه بزرگ (Title Case)",
+      "sentence_case": "اول جمله بزرگ (Sentence case)",
+      "invert": "برعکس کردن حروف",
+      "result_label": "نتیجه",
+      "result_placeholder": "نتیجه اینجا می‌آید…",
+      "copy_result": "کپی نتیجه"
+    },
+    "trim-spaces": {
+      "intro": "فاصله‌های چندتایی را به یکی تبدیل می‌کند و خط‌ها را مرتب می‌کند — روی دستگاه خودت.",
+      "trim_lines": "حذف فاصله اول و آخر هر خط",
+      "remove_empty": "حذف خط‌های خالی",
+      "clean": "تمیز کردن متن",
+      "stats": "قبل: {before} کاراکتر — بعد: {after} کاراکتر",
+      "input_label": "متن ورودی",
+      "input_placeholder": "متن را اینجا بنویسید…",
+      "result_label": "نتیجه",
+      "result_placeholder": "نتیجه اینجا می‌آید…",
+      "copy_result": "کپی نتیجه"
+    },
+    "text-to-slug": {
+      "intro": "عنوان را به یک slug تمیز برای لینک تبدیل می‌کند — روی دستگاه خودت.",
+      "title_label": "عنوان",
+      "input_placeholder": "مثلاً: آموزش زبان آلمانی برای مبتدیان",
+      "separator": "جداکننده:",
+      "hyphen": "- (خط تیره)",
+      "underscore": "_ (آندرلاین)",
+      "lowercase": "حروف انگلیسی کوچک",
+      "convert": "تبدیل به slug",
+      "copy_slug": "کپی slug",
+      "result_label": "نتیجه",
+      "result_placeholder": "نتیجه اینجا می‌آید…"
+    }
+  }
+}

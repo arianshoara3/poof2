@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": "vi",
+    "name": "Tiếng Việt",
+    "dir": "ltr",
+    "locale": "vi-VN"
+  },
+  "ui": {
+    "tagline": "Hộp công cụ trực tuyến chuyên nghiệp — 900 công cụ trong một trang web",
+    "hero_title": "Mọi công cụ bạn cần, ngay tại đây",
+    "hero_sub": "Không cần đăng ký, không cần máy chủ — mọi thứ chạy trên thiết bị của bạn.",
+    "search_placeholder": "Tìm kiếm công cụ… ví dụ: đếm từ",
+    "search_aria": "Tìm kiếm công cụ",
+    "all": "Tất cả",
+    "empty": "Chưa có công cụ nào được thêm. Công cụ đầu tiên sắp ra mắt.",
+    "tools_ready": "Đã sẵn sàng {count} trên {total} công cụ — phiên bản v{version}",
+    "footer_text": "POOF2 — Được tạo bởi Muse · Phiên bản v{version}",
+    "back": "Quay lại tất cả công cụ",
+    "copy": "Sao chép",
+    "clear": "Xóa",
+    "copied": "Đã sao chép.",
+    "language": "Ngôn ngữ",
+    "tool_label": "Công cụ"
+  },
+  "categories": {
+    "text": "Văn bản và Viết",
+    "pdf": "PDF và Tệp",
+    "image": "Ảnh và Hình ảnh",
+    "audio": "Âm thanh và Video",
+    "finance": "Máy tính và Tài chính",
+    "converter": "Bộ chuyển đổi và Đơn vị",
+    "dev": "Nhà phát triển và Mã",
+    "health": "Sức khỏe và Cơ thể",
+    "business": "Kinh doanh và Năng suất",
+    "language": "Ngôn ngữ"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "Bộ đếm từ và ký tự",
+      "description": "Đếm trực tiếp ký tự, từ, câu, đoạn văn và thời gian đọc — không gửi gì lên máy chủ."
+    },
+    "case-converter": {
+      "name": "Bộ chuyển đổi chữ hoa/chữ thường tiếng Anh",
+      "description": "Chuyển văn bản tiếng Anh sang chữ hoa, chữ thường, Title Case, Sentence case và ngược lại — trên thiết bị của bạn."
+    },
+    "trim-spaces": {
+      "name": "Xóa khoảng trắng thừa",
+      "description": "Gộp nhiều khoảng trắng thành một, sắp xếp các dòng và xóa dòng trống."
+    },
+    "text-to-slug": {
+      "name": "Văn bản thành slug",
+      "description": "Chuyển tiêu đề thành slug gọn gàng cho liên kết, với dấu phân cách tùy chọn."
+    }
+  },
+  "tool_ui": {
+    "word-counter": {
+      "intro": "Nhập hoặc dán văn bản của bạn; việc đếm diễn ra trực tiếp trên thiết bị của bạn — không gửi gì lên máy chủ.",
+      "input_placeholder": "Nhập văn bản của bạn tại đây…",
+      "chars_with_spaces": "Ký tự (có khoảng trắng)",
+      "chars_without_spaces": "Ký tự (không có khoảng trắng)",
+      "words": "Từ",
+      "sentences": "Câu",
+      "paragraphs": "Đoạn văn",
+      "lines": "Dòng",
+      "reading_time": "Thời gian đọc",
+      "reading_minutes": "{minutes} phút",
+      "copy_text": "Sao chép văn bản"
+    },
+    "case-converter": {
+      "intro": "Nhập văn bản tiếng Anh của bạn và chọn một kiểu; việc chuyển đổi diễn ra trên thiết bị của bạn.",
+      "input_label": "Văn bản đầu vào",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "Tất cả chữ hoa (UPPERCASE)",
+      "lower": "Tất cả chữ thường (lowercase)",
+      "title_case": "Viết hoa chữ cái đầu mỗi từ (Title Case)",
+      "sentence_case": "Viết hoa chữ cái đầu câu (Sentence case)",
+      "invert": "Đảo ngược chữ hoa/thường",
+      "result_label": "Kết quả",
+      "result_placeholder": "Kết quả sẽ xuất hiện tại đây…",
+      "copy_result": "Sao chép kết quả"
+    },
+    "trim-spaces": {
+      "intro": "Gộp nhiều khoảng trắng thành một và sắp xếp các dòng — trên thiết bị của bạn.",
+      "trim_lines": "Xóa khoảng trắng ở đầu và cuối mỗi dòng",
+      "remove_empty": "Xóa dòng trống",
+      "clean": "Dọn sạch văn bản",
+      "stats": "Trước: {before} ký tự — sau: {after} ký tự",
+      "input_label": "Văn bản đầu vào",
+      "input_placeholder": "Nhập văn bản của bạn tại đây…",
+      "result_label": "Kết quả",
+      "result_placeholder": "Kết quả sẽ xuất hiện tại đây…",
+      "copy_result": "Sao chép kết quả"
+    },
+    "text-to-slug": {
+      "intro": "Chuyển tiêu đề thành slug gọn gàng cho liên kết — trên thiết bị của bạn.",
+      "title_label": "Tiêu đề",
+      "input_placeholder": "ví dụ: tiếng Đức cho người mới bắt đầu",
+      "separator": "Dấu phân cách:",
+      "hyphen": "- (gạch nối)",
+      "underscore": "_ (gạch dưới)",
+      "lowercase": "Chữ cái tiếng Anh thường",
+      "convert": "Chuyển thành slug",
+      "copy_slug": "Sao chép slug",
+      "result_label": "Kết quả",
+      "result_placeholder": "Kết quả sẽ xuất hiện tại đây…"
+    }
+  }
+}

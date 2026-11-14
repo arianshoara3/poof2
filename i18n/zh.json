@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": "zh",
+    "name": "中文",
+    "dir": "ltr",
+    "locale": "zh-CN"
+  },
+  "ui": {
+    "tagline": "专业在线工具箱——一个网站，900 种工具",
+    "hero_title": "你需要的每一种工具，都在这里",
+    "hero_sub": "无需注册，无需服务器——一切都在您自己的设备上运行。",
+    "search_placeholder": "搜索工具……例如：字数统计",
+    "search_aria": "搜索工具",
+    "all": "全部",
+    "empty": "尚未添加任何工具。第一个工具即将推出。",
+    "tools_ready": "已就绪 {count} / 共 {total} 个工具——版本 v{version}",
+    "footer_text": "POOF2 — 由 Muse 打造 · 版本 v{version}",
+    "back": "返回全部工具",
+    "copy": "复制",
+    "clear": "清除",
+    "copied": "已复制。",
+    "language": "语言",
+    "tool_label": "工具"
+  },
+  "categories": {
+    "text": "文本与写作",
+    "pdf": "PDF 与文件",
+    "image": "图片与图像",
+    "audio": "音频与视频",
+    "finance": "计算器与金融",
+    "converter": "转换器与单位",
+    "dev": "开发者与代码",
+    "health": "健康与身体",
+    "business": "商务与效率",
+    "language": "语言"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "字词与字符计数器",
+      "description": "实时统计字符、单词、句子、段落和阅读时间——不向服务器发送任何内容。"
+    },
+    "case-converter": {
+      "name": "英文大小写转换器",
+      "description": "将英文文本转换为大写、小写、标题式大小写、句首大写及反转——在您自己的设备上完成。"
+    },
+    "trim-spaces": {
+      "name": "删除多余空格",
+      "description": "将多个空格合并为一个，整理行并删除空行。"
+    },
+    "text-to-slug": {
+      "name": "文本转 Slug",
+      "description": "将标题转换为整洁的链接 slug，可自定义分隔符。"
+    }
+  },
+  "tool_ui": {
+    "word-counter": {
+      "intro": "输入或粘贴文本；统计实时进行且仅在您自己的设备上完成——不向服务器发送任何内容。",
+      "input_placeholder": "在此输入文本…",
+      "chars_with_spaces": "字符（含空格）",
+      "chars_without_spaces": "字符（不含空格）",
+      "words": "单词",
+      "sentences": "句子",
+      "paragraphs": "段落",
+      "lines": "行",
+      "reading_time": "阅读时间",
+      "reading_minutes": "{minutes} 分钟",
+      "copy_text": "复制文本"
+    },
+    "case-converter": {
+      "intro": "输入英文文本并选择一种样式；转换在您自己的设备上完成。",
+      "input_label": "输入文本",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "全部大写 (UPPERCASE)",
+      "lower": "全部小写 (lowercase)",
+      "title_case": "每个单词首字母大写 (Title Case)",
+      "sentence_case": "句首字母大写 (Sentence case)",
+      "invert": "反转大小写",
+      "result_label": "结果",
+      "result_placeholder": "结果将显示在这里…",
+      "copy_result": "复制结果"
+    },
+    "trim-spaces": {
+      "intro": "将多个空格合并为一个并整理行——在您自己的设备上完成。",
+      "trim_lines": "删除每行开头和结尾的空格",
+      "remove_empty": "删除空行",
+      "clean": "清理文本",
+      "stats": "之前：{before} 个字符——之后：{after} 个字符",
+      "input_label": "输入文本",
+      "input_placeholder": "在此输入文本…",
+      "result_label": "结果",
+      "result_placeholder": "结果将显示在这里…",
+      "copy_result": "复制结果"
+    },
+    "text-to-slug": {
+      "intro": "将标题转换为整洁的链接 slug——在您自己的设备上完成。",
+      "title_label": "标题",
+      "input_placeholder": "例如：初学者德语",
+      "separator": "分隔符：",
+      "hyphen": "-（连字符）",
+      "underscore": "_（下划线）",
+      "lowercase": "英文字母小写",
+      "convert": "转换为 Slug",
+      "copy_slug": "复制 Slug",
+      "result_label": "结果",
+      "result_placeholder": "结果将显示在这里…"
+    }
+  }
+}

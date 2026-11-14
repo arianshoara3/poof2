@@ -28,29 +28,31 @@ a.back { color: var(--accent); text-decoration: none; }
 <body>
 <header class="topbar">
   <div class="brand">POOF2</div>
-  <div class="subtitle">ابزار ۰۰۳ — متن و نوشتن</div>
+  <div class="subtitle"><span data-i18n="ui.tool_label">ابزار</span> 003 — <span data-i18n="categories.text">متن و نوشتن</span></div>
+  <select class="lang-select" aria-label="زبان" data-i18n-aria="ui.language"></select>
 </header>
 <main class="tool">
-  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
-  <h1>حذف فاصله‌های اضافه</h1>
-  <p style="color:var(--muted)">فاصله‌های چندتایی را به یکی تبدیل می‌کند و خط‌ها را مرتب می‌کند — روی دستگاه خودت.</p>
-  <label for="input">متن ورودی</label>
-  <textarea id="input" placeholder="متن را اینجا بنویسید…"></textarea>
+  <p><a class="back" href="../../"><span class="back-arrow" aria-hidden="true">←</span> <span data-i18n="ui.back">بازگشت به همه‌ی ابزارها</span></a></p>
+  <h1 data-i18n="tools.trim-spaces.name">حذف فاصله‌های اضافه</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.trim-spaces.intro">فاصله‌های چندتایی را به یکی تبدیل می‌کند و خط‌ها را مرتب می‌کند — روی دستگاه خودت.</p>
+  <label for="input" data-i18n="tool_ui.trim-spaces.input_label">متن ورودی</label>
+  <textarea id="input" placeholder="متن را اینجا بنویسید…" data-i18n-placeholder="tool_ui.trim-spaces.input_placeholder"></textarea>
   <div class="opts">
-    <label><input type="checkbox" id="trimLines" checked> حذف فاصله اول و آخر هر خط</label>
-    <label><input type="checkbox" id="removeEmpty" checked> حذف خط‌های خالی</label>
+    <label><input type="checkbox" id="trimLines" checked> <span data-i18n="tool_ui.trim-spaces.trim_lines">حذف فاصله اول و آخر هر خط</span></label>
+    <label><input type="checkbox" id="removeEmpty" checked> <span data-i18n="tool_ui.trim-spaces.remove_empty">حذف خط‌های خالی</span></label>
   </div>
   <div class="actions">
-    <button class="primary" id="cleanBtn">تمیز کردن متن</button>
-    <button id="clearBtn">پاک کردن</button>
+    <button class="primary" id="cleanBtn" data-i18n="tool_ui.trim-spaces.clean">تمیز کردن متن</button>
+    <button id="clearBtn" data-i18n="ui.clear">پاک کردن</button>
   </div>
-  <label for="output">نتیجه — <span id="stats"></span></label>
-  <textarea id="output" readonly placeholder="نتیجه اینجا می‌آید…"></textarea>
+  <label for="output"><span data-i18n="tool_ui.trim-spaces.result_label">نتیجه</span> — <span id="stats"></span></label>
+  <textarea id="output" readonly placeholder="نتیجه اینجا می‌آید…" data-i18n-placeholder="tool_ui.trim-spaces.result_placeholder"></textarea>
   <div class="actions">
-    <button class="primary" id="copyBtn">کپی نتیجه</button>
+    <button class="primary" id="copyBtn" data-i18n="tool_ui.trim-spaces.copy_result">کپی نتیجه</button>
   </div>
   <p id="copied" style="color:var(--accent)"></p>
 </main>
+<script src="../../i18n.js"></script>
 <script src="tool.js"></script>
 </body>
 </html>

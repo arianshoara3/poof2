@@ -9,25 +9,27 @@
 <body>
 <header class="topbar">
   <div class="brand">POOF2</div>
-  <div class="subtitle">جعبه‌ابزار حرفه‌ای فارسی — ۹۰۰ ابزار در یک سایت</div>
+  <div class="subtitle" data-i18n="ui.tagline">جعبه‌ابزار حرفه‌ای فارسی — ۹۰۰ ابزار در یک سایت</div>
+  <select id="langSelect" class="lang-select" aria-label="زبان" data-i18n-aria="ui.language"></select>
 </header>
 <main>
   <section class="hero">
-    <h1>هر ابزاری که لازم داری، همین‌جاست</h1>
-    <p>بدون ثبت‌نام، بدون سرور، روی دستگاه خودت کار می‌کند.</p>
-    <input id="search" type="search" placeholder="جست‌وجوی ابزار… مثلاً شمارنده کلمات" aria-label="جست‌وجوی ابزار">
+    <h1 data-i18n="ui.hero_title">هر ابزاری که لازم داری، همین‌جاست</h1>
+    <p data-i18n="ui.hero_sub">بدون ثبت‌نام، بدون سرور، روی دستگاه خودت کار می‌کند.</p>
+    <input id="search" type="search" placeholder="جست‌وجوی ابزار… مثلاً شمارنده کلمات" data-i18n-placeholder="ui.search_placeholder" aria-label="جست‌وجوی ابزار" data-i18n-aria="ui.search_aria">
     <div class="progress">
       <div class="progress-bar" id="progressBar" style="width:0%"></div>
     </div>
-    <p class="count"><span id="toolCount">۰</span> از ۹۰۰ ابزار آماده است — نسخه‌ی <span id="version">v0</span></p>
+    <p class="count" id="countLine">۰ از ۹۰۰ ابزار آماده است — نسخه‌ی v0</p>
   </section>
   <nav class="categories" id="categories" aria-label="دسته‌ها"></nav>
   <section class="grid" id="toolsGrid" aria-live="polite"></section>
-  <p class="empty" id="emptyState">هنوز ابزاری اضافه نشده است. ابزار اول به‌زودی می‌آید.</p>
+  <p class="empty" id="emptyState" data-i18n="ui.empty">هنوز ابزاری اضافه نشده است. ابزار اول به‌زودی می‌آید.</p>
 </main>
 <footer>
-  <p>POOF2 — ساخته‌شده توسط Muse · نسخه‌ی <span id="versionFooter">v0</span></p>
+  <p id="footerLine">POOF2 — ساخته‌شده توسط Muse · نسخه‌ی v0</p>
 </footer>
+<script src="i18n.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

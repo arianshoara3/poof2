@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": "ar",
+    "name": "العربية",
+    "dir": "rtl",
+    "locale": "ar-EG"
+  },
+  "ui": {
+    "tagline": "صندوق أدوات احترافي على الإنترنت — 900 أداة في موقع واحد",
+    "hero_title": "كل أداة تحتاجها، هنا تمامًا",
+    "hero_sub": "بلا تسجيل، بلا خادم — كل شيء يعمل على جهازك.",
+    "search_placeholder": "ابحث عن أداة… مثل: عدّاد الكلمات",
+    "search_aria": "البحث عن أداة",
+    "all": "الكل",
+    "empty": "لم تتم إضافة أي أداة بعد. الأداة الأولى قادمة قريبًا.",
+    "tools_ready": "{count} من أصل {total} أداة جاهزة — الإصدار v{version}",
+    "footer_text": "POOF2 — صُنع بواسطة Muse · الإصدار v{version}",
+    "back": "العودة إلى جميع الأدوات",
+    "copy": "نسخ",
+    "clear": "مسح",
+    "copied": "تم النسخ.",
+    "language": "اللغة",
+    "tool_label": "أداة"
+  },
+  "categories": {
+    "text": "النص والكتابة",
+    "pdf": "PDF والملفات",
+    "image": "الصور والرسوم",
+    "audio": "الصوت والفيديو",
+    "finance": "الحاسبات والمالية",
+    "converter": "المحوّلات والوحدات",
+    "dev": "المطوّر والبرمجة",
+    "health": "الصحة والجسم",
+    "business": "الأعمال والإنتاجية",
+    "language": "اللغة"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "عدّاد الكلمات والأحرف",
+      "description": "عدّ حي للأحرف والكلمات والجمل والفقرات ووقت القراءة — دون إرسال أي نص إلى خادم."
+    },
+    "case-converter": {
+      "name": "محوّل حالة الأحرف الإنجليزية",
+      "description": "حوّل النص الإنجليزي إلى أحرف كبيرة أو صغيرة أو Title Case أو Sentence case والعكس — على جهازك."
+    },
+    "trim-spaces": {
+      "name": "إزالة المسافات الزائدة",
+      "description": "حوّل المسافات المتعددة إلى مسافة واحدة، ورتّب الأسطر واحذف الأسطر الفارغة."
+    },
+    "text-to-slug": {
+      "name": "تحويل النص إلى Slug",
+      "description": "حوّل العنوان إلى slug نظيف للروابط، مع الفاصل الذي تختاره."
+    }
+  },
+  "tool_ui": {
+    "word-counter": {
+      "intro": "اكتب نصك أو الصقه؛ العدّ مباشر وعلى جهازك — لا يُرسل شيء إلى خادم.",
+      "input_placeholder": "اكتب النص هنا…",
+      "chars_with_spaces": "الأحرف (مع المسافات)",
+      "chars_without_spaces": "الأحرف (بدون مسافات)",
+      "words": "الكلمات",
+      "sentences": "الجمل",
+      "paragraphs": "الفقرات",
+      "lines": "الأسطر",
+      "reading_time": "وقت القراءة",
+      "reading_minutes": "{minutes} دقيقة",
+      "copy_text": "نسخ النص"
+    },
+    "case-converter": {
+      "intro": "اكتب نصك الإنجليزي واختر نمطًا؛ يتم التحويل على جهازك.",
+      "input_label": "النص المُدخَل",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "كل الأحرف كبيرة (UPPERCASE)",
+      "lower": "كل الأحرف صغيرة (lowercase)",
+      "title_case": "أول كل كلمة كبير (Title Case)",
+      "sentence_case": "أول الجملة كبير (Sentence case)",
+      "invert": "عكس حالة الأحرف",
+      "result_label": "النتيجة",
+      "result_placeholder": "ستظهر النتيجة هنا…",
+      "copy_result": "نسخ النتيجة"
+    },
+    "trim-spaces": {
+      "intro": "يحوّل المسافات المتعددة إلى مسافة واحدة ويرتّب الأسطر — على جهازك.",
+      "trim_lines": "حذف المسافة من بداية كل سطر ونهايته",
+      "remove_empty": "حذف الأسطر الفارغة",
+      "clean": "تنظيف النص",
+      "stats": "قبل: {before} حرفًا — بعد: {after} حرفًا",
+      "input_label": "النص المُدخَل",
+      "input_placeholder": "اكتب النص هنا…",
+      "result_label": "النتيجة",
+      "result_placeholder": "ستظهر النتيجة هنا…",
+      "copy_result": "نسخ النتيجة"
+    },
+    "text-to-slug": {
+      "intro": "يحوّل العنوان إلى slug نظيف للروابط — على جهازك.",
+      "title_label": "العنوان",
+      "input_placeholder": "مثل: تعلّم الألمانية للمبتدئين",
+      "separator": "الفاصل:",
+      "hyphen": "- (شرطة)",
+      "underscore": "_ (شرطة سفلية)",
+      "lowercase": "الأحرف الإنجليزية الصغيرة",
+      "convert": "التحويل إلى slug",
+      "copy_slug": "نسخ الـ slug",
+      "result_label": "النتيجة",
+      "result_placeholder": "ستظهر النتيجة هنا…"
+    }
+  }
+}

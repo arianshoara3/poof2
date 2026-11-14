@@ -29,28 +29,30 @@ a.back { color: var(--accent); text-decoration: none; }
 <body>
 <header class="topbar">
   <div class="brand">POOF2</div>
-  <div class="subtitle">ابزار ۰۰۱ — متن و نوشتن</div>
+  <div class="subtitle"><span data-i18n="ui.tool_label">ابزار</span> 001 — <span data-i18n="categories.text">متن و نوشتن</span></div>
+  <select class="lang-select" aria-label="زبان" data-i18n-aria="ui.language"></select>
 </header>
 <main class="tool">
-  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
-  <h1>شمارنده‌ی کلمات و کاراکتر</h1>
-  <p style="color:var(--muted)">متن را بنویس یا بچسبان؛ شمارش زنده و روی دستگاه خودت انجام می‌شود، چیزی به سرور فرستاده نمی‌شود.</p>
-  <textarea id="input" placeholder="متن را اینجا بنویسید…"></textarea>
+  <p><a class="back" href="../../"><span class="back-arrow" aria-hidden="true">←</span> <span data-i18n="ui.back">بازگشت به همه‌ی ابزارها</span></a></p>
+  <h1 data-i18n="tools.word-counter.name">شمارنده‌ی کلمات و کاراکتر</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.word-counter.intro">متن را بنویس یا بچسبان؛ شمارش زنده و روی دستگاه خودت انجام می‌شود، چیزی به سرور فرستاده نمی‌شود.</p>
+  <textarea id="input" placeholder="متن را اینجا بنویسید…" data-i18n-placeholder="tool_ui.word-counter.input_placeholder"></textarea>
   <div class="stats">
-    <div class="stat"><b id="chars">۰</b><span>کاراکتر (با فاصله)</span></div>
-    <div class="stat"><b id="charsNoSpace">۰</b><span>کاراکتر (بدون فاصله)</span></div>
-    <div class="stat"><b id="words">۰</b><span>کلمه</span></div>
-    <div class="stat"><b id="sentences">۰</b><span>جمله</span></div>
-    <div class="stat"><b id="paragraphs">۰</b><span>پاراگراف</span></div>
-    <div class="stat"><b id="lines">۰</b><span>خط</span></div>
-    <div class="stat"><b id="reading">۰ دقیقه</b><span>زمان خواندن</span></div>
+    <div class="stat"><b id="chars">۰</b><span data-i18n="tool_ui.word-counter.chars_with_spaces">کاراکتر (با فاصله)</span></div>
+    <div class="stat"><b id="charsNoSpace">۰</b><span data-i18n="tool_ui.word-counter.chars_without_spaces">کاراکتر (بدون فاصله)</span></div>
+    <div class="stat"><b id="words">۰</b><span data-i18n="tool_ui.word-counter.words">کلمه</span></div>
+    <div class="stat"><b id="sentences">۰</b><span data-i18n="tool_ui.word-counter.sentences">جمله</span></div>
+    <div class="stat"><b id="paragraphs">۰</b><span data-i18n="tool_ui.word-counter.paragraphs">پاراگراف</span></div>
+    <div class="stat"><b id="lines">۰</b><span data-i18n="tool_ui.word-counter.lines">خط</span></div>
+    <div class="stat"><b id="reading">۰ دقیقه</b><span data-i18n="tool_ui.word-counter.reading_time">زمان خواندن</span></div>
   </div>
   <div class="actions">
-    <button class="primary" id="copyBtn">کپی متن</button>
-    <button id="clearBtn">پاک کردن</button>
+    <button class="primary" id="copyBtn" data-i18n="tool_ui.word-counter.copy_text">کپی متن</button>
+    <button id="clearBtn" data-i18n="ui.clear">پاک کردن</button>
   </div>
   <p id="copied" style="color:var(--accent)"></p>
 </main>
+<script src="../../i18n.js"></script>
 <script src="tool.js"></script>
 </body>
 </html>

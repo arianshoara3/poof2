@@ -1,4 +1,9 @@
-const fa = (n) => String(n).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
+/* Localized helpers: use POOF2I18N when its dictionary is loaded,
+   otherwise fall back to the original Persian strings. */
+const I18N = () => (window.POOF2I18N && window.POOF2I18N.ready) ? window.POOF2I18N : null;
+const fmtNum = (n) => { const i = I18N(); return i ? i.formatNumber(n) : String(n).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]); };
+const copiedMsg = () => { const i = I18N(); return i ? i.t("ui.copied") : "کپی شد."; };
+
 const input = document.getElementById("input");
 
 function update() {
@@ -10,13 +15,16 @@ function update() {
   const paragraphs = text.trim() ? text.split(/\n\s*\n/).filter((p) => p.trim()).length : 0;
   const lines = text ? text.split("\n").length : 0;
   const reading = Math.max(0, Math.ceil(words / 200));
-  document.getElementById("chars").textContent = fa(chars);
-  document.getElementById("charsNoSpace").textContent = fa(charsNoSpace);
-  document.getElementById("words").textContent = fa(words);
-  document.getElementById("sentences").textContent = fa(sentences);
-  document.getElementById("paragraphs").textContent = fa(paragraphs);
-  document.getElementById("lines").textContent = fa(lines);
-  document.getElementById("reading").textContent = fa(reading) + " دقیقه";
+  document.getElementById("chars").textContent = fmtNum(chars);
+  document.getElementById("charsNoSpace").textContent = fmtNum(charsNoSpace);
+  document.getElementById("words").textContent = fmtNum(words);
+  document.getElementById("sentences").textContent = fmtNum(sentences);
+  document.getElementById("paragraphs").textContent = fmtNum(paragraphs);
+  document.getElementById("lines").textContent = fmtNum(lines);
+  const i = I18N();
+  document.getElementById("reading").textContent = i
+    ? i.t("tool_ui.word-counter.reading_minutes", { minutes: fmtNum(reading) })
+    : fmtNum(reading) + " دقیقه";
 }
 
 input.addEventListener("input", update);
@@ -24,11 +32,12 @@ document.getElementById("clearBtn").onclick = () => { input.value = ""; update()
 document.getElementById("copyBtn").onclick = async () => {
   try {
     await navigator.clipboard.writeText(input.value);
-    document.getElementById("copied").textContent = "کپی شد.";
+    document.getElementById("copied").textContent = copiedMsg();
   } catch (e) {
     input.select();
     document.execCommand("copy");
-    document.getElementById("copied").textContent = "کپی شد.";
+    document.getElementById("copied").textContent = copiedMsg();
   }
 };
+document.addEventListener("poof2:language-changed", update);
 update();

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": "es",
+    "name": "Español",
+    "dir": "ltr",
+    "locale": "es-ES"
+  },
+  "ui": {
+    "tagline": "Caja de herramientas profesional en línea — 900 herramientas en un solo sitio",
+    "hero_title": "Todas las herramientas que necesitas, justo aquí",
+    "hero_sub": "Sin registro, sin servidor: todo funciona en tu propio dispositivo.",
+    "search_placeholder": "Buscar herramientas… p. ej. contador de palabras",
+    "search_aria": "Buscar herramientas",
+    "all": "Todo",
+    "empty": "Aún no se ha añadido ninguna herramienta. La primera llegará pronto.",
+    "tools_ready": "{count} de {total} herramientas listas — versión v{version}",
+    "footer_text": "POOF2 — Creado por Muse · Versión v{version}",
+    "back": "Volver a todas las herramientas",
+    "copy": "Copiar",
+    "clear": "Limpiar",
+    "copied": "Copiado.",
+    "language": "Idioma",
+    "tool_label": "Herramienta"
+  },
+  "categories": {
+    "text": "Texto y escritura",
+    "pdf": "PDF y archivos",
+    "image": "Fotos e imágenes",
+    "audio": "Audio y vídeo",
+    "finance": "Calculadoras y finanzas",
+    "converter": "Conversores y unidades",
+    "dev": "Desarrollador y código",
+    "health": "Salud y cuerpo",
+    "business": "Negocios y productividad",
+    "language": "Idioma"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "Contador de palabras y caracteres",
+      "description": "Recuento en vivo de caracteres, palabras, oraciones, párrafos y tiempo de lectura — sin enviar nada a un servidor."
+    },
+    "case-converter": {
+      "name": "Conversor de mayúsculas y minúsculas en inglés",
+      "description": "Convierte texto en inglés a mayúsculas, minúsculas, Title Case, Sentence case y viceversa — en tu propio dispositivo."
+    },
+    "trim-spaces": {
+      "name": "Eliminar espacios extra",
+      "description": "Convierte varios espacios en uno, ordena las líneas y elimina las líneas vacías."
+    },
+    "text-to-slug": {
+      "name": "Texto a slug",
+      "description": "Convierte un título en un slug limpio para enlaces, con el separador que elijas."
+    }
+  },
+  "tool_ui": {
+    "word-counter": {
+      "intro": "Escribe o pega tu texto; el recuento es en vivo y en tu propio dispositivo — nada se envía a un servidor.",
+      "input_placeholder": "Escribe tu texto aquí…",
+      "chars_with_spaces": "Caracteres (con espacios)",
+      "chars_without_spaces": "Caracteres (sin espacios)",
+      "words": "Palabras",
+      "sentences": "Oraciones",
+      "paragraphs": "Párrafos",
+      "lines": "Líneas",
+      "reading_time": "Tiempo de lectura",
+      "reading_minutes": "{minutes} min",
+      "copy_text": "Copiar texto"
+    },
+    "case-converter": {
+      "intro": "Escribe tu texto en inglés y elige un estilo; la conversión se hace en tu propio dispositivo.",
+      "input_label": "Texto de entrada",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "Todo en mayúsculas (UPPERCASE)",
+      "lower": "Todo en minúsculas (lowercase)",
+      "title_case": "Primera letra de cada palabra en mayúscula (Title Case)",
+      "sentence_case": "Primera letra de la oración en mayúscula (Sentence case)",
+      "invert": "Invertir mayúsculas y minúsculas",
+      "result_label": "Resultado",
+      "result_placeholder": "El resultado aparecerá aquí…",
+      "copy_result": "Copiar resultado"
+    },
+    "trim-spaces": {
+      "intro": "Convierte varios espacios en uno y ordena las líneas — en tu propio dispositivo.",
+      "trim_lines": "Eliminar el espacio al inicio y al final de cada línea",
+      "remove_empty": "Eliminar líneas vacías",
+      "clean": "Limpiar texto",
+      "stats": "Antes: {before} caracteres — después: {after} caracteres",
+      "input_label": "Texto de entrada",
+      "input_placeholder": "Escribe tu texto aquí…",
+      "result_label": "Resultado",
+      "result_placeholder": "El resultado aparecerá aquí…",
+      "copy_result": "Copiar resultado"
+    },
+    "text-to-slug": {
+      "intro": "Convierte un título en un slug limpio para enlaces — en tu propio dispositivo.",
+      "title_label": "Título",
+      "input_placeholder": "p. ej.: alemán para principiantes",
+      "separator": "Separador:",
+      "hyphen": "- (guion)",
+      "underscore": "_ (guion bajo)",
+      "lowercase": "Letras inglesas en minúsculas",
+      "convert": "Convertir a slug",
+      "copy_slug": "Copiar slug",
+      "result_label": "Resultado",
+      "result_placeholder": "El resultado aparecerá aquí…"
+    }
+  }
+}

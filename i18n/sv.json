@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": "sv",
+    "name": "Svenska",
+    "dir": "ltr",
+    "locale": "sv-SE"
+  },
+  "ui": {
+    "tagline": "Professionell online verktygslåda — 900 verktyg på en webbplats",
+    "hero_title": "Alla verktyg du behöver, precis här",
+    "hero_sub": "Ingen registrering, ingen server — allt körs på din egen enhet.",
+    "search_placeholder": "Sök verktyg… t.ex. ordräknare",
+    "search_aria": "Sök verktyg",
+    "all": "Alla",
+    "empty": "Inga verktyg har lagts till ännu. Det första verktyget kommer snart.",
+    "tools_ready": "{count} av {total} verktyg klara — version v{version}",
+    "footer_text": "POOF2 — Byggt av Muse · Version v{version}",
+    "back": "Tillbaka till alla verktyg",
+    "copy": "Kopiera",
+    "clear": "Rensa",
+    "copied": "Kopierat.",
+    "language": "Språk",
+    "tool_label": "Verktyg"
+  },
+  "categories": {
+    "text": "Text och skrivande",
+    "pdf": "PDF och filer",
+    "image": "Foton och bilder",
+    "audio": "Ljud och video",
+    "finance": "Kalkylatorer och ekonomi",
+    "converter": "Omvandlare och enheter",
+    "dev": "Utvecklare och kod",
+    "health": "Hälsa och kropp",
+    "business": "Företag och produktivitet",
+    "language": "Språk"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "Ord- och teckenräknare",
+      "description": "Live-räkning av tecken, ord, meningar, stycken och lästid — ingenting skickas till en server."
+    },
+    "case-converter": {
+      "name": "Omvandlare för engelska gemener/versaler",
+      "description": "Omvandla engelsk text till versaler, gemener, Title Case, Sentence case och omvänt — på din egen enhet."
+    },
+    "trim-spaces": {
+      "name": "Ta bort extra mellanslag",
+      "description": "Gör flera mellanslag till ett, ordna raderna och ta bort tomma rader."
+    },
+    "text-to-slug": {
+      "name": "Text till slug",
+      "description": "Gör en rubrik till en ren slug för länkar, med valfri avgränsare."
+    }
+  },
+  "tool_ui": {
+    "word-counter": {
+      "intro": "Skriv eller klistra in din text; räkningen sker live på din egen enhet — ingenting skickas till en server.",
+      "input_placeholder": "Skriv din text här…",
+      "chars_with_spaces": "Tecken (med mellanslag)",
+      "chars_without_spaces": "Tecken (utan mellanslag)",
+      "words": "Ord",
+      "sentences": "Meningar",
+      "paragraphs": "Stycken",
+      "lines": "Rader",
+      "reading_time": "Lästid",
+      "reading_minutes": "{minutes} min",
+      "copy_text": "Kopiera text"
+    },
+    "case-converter": {
+      "intro": "Skriv din engelska text och välj en stil; omvandlingen sker på din egen enhet.",
+      "input_label": "Inmatningstext",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "Allt versaler (UPPERCASE)",
+      "lower": "Allt gemener (lowercase)",
+      "title_case": "Första bokstaven i varje ord versal (Title Case)",
+      "sentence_case": "Första bokstaven i meningen versal (Sentence case)",
+      "invert": "Invertera gemener/versaler",
+      "result_label": "Resultat",
+      "result_placeholder": "Resultatet visas här…",
+      "copy_result": "Kopiera resultat"
+    },
+    "trim-spaces": {
+      "intro": "Gör flera mellanslag till ett och ordnar raderna — på din egen enhet.",
+      "trim_lines": "Ta bort mellanslag i början och slutet av varje rad",
+      "remove_empty": "Ta bort tomma rader",
+      "clean": "Rensa text",
+      "stats": "Före: {before} tecken — efter: {after} tecken",
+      "input_label": "Inmatningstext",
+      "input_placeholder": "Skriv din text här…",
+      "result_label": "Resultat",
+      "result_placeholder": "Resultatet visas här…",
+      "copy_result": "Kopiera resultat"
+    },
+    "text-to-slug": {
+      "intro": "Gör en rubrik till en ren slug för länkar — på din egen enhet.",
+      "title_label": "Rubrik",
+      "input_placeholder": "t.ex. tyska för nybörjare",
+      "separator": "Avgränsare:",
+      "hyphen": "- (bindestreck)",
+      "underscore": "_ (understreck)",
+      "lowercase": "Engelska bokstäver gemener",
+      "convert": "Konvertera till slug",
+      "copy_slug": "Kopiera slug",
+      "result_label": "Resultat",
+      "result_placeholder": "Resultatet visas här…"
+    }
+  }
+}

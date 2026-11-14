@@ -1,3 +1,6 @@
+/* Localized "copied" message: POOF2I18N when loaded, else Persian. */
+const copiedMsg = () => (window.POOF2I18N && window.POOF2I18N.ready) ? window.POOF2I18N.t("ui.copied") : "کپی شد.";
+
 const input = document.getElementById("input");
 const output = document.getElementById("output");
 
@@ -16,10 +19,10 @@ document.getElementById("clearBtn").onclick = () => { input.value = ""; output.v
 document.getElementById("copyBtn").onclick = async () => {
   try {
     await navigator.clipboard.writeText(output.value);
-    document.getElementById("copied").textContent = "کپی شد.";
+    document.getElementById("copied").textContent = copiedMsg();
   } catch (e) {
     output.select();
     document.execCommand("copy");
-    document.getElementById("copied").textContent = "کپی شد.";
+    document.getElementById("copied").textContent = copiedMsg();
   }
 };

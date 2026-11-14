@@ -29,34 +29,36 @@ a.back { color: var(--accent); text-decoration: none; }
 <body>
 <header class="topbar">
   <div class="brand">POOF2</div>
-  <div class="subtitle">ابزار ۰۰۴ — متن و نوشتن</div>
+  <div class="subtitle"><span data-i18n="ui.tool_label">ابزار</span> 004 — <span data-i18n="categories.text">متن و نوشتن</span></div>
+  <select class="lang-select" aria-label="زبان" data-i18n-aria="ui.language"></select>
 </header>
 <main class="tool">
-  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
-  <h1>تبدیل متن به slug</h1>
-  <p style="color:var(--muted)">عنوان را به یک slug تمیز برای لینک تبدیل می‌کند — روی دستگاه خودت.</p>
-  <label for="input">عنوان</label>
-  <textarea id="input" placeholder="مثلاً: آموزش زبان آلمانی برای مبتدیان"></textarea>
+  <p><a class="back" href="../../"><span class="back-arrow" aria-hidden="true">←</span> <span data-i18n="ui.back">بازگشت به همه‌ی ابزارها</span></a></p>
+  <h1 data-i18n="tools.text-to-slug.name">تبدیل متن به slug</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.text-to-slug.intro">عنوان را به یک slug تمیز برای لینک تبدیل می‌کند — روی دستگاه خودت.</p>
+  <label for="input" data-i18n="tool_ui.text-to-slug.title_label">عنوان</label>
+  <textarea id="input" placeholder="مثلاً: آموزش زبان آلمانی برای مبتدیان" data-i18n-placeholder="tool_ui.text-to-slug.input_placeholder"></textarea>
   <div class="opts">
-    <label>جداکننده:
+    <label><span data-i18n="tool_ui.text-to-slug.separator">جداکننده:</span>
       <select id="sep" style="font-family:inherit;padding:4px 8px;border-radius:8px;">
-        <option value="-">- (خط تیره)</option>
-        <option value="_">_ (آندرلاین)</option>
+        <option value="-" data-i18n="tool_ui.text-to-slug.hyphen">- (خط تیره)</option>
+        <option value="_" data-i18n="tool_ui.text-to-slug.underscore">_ (آندرلاین)</option>
       </select>
     </label>
-    <label><input type="checkbox" id="lower" checked> حروف انگلیسی کوچک</label>
+    <label><input type="checkbox" id="lower" checked> <span data-i18n="tool_ui.text-to-slug.lowercase">حروف انگلیسی کوچک</span></label>
   </div>
   <div class="actions">
-    <button class="primary" id="convertBtn">تبدیل به slug</button>
-    <button id="clearBtn">پاک کردن</button>
+    <button class="primary" id="convertBtn" data-i18n="tool_ui.text-to-slug.convert">تبدیل به slug</button>
+    <button id="clearBtn" data-i18n="ui.clear">پاک کردن</button>
   </div>
-  <label for="output">slug</label>
-  <input type="text" id="output" readonly placeholder="slug اینجا می‌آید…">
+  <label for="output" data-i18n="tool_ui.text-to-slug.result_label">slug</label>
+  <input type="text" id="output" readonly placeholder="slug اینجا می‌آید…" data-i18n-placeholder="tool_ui.text-to-slug.result_placeholder">
   <div class="actions">
-    <button class="primary" id="copyBtn">کپی slug</button>
+    <button class="primary" id="copyBtn" data-i18n="tool_ui.text-to-slug.copy_slug">کپی slug</button>
   </div>
   <p id="copied" style="color:var(--accent)"></p>
 </main>
+<script src="../../i18n.js"></script>
 <script src="tool.js"></script>
 </body>
 </html>

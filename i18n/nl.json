@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "code": "nl",
+    "name": "Nederlands",
+    "dir": "ltr",
+    "locale": "nl-NL"
+  },
+  "ui": {
+    "tagline": "Professionele online gereedschapskist — 900 tools op één site",
+    "hero_title": "Elke tool die je nodig hebt, hier",
+    "hero_sub": "Geen registratie, geen server — alles draait op je eigen apparaat.",
+    "search_placeholder": "Zoek tools… bijv. woordenteller",
+    "search_aria": "Zoek tools",
+    "all": "Alle",
+    "empty": "Er zijn nog geen tools toegevoegd. De eerste tool komt binnenkort.",
+    "tools_ready": "{count} van de {total} tools klaar — versie v{version}",
+    "footer_text": "POOF2 — Gebouwd door Muse · Versie v{version}",
+    "back": "Terug naar alle tools",
+    "copy": "Kopiëren",
+    "clear": "Wissen",
+    "copied": "Gekopieerd.",
+    "language": "Taal",
+    "tool_label": "Tool"
+  },
+  "categories": {
+    "text": "Tekst en schrijven",
+    "pdf": "PDF en bestanden",
+    "image": "Foto's en afbeeldingen",
+    "audio": "Audio en video",
+    "finance": "Rekenmachines en financiën",
+    "converter": "Converters en eenheden",
+    "dev": "Ontwikkelaar en code",
+    "health": "Gezondheid en lichaam",
+    "business": "Bedrijf en productiviteit",
+    "language": "Taal"
+  },
+  "tools": {
+    "word-counter": {
+      "name": "Woorden- en tekenteller",
+      "description": "Live telling van tekens, woorden, zinnen, alinea's en leestijd — er wordt niets naar een server gestuurd."
+    },
+    "case-converter": {
+      "name": "Engelse hoofdletterconverter",
+      "description": "Zet Engelse tekst om naar hoofdletters, kleine letters, Title Case, Sentence case en omgekeerd — op je eigen apparaat."
+    },
+    "trim-spaces": {
+      "name": "Extra spaties verwijderen",
+      "description": "Zet meerdere spaties om in één, orden regels en verwijder lege regels."
+    },
+    "text-to-slug": {
+      "name": "Tekst naar slug",
+      "description": "Zet een titel om in een nette slug voor links, met het scheidingsteken van je keuze."
+    }
+  },
+  "tool_ui": {
+    "word-counter": {
+      "intro": "Typ of plak je tekst; de telling is live en op je eigen apparaat — er wordt niets naar een server gestuurd.",
+      "input_placeholder": "Typ hier je tekst…",
+      "chars_with_spaces": "Tekens (met spaties)",
+      "chars_without_spaces": "Tekens (zonder spaties)",
+      "words": "Woorden",
+      "sentences": "Zinnen",
+      "paragraphs": "Alinea's",
+      "lines": "Regels",
+      "reading_time": "Leestijd",
+      "reading_minutes": "{minutes} min",
+      "copy_text": "Tekst kopiëren"
+    },
+    "case-converter": {
+      "intro": "Schrijf je Engelse tekst en kies een stijl; de omzetting gebeurt op je eigen apparaat.",
+      "input_label": "Invoertekst",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "Alles hoofdletters (UPPERCASE)",
+      "lower": "Alles kleine letters (lowercase)",
+      "title_case": "Elk woord met hoofdletter (Title Case)",
+      "sentence_case": "Eerste letter van de zin hoofdletter (Sentence case)",
+      "invert": "Hoofdletters/kleine letters omkeren",
+      "result_label": "Resultaat",
+      "result_placeholder": "Het resultaat verschijnt hier…",
+      "copy_result": "Resultaat kopiëren"
+    },
+    "trim-spaces": {
+      "intro": "Zet meerdere spaties om in één en ordent regels — op je eigen apparaat.",
+      "trim_lines": "Spaties aan begin en einde van elke regel verwijderen",
+      "remove_empty": "Lege regels verwijderen",
+      "clean": "Tekst opschonen",
+      "stats": "Voor: {before} tekens — na: {after} tekens",
+      "input_label": "Invoertekst",
+      "input_placeholder": "Typ hier je tekst…",
+      "result_label": "Resultaat",
+      "result_placeholder": "Het resultaat verschijnt hier…",
+      "copy_result": "Resultaat kopiëren"
+    },
+    "text-to-slug": {
+      "intro": "Zet een titel om in een nette slug voor links — op je eigen apparaat.",
+      "title_label": "Titel",
+      "input_placeholder": "bijv. Duits voor beginners",
+      "separator": "Scheidingsteken:",
+      "hyphen": "- (koppelteken)",
+      "underscore": "_ (laag streepje)",
+      "lowercase": "Engelse letters klein",
+      "convert": "Omzetten naar slug",
+      "copy_slug": "Slug kopiëren",
+      "result_label": "Resultaat",
+      "result_placeholder": "Het resultaat verschijnt hier…"
+    }
+  }
+}

@@ -26,29 +26,31 @@ label { display: block; margin: 16px 0 6px; color: var(--muted); }
 <body>
 <header class="topbar">
   <div class="brand">POOF2</div>
-  <div class="subtitle">ابزار ۰۰۲ — متن و نوشتن</div>
+  <div class="subtitle"><span data-i18n="ui.tool_label">ابزار</span> 002 — <span data-i18n="categories.text">متن و نوشتن</span></div>
+  <select class="lang-select" aria-label="زبان" data-i18n-aria="ui.language"></select>
 </header>
 <main class="tool">
-  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
-  <h1>تبدیل حروف بزرگ و کوچک انگلیسی</h1>
-  <p style="color:var(--muted)">متن انگلیسی را بنویس، یک حالت را انتخاب کن؛ تبدیل روی دستگاه خودت انجام می‌شود.</p>
-  <label for="input">متن ورودی</label>
-  <textarea id="input" placeholder="Type or paste English text here…"></textarea>
+  <p><a class="back" href="../../"><span class="back-arrow" aria-hidden="true">←</span> <span data-i18n="ui.back">بازگشت به همه‌ی ابزارها</span></a></p>
+  <h1 data-i18n="tools.case-converter.name">تبدیل حروف بزرگ و کوچک انگلیسی</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.case-converter.intro">متن انگلیسی را بنویس، یک حالت را انتخاب کن؛ تبدیل روی دستگاه خودت انجام می‌شود.</p>
+  <label for="input" data-i18n="tool_ui.case-converter.input_label">متن ورودی</label>
+  <textarea id="input" placeholder="Type or paste English text here…" data-i18n-placeholder="tool_ui.case-converter.input_placeholder"></textarea>
   <div class="actions">
-    <button class="primary" data-mode="upper">همه بزرگ (UPPERCASE)</button>
-    <button data-mode="lower">همه کوچک (lowercase)</button>
-    <button data-mode="title">اول هر کلمه بزرگ (Title Case)</button>
-    <button data-mode="sentence">اول جمله بزرگ (Sentence case)</button>
-    <button data-mode="invert">برعکس کردن حروف</button>
+    <button class="primary" data-mode="upper" data-i18n="tool_ui.case-converter.upper">همه بزرگ (UPPERCASE)</button>
+    <button data-mode="lower" data-i18n="tool_ui.case-converter.lower">همه کوچک (lowercase)</button>
+    <button data-mode="title" data-i18n="tool_ui.case-converter.title_case">اول هر کلمه بزرگ (Title Case)</button>
+    <button data-mode="sentence" data-i18n="tool_ui.case-converter.sentence_case">اول جمله بزرگ (Sentence case)</button>
+    <button data-mode="invert" data-i18n="tool_ui.case-converter.invert">برعکس کردن حروف</button>
   </div>
-  <label for="output">نتیجه</label>
-  <textarea id="output" readonly placeholder="نتیجه اینجا می‌آید…"></textarea>
+  <label for="output" data-i18n="tool_ui.case-converter.result_label">نتیجه</label>
+  <textarea id="output" readonly placeholder="نتیجه اینجا می‌آید…" data-i18n-placeholder="tool_ui.case-converter.result_placeholder"></textarea>
   <div class="actions">
-    <button class="primary" id="copyBtn">کپی نتیجه</button>
-    <button id="clearBtn">پاک کردن</button>
+    <button class="primary" id="copyBtn" data-i18n="tool_ui.case-converter.copy_result">کپی نتیجه</button>
+    <button id="clearBtn" data-i18n="ui.clear">پاک کردن</button>
   </div>
   <p id="copied" style="color:var(--accent)"></p>
 </main>
+<script src="../../i18n.js"></script>
 <script src="tool.js"></script>
 </body>
 </html>

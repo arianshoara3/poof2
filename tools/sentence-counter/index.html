@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>شمارنده‌ی جملات و پاراگراف — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+textarea {
+  width: 100%; min-height: 180px; padding: 14px;
+  border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; line-height: 1.9; font-family: inherit; resize: vertical;
+}
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 16px 0; }
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; text-align: center; }
+.stat b { display: block; font-size: 28px; color: var(--accent); }
+.stat span { color: var(--muted); font-size: 14px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۰۵ — متن و نوشتن</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1>شمارنده‌ی جملات و پاراگراف</h1>
+  <p style="color:var(--muted)">به‌صورت زنده جمله، پاراگراف، کلمه و میانگین طول جمله را می‌شمارد — روی دستگاه خودت.</p>
+  <label for="input">متن</label>
+  <textarea id="input" placeholder="متن را اینجا بنویسید…"></textarea>
+  <div class="stats">
+    <div class="stat"><b id="sentences">۰</b><span>جمله</span></div>
+    <div class="stat"><b id="paragraphs">۰</b><span>پاراگراف</span></div>
+    <div class="stat"><b id="words">۰</b><span>کلمه</span></div>
+    <div class="stat"><b id="avg">۰</b><span>میانگین کلمه در جمله</span></div>
+  </div>
+  <div class="actions">
+    <button id="clearBtn">پاک کردن</button>
+    <button class="primary" id="copyBtn">کپی متن</button>
+  </div>
+  <p id="copied" style="color:var(--accent)"></p>
+</main>
+<script src="tool.js"></script>
+</body>
+</html>

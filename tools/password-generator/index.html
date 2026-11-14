@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ژنراتور رمز عبور قوی — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="range"] { width: 100%; max-width: 320px; }
+input[type="text"] {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 16px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+button:disabled { opacity: .55; cursor: default; }
+label { display: block; margin: 10px 0 6px; color: var(--muted); }
+label.check { display: flex; gap: 8px; align-items: center; margin: 6px 0; color: var(--text); cursor: pointer; }
+.pw-out { direction: ltr; text-align: left; font-family: ui-monospace, monospace; font-size: 17px; word-break: break-all; }
+.meter { height: 10px; border-radius: 99px; background: var(--border); overflow: hidden; margin: 8px 0; }
+.meter > div { height: 100%; width: 0; border-radius: 99px; transition: width .3s; }
+.meta { color: var(--muted); font-size: 15px; margin: 4px 0; }
+.meta b { color: var(--text); }
+.note { color: var(--muted); font-size: 13px; }
+.challenge-pw { direction: ltr; text-align: center; font-family: ui-monospace, monospace; font-size: 20px; font-weight: 700; word-break: break-all; margin: 12px 0; }
+.opts { display: flex; flex-direction: column; gap: 8px; margin: 12px 0; }
+.opts button { border-radius: 12px; padding: 12px 16px; text-align: start; }
+.opts button.pw-opt { direction: ltr; text-align: left; font-family: ui-monospace, monospace; word-break: break-all; }
+.opts button.correct { border-color: #2e7d32; background: #e6f4ea; }
+.opts button.wrong { border-color: #c0392b; background: #fdecea; }
+.feedback { min-height: 1.5em; margin: 8px 0; }
+.feedback.good { color: #2e7d32; }
+.feedback.bad { color: #c0392b; }
+.hint { color: var(--muted); font-size: 15px; margin: 8px 0; min-height: 1.5em; direction: ltr; text-align: start; }
+.timer { font-size: 18px; }
+.q { font-size: 20px; font-weight: 700; }
+.tips { margin: 8px 0; padding-inline-start: 20px; }
+.tips li { margin: 8px 0; line-height: 1.7; }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۱۵ — توسعه‌دهنده و کد</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../" data-i18n="ui.back">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1 data-i18n="tools.password-generator.name">ژنراتور رمز عبور قوی</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.password-generator.intro">رمز عبور قوی بساز، قدرتش را بسنج و با چالش، چشم‌ات را برای رمزهای ضعیف تیز کن.</p>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.password-generator.generator_title">ساخت رمز عبور</h2>
+    <label for="lengthRange"><span data-i18n="tool_ui.password-generator.length_label">طول رمز</span>: <b id="lengthValue">۱۶</b></label>
+    <input type="range" id="lengthRange" min="8" max="64" value="16" step="1">
+    <label class="check"><input type="checkbox" id="optLower" checked> <span data-i18n="tool_ui.password-generator.opt_lower">حروف کوچک (a–z)</span></label>
+    <label class="check"><input type="checkbox" id="optUpper" checked> <span data-i18n="tool_ui.password-generator.opt_upper">حروف بزرگ (A–Z)</span></label>
+    <label class="check"><input type="checkbox" id="optDigits" checked> <span data-i18n="tool_ui.password-generator.opt_digits">عدد (0–9)</span></label>
+    <label class="check"><input type="checkbox" id="optSymbols" checked> <span data-i18n="tool_ui.password-generator.opt_symbols">نماد (!@#$…)</span></label>
+    <label class="check"><input type="checkbox" id="optExclude"> <span data-i18n="tool_ui.password-generator.opt_exclude_ambiguous">حذف کاراکترهای شبیه‌به‌هم (0/O، 1/l)</span></label>
+    <div class="row">
+      <button class="primary" id="generateBtn" type="button" data-i18n="tool_ui.password-generator.generate">ساخت رمز</button>
+      <button id="regenerateBtn" type="button" data-i18n="tool_ui.password-generator.regenerate">رمز جدید</button>
+    </div>
+    <label for="passwordOut"><span data-i18n="tool_ui.password-generator.password_label">رمز عبور شما</span></label>
+    <input type="text" id="passwordOut" class="pw-out" readonly>
+    <div class="row">
+      <button id="copyBtn" type="button" data-i18n="tool_ui.password-generator.copy">کپی</button>
+      <span class="feedback" id="copyFeedback"></span>
+    </div>
+    <p class="feedback" id="genFeedback"></p>
+    <div class="meter" aria-hidden="true"><div id="strengthFill"></div></div>
+    <p class="meta"><span data-i18n="tool_ui.password-generator.strength_label">قدرت</span>: <b id="strengthLabel">—</b></p>
+    <p class="meta"><span data-i18n="tool_ui.password-generator.entropy_label">آنتروپی</span>: <b id="entropyOut">—</b></p>
+    <p class="meta"><span data-i18n="tool_ui.password-generator.crack_time_label">زمان تقریبی شکستن</span>: <b id="crackTimeOut">—</b></p>
+    <p class="note" data-i18n="tool_ui.password-generator.crack_time_note">تخمین است؛ حمله‌ی واقعی به روش و سخت‌افزار مهاجم بستگی دارد.</p>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.password-generator.passphrase_title">عبارت عبور (Passphrase)</h2>
+    <p style="color:var(--muted)" data-i18n="tool_ui.password-generator.passphrase_note">کلمه‌ها انگلیسی‌اند؛ چهار کلمه‌ی تصادفی که راحت به خاطر می‌ماند.</p>
+    <div class="row">
+      <button class="primary" id="passphraseBtn" type="button" data-i18n="tool_ui.password-generator.passphrase_generate">ساخت عبارت عبور</button>
+    </div>
+    <label for="passphraseOut"><span data-i18n="tool_ui.password-generator.passphrase_label">عبارت عبور شما</span></label>
+    <input type="text" id="passphraseOut" class="pw-out" readonly>
+    <div class="row">
+      <button id="passphraseCopyBtn" type="button" data-i18n="tool_ui.password-generator.copy">کپی</button>
+      <span class="feedback" id="passphraseFeedback"></span>
+    </div>
+    <p class="meta"><span id="passphraseStrength">—</span></p>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.password-generator.tips_title">چند نکته‌ی امنیتی</h2>
+    <ul class="tips">
+      <li data-i18n="tool_ui.password-generator.tip1">برای هر سایت یک رمز متفاوت بساز؛ تکرار رمز، یک نشت را به همه‌ی حساب‌هایت سرایت می‌دهد.</li>
+      <li data-i18n="tool_ui.password-generator.tip2">طول مهم‌ترین عامل است؛ هر کاراکتر اضافه، شکستن رمز را چند برابر سخت‌تر می‌کند.</li>
+      <li data-i18n="tool_ui.password-generator.tip3">رمزهایت را در یک مدیر رمز عبور نگه دار، نه در یادداشت یا فایل متنی.</li>
+      <li data-i18n="tool_ui.password-generator.tip4">هر جا ممکن است، احراز هویت دومرحله‌ای را فعال کن.</li>
+    </ul>
+  </div>
+
+  <div class="card challenge" id="challengeCard">
+    <h2 data-i18n="tool_ui.password-generator.challenge_title">بازی چالش رمز عبور</h2>
+    <p style="color:var(--muted)" data-i18n="tool_ui.password-generator.challenge_intro">۱۰ دور، هر دور ۱۵ ثانیه؛ قدرت رمز را درست حدس بزن یا قوی‌ترین رمز را پیدا کن.</p>
+    <p><span data-i18n="game.best">رکورد</span>: <b id="bestScore">۰</b> / ۱۰</p>
+    <button class="primary" id="challengeStart" type="button" data-i18n="tool_ui.password-generator.challenge_start">شروع چالش</button>
+    <div id="challengePlay" hidden>
+      <p class="timer"><span data-i18n="tool_ui.password-generator.challenge_time">زمان</span>: <b id="timeLeft">۱۵</b></p>
+      <p class="q" id="qText"></p>
+      <div class="opts" id="qOpts"></div>
+      <p class="feedback" id="qFeedback"></p>
+      <p class="hint" id="qHint"></p>
+      <p><span data-i18n="game.score">امتیاز</span>: <b id="qScore">۰</b> / ۱۰</p>
+    </div>
+    <p class="feedback" id="challengeDone" hidden></p>
+    <button id="challengeAgain" type="button" hidden data-i18n="tool_ui.password-generator.challenge_again">دوباره</button>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="../../game.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>محاسبه‌ی درصد و تخفیف — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+input[type="number"] {
+  padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; font-family: inherit; width: 180px;
+}
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 8px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin: 16px 0; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.result { font-size: 18px; margin: 8px 0; }
+.result b { color: var(--accent); }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۱۰ — محاسبه‌گر و مالی</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../" data-i18n="ui.back">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1 data-i18n="tools.percent-discount.name">محاسبه‌ی درصد و تخفیف</h1>
+  <p style="color:var(--muted)" data-i18n="tool_ui.percent-discount.intro">قیمت و درصد تخفیف را وارد کن؛ مبلغ تخفیف و قیمت نهایی را می‌بینی — روی دستگاه خودت.</p>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.percent-discount.discount_title">تخفیف از قیمت</h2>
+    <div class="row">
+      <label><span data-i18n="tool_ui.percent-discount.price_label">قیمت</span> <input type="number" id="price" value="100000" min="0" step="any"></label>
+      <label><span data-i18n="tool_ui.percent-discount.percent_label">درصد تخفیف</span> <input type="number" id="pct" value="20" min="0" max="100" step="any"> ٪</label>
+      <button class="primary" id="calcDiscount" data-i18n="tool_ui.percent-discount.calc">محاسبه</button>
+    </div>
+    <p class="result"><span data-i18n="tool_ui.percent-discount.discount_amount">مبلغ تخفیف</span>: <b id="discountAmt">—</b></p>
+    <p class="result"><span data-i18n="tool_ui.percent-discount.final_price">قیمت نهایی</span>: <b id="finalPrice">—</b></p>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.percent-discount.percent_of_title">درصد از یک عدد</h2>
+    <div class="row">
+      <input type="number" id="pct2" value="15" min="0" step="any"> ٪
+      <span data-i18n="tool_ui.percent-discount.of_label">از</span>
+      <input type="number" id="num2" value="200000" min="0" step="any">
+      <button class="primary" id="calcPercent" data-i18n="tool_ui.percent-discount.calc">محاسبه</button>
+    </div>
+    <p class="result"><span data-i18n="tool_ui.percent-discount.result">نتیجه</span>: <b id="percentOut">—</b></p>
+  </div>
+
+  <div class="card">
+    <h2 data-i18n="tool_ui.percent-discount.reverse_title">قیمت اصلی از قیمت بعد از تخفیف</h2>
+    <div class="row">
+      <label><span data-i18n="tool_ui.percent-discount.final_price">قیمت نهایی</span> <input type="number" id="final2" value="80000" min="0" step="any"></label>
+      <label><span data-i18n="tool_ui.percent-discount.percent_label">درصد تخفیف</span> <input type="number" id="pct3" value="20" min="0" max="100" step="any"> ٪</label>
+      <button class="primary" id="calcReverse" data-i18n="tool_ui.percent-discount.calc">محاسبه</button>
+    </div>
+    <p class="result"><span data-i18n="tool_ui.percent-discount.original_price">قیمت اصلی</span>: <b id="originalOut">—</b></p>
+  </div>
+</main>
+<script src="../../i18n.js"></script>
+<script src="tool.js"></script>
+</body>
+</html>

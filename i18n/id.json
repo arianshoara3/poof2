@@ -1,161 +1,179 @@
 {
- "meta": {
-  "code": "id",
-  "name": "Bahasa Indonesia",
-  "dir": "ltr",
-  "locale": "id-ID"
- },
- "ui": {
-  "tagline": "Kotak peralatan profesional daring — 900 alat dalam satu situs",
-  "hero_title": "Semua alat yang Anda butuhkan, tepat di sini",
-  "hero_sub": "Tanpa pendaftaran, tanpa server — semuanya berjalan di perangkat Anda sendiri.",
-  "search_placeholder": "Cari alat… mis. penghitung kata",
-  "search_aria": "Cari alat",
-  "all": "Semua",
-  "empty": "Belum ada alat yang ditambahkan. Alat pertama segera hadir.",
-  "tools_ready": "{count} dari {total} alat siap — versi v{version}",
-  "footer_text": "POOF2 — Dibangun oleh Muse · Versi v{version}",
-  "back": "Kembali ke semua alat",
-  "copy": "Salin",
-  "clear": "Bersihkan",
-  "copied": "Disalin.",
-  "language": "Bahasa",
-  "tool_label": "Alat"
- },
- "categories": {
-  "text": "Teks dan Penulisan",
-  "pdf": "PDF dan Berkas",
-  "image": "Foto dan Gambar",
-  "audio": "Audio dan Video",
-  "finance": "Kalkulator dan Keuangan",
-  "converter": "Konverter dan Satuan",
-  "dev": "Pengembang dan Kode",
-  "health": "Kesehatan dan Tubuh",
-  "business": "Bisnis dan Produktivitas",
-  "language": "Bahasa"
- },
- "tools": {
-  "word-counter": {
-   "name": "Penghitung Kata dan Karakter",
-   "description": "Hitungan langsung karakter, kata, kalimat, paragraf, dan waktu baca — tidak ada yang dikirim ke server."
+  "meta": {
+    "code": "id",
+    "name": "Bahasa Indonesia",
+    "dir": "ltr",
+    "locale": "id-ID"
   },
-  "case-converter": {
-   "name": "Pengubah Huruf Besar/Kecil Bahasa Inggris",
-   "description": "Ubah teks bahasa Inggris menjadi huruf besar, huruf kecil, Title Case, Sentence case, dan sebaliknya — di perangkat Anda sendiri."
+  "ui": {
+    "tagline": "Kotak peralatan profesional daring — 900 alat dalam satu situs",
+    "hero_title": "Semua alat yang Anda butuhkan, tepat di sini",
+    "hero_sub": "Tanpa pendaftaran, tanpa server — semuanya berjalan di perangkat Anda sendiri.",
+    "search_placeholder": "Cari alat… mis. penghitung kata",
+    "search_aria": "Cari alat",
+    "all": "Semua",
+    "empty": "Belum ada alat yang ditambahkan. Alat pertama segera hadir.",
+    "tools_ready": "{count} dari {total} alat siap — versi v{version}",
+    "footer_text": "POOF2 — Dibangun oleh Muse · Versi v{version}",
+    "back": "Kembali ke semua alat",
+    "copy": "Salin",
+    "clear": "Bersihkan",
+    "copied": "Disalin.",
+    "language": "Bahasa",
+    "tool_label": "Alat"
   },
-  "trim-spaces": {
-   "name": "Hapus Spasi Berlebih",
-   "description": "Ubah beberapa spasi menjadi satu, rapikan baris, dan hapus baris kosong."
+  "categories": {
+    "text": "Teks dan Penulisan",
+    "pdf": "PDF dan Berkas",
+    "image": "Foto dan Gambar",
+    "audio": "Audio dan Video",
+    "finance": "Kalkulator dan Keuangan",
+    "converter": "Konverter dan Satuan",
+    "dev": "Pengembang dan Kode",
+    "health": "Kesehatan dan Tubuh",
+    "business": "Bisnis dan Produktivitas",
+    "language": "Bahasa"
   },
-  "text-to-slug": {
-   "name": "Teks ke Slug",
-   "description": "Ubah judul menjadi slug yang rapi untuk tautan, dengan pemisah pilihan Anda."
+  "tools": {
+    "word-counter": {
+      "name": "Penghitung Kata dan Karakter",
+      "description": "Hitungan langsung karakter, kata, kalimat, paragraf, dan waktu baca — tidak ada yang dikirim ke server."
+    },
+    "case-converter": {
+      "name": "Pengubah Huruf Besar/Kecil Bahasa Inggris",
+      "description": "Ubah teks bahasa Inggris menjadi huruf besar, huruf kecil, Title Case, Sentence case, dan sebaliknya — di perangkat Anda sendiri."
+    },
+    "trim-spaces": {
+      "name": "Hapus Spasi Berlebih",
+      "description": "Ubah beberapa spasi menjadi satu, rapikan baris, dan hapus baris kosong."
+    },
+    "text-to-slug": {
+      "name": "Teks ke Slug",
+      "description": "Ubah judul menjadi slug yang rapi untuk tautan, dengan pemisah pilihan Anda."
+    },
+    "age-calculator": {
+      "name": "Kalkulator Usia Akurat",
+      "description": "Usia tepat dalam tahun, bulan, dan hari, hari yang telah dijalani, hari lahir, dan hari hingga ulang tahun berikutnya."
+    },
+    "bmi-calculator": {
+      "name": "Kalkulator BMI",
+      "description": "Indeks massa tubuh, kategori berat, rentang berat sehat untuk tinggi badan Anda, dan berapa banyak yang harus ditambah atau dikurangi — di perangkat Anda sendiri."
+    },
+    "percent-discount": {
+      "name": "Kalkulator Persen dan Diskon",
+      "description": "Jumlah diskon, harga akhir, persen dari suatu angka, dan harga asli dari harga diskon — di perangkatmu sendiri."
+    }
   },
-  "age-calculator": {
-   "name": "Kalkulator Usia Akurat",
-   "description": "Usia tepat dalam tahun, bulan, dan hari, hari yang telah dijalani, hari lahir, dan hari hingga ulang tahun berikutnya."
-  },
-  "bmi-calculator": {
-   "name": "Kalkulator BMI",
-   "description": "Indeks massa tubuh, kategori berat, rentang berat sehat untuk tinggi badan Anda, dan berapa banyak yang harus ditambah atau dikurangi — di perangkat Anda sendiri."
+  "tool_ui": {
+    "word-counter": {
+      "intro": "Tulis atau tempel teks Anda; penghitungan berlangsung langsung di perangkat Anda sendiri — tidak ada yang dikirim ke server.",
+      "input_placeholder": "Tulis teks Anda di sini…",
+      "chars_with_spaces": "Karakter (dengan spasi)",
+      "chars_without_spaces": "Karakter (tanpa spasi)",
+      "words": "Kata",
+      "sentences": "Kalimat",
+      "paragraphs": "Paragraf",
+      "lines": "Baris",
+      "reading_time": "Waktu baca",
+      "reading_minutes": "{minutes} mnt",
+      "copy_text": "Salin teks"
+    },
+    "case-converter": {
+      "intro": "Tulis teks bahasa Inggris Anda dan pilih gaya; konversi terjadi di perangkat Anda sendiri.",
+      "input_label": "Teks masukan",
+      "input_placeholder": "Type or paste English text here…",
+      "upper": "Semua huruf besar (UPPERCASE)",
+      "lower": "Semua huruf kecil (lowercase)",
+      "title_case": "Huruf pertama setiap kata besar (Title Case)",
+      "sentence_case": "Huruf pertama kalimat besar (Sentence case)",
+      "invert": "Balikkan huruf besar/kecil",
+      "result_label": "Hasil",
+      "result_placeholder": "Hasil akan muncul di sini…",
+      "copy_result": "Salin hasil"
+    },
+    "trim-spaces": {
+      "intro": "Mengubah beberapa spasi menjadi satu dan merapikan baris — di perangkat Anda sendiri.",
+      "trim_lines": "Hapus spasi di awal dan akhir setiap baris",
+      "remove_empty": "Hapus baris kosong",
+      "clean": "Bersihkan teks",
+      "stats": "Sebelum: {before} karakter — sesudah: {after} karakter",
+      "input_label": "Teks masukan",
+      "input_placeholder": "Tulis teks Anda di sini…",
+      "result_label": "Hasil",
+      "result_placeholder": "Hasil akan muncul di sini…",
+      "copy_result": "Salin hasil"
+    },
+    "text-to-slug": {
+      "intro": "Mengubah judul menjadi slug yang rapi untuk tautan — di perangkat Anda sendiri.",
+      "title_label": "Judul",
+      "input_placeholder": "mis. bahasa Jerman untuk pemula",
+      "separator": "Pemisah:",
+      "hyphen": "- (tanda hubung)",
+      "underscore": "_ (garis bawah)",
+      "lowercase": "Huruf Inggris kecil",
+      "convert": "Ubah ke slug",
+      "copy_slug": "Salin slug",
+      "result_label": "Hasil",
+      "result_placeholder": "Hasil akan muncul di sini…"
+    },
+    "age-calculator": {
+      "intro": "Masukkan tanggal lahir Anda dan lihat usia tepat Anda dalam tahun, bulan, dan hari, hari yang telah dijalani, serta hari yang tersisa hingga ulang tahun berikutnya — di perangkat Anda sendiri.",
+      "birth_label": "Tanggal lahir (Gregorian)",
+      "asof_label": "Hitung sampai",
+      "calc": "Hitung usia",
+      "years": "tahun",
+      "months": "bulan",
+      "days": "hari",
+      "total_days": "Hari yang dijalani",
+      "total_weeks": "Minggu yang dijalani",
+      "total_months": "Bulan yang dijalani",
+      "total_hours": "Jam yang dijalani",
+      "next_birthday": "Ulang tahun berikutnya",
+      "born_weekday": "Hari lahir",
+      "birth_jalali": "Tanggal lahir (kalender Jalali)",
+      "invalid": "Tanggal lahir tidak valid.",
+      "future": "Tanggal lahir tidak boleh di masa depan."
+    },
+    "bmi-calculator": {
+      "intro": "Masukkan berat dan tinggi badan Anda untuk melihat BMI, kategori berat, dan rentang berat sehat untuk tinggi badan Anda — di perangkat Anda sendiri.",
+      "units_label": "Satuan",
+      "metric": "Metrik (kg, cm)",
+      "imperial": "Imperial (lb, in)",
+      "weight_label": "Berat",
+      "height_label": "Tinggi",
+      "unit_kg": "kg",
+      "unit_lb": "lb",
+      "unit_cm": "cm",
+      "unit_in": "in",
+      "calc": "Hitung BMI",
+      "your_bmi": "BMI Anda",
+      "healthy_range": "Rentang berat sehat untuk tinggi badan Anda",
+      "gain_to_healthy": "Untuk mencapai rentang sehat, tambah {amount} {unit}.",
+      "lose_to_healthy": "Untuk mencapai rentang sehat, kurangi {amount} {unit}.",
+      "in_healthy_range": "Berat Anda berada dalam rentang sehat.",
+      "invalid": "Masukkan berat dan tinggi badan yang valid.",
+      "note": "BMI adalah indikator skrining, bukan diagnosis medis; konsultasikan dengan dokter untuk penilaian lengkap.",
+      "cat_severe": "Sangat kurus",
+      "cat_under": "Kurus",
+      "cat_normal": "Berat sehat",
+      "cat_over": "Kelebihan berat badan",
+      "cat_obese1": "Obesitas kelas I",
+      "cat_obese2": "Obesitas kelas II",
+      "cat_obese3": "Obesitas kelas III"
+    },
+    "percent-discount": {
+      "intro": "Masukkan harga dan persen diskon untuk melihat jumlah diskon dan harga akhir — di perangkatmu sendiri.",
+      "discount_title": "Diskon dari harga",
+      "price_label": "Harga",
+      "percent_label": "Persen diskon",
+      "calc": "Hitung",
+      "discount_amount": "Jumlah diskon",
+      "final_price": "Harga akhir",
+      "percent_of_title": "Persen dari suatu angka",
+      "of_label": "dari",
+      "result": "Hasil",
+      "reverse_title": "Harga asli dari harga diskon",
+      "original_price": "Harga asli"
+    }
   }
- },
- "tool_ui": {
-  "word-counter": {
-   "intro": "Tulis atau tempel teks Anda; penghitungan berlangsung langsung di perangkat Anda sendiri — tidak ada yang dikirim ke server.",
-   "input_placeholder": "Tulis teks Anda di sini…",
-   "chars_with_spaces": "Karakter (dengan spasi)",
-   "chars_without_spaces": "Karakter (tanpa spasi)",
-   "words": "Kata",
-   "sentences": "Kalimat",
-   "paragraphs": "Paragraf",
-   "lines": "Baris",
-   "reading_time": "Waktu baca",
-   "reading_minutes": "{minutes} mnt",
-   "copy_text": "Salin teks"
-  },
-  "case-converter": {
-   "intro": "Tulis teks bahasa Inggris Anda dan pilih gaya; konversi terjadi di perangkat Anda sendiri.",
-   "input_label": "Teks masukan",
-   "input_placeholder": "Type or paste English text here…",
-   "upper": "Semua huruf besar (UPPERCASE)",
-   "lower": "Semua huruf kecil (lowercase)",
-   "title_case": "Huruf pertama setiap kata besar (Title Case)",
-   "sentence_case": "Huruf pertama kalimat besar (Sentence case)",
-   "invert": "Balikkan huruf besar/kecil",
-   "result_label": "Hasil",
-   "result_placeholder": "Hasil akan muncul di sini…",
-   "copy_result": "Salin hasil"
-  },
-  "trim-spaces": {
-   "intro": "Mengubah beberapa spasi menjadi satu dan merapikan baris — di perangkat Anda sendiri.",
-   "trim_lines": "Hapus spasi di awal dan akhir setiap baris",
-   "remove_empty": "Hapus baris kosong",
-   "clean": "Bersihkan teks",
-   "stats": "Sebelum: {before} karakter — sesudah: {after} karakter",
-   "input_label": "Teks masukan",
-   "input_placeholder": "Tulis teks Anda di sini…",
-   "result_label": "Hasil",
-   "result_placeholder": "Hasil akan muncul di sini…",
-   "copy_result": "Salin hasil"
-  },
-  "text-to-slug": {
-   "intro": "Mengubah judul menjadi slug yang rapi untuk tautan — di perangkat Anda sendiri.",
-   "title_label": "Judul",
-   "input_placeholder": "mis. bahasa Jerman untuk pemula",
-   "separator": "Pemisah:",
-   "hyphen": "- (tanda hubung)",
-   "underscore": "_ (garis bawah)",
-   "lowercase": "Huruf Inggris kecil",
-   "convert": "Ubah ke slug",
-   "copy_slug": "Salin slug",
-   "result_label": "Hasil",
-   "result_placeholder": "Hasil akan muncul di sini…"
-  },
-  "age-calculator": {
-   "intro": "Masukkan tanggal lahir Anda dan lihat usia tepat Anda dalam tahun, bulan, dan hari, hari yang telah dijalani, serta hari yang tersisa hingga ulang tahun berikutnya — di perangkat Anda sendiri.",
-   "birth_label": "Tanggal lahir (Gregorian)",
-   "asof_label": "Hitung sampai",
-   "calc": "Hitung usia",
-   "years": "tahun",
-   "months": "bulan",
-   "days": "hari",
-   "total_days": "Hari yang dijalani",
-   "total_weeks": "Minggu yang dijalani",
-   "total_months": "Bulan yang dijalani",
-   "total_hours": "Jam yang dijalani",
-   "next_birthday": "Ulang tahun berikutnya",
-   "born_weekday": "Hari lahir",
-   "birth_jalali": "Tanggal lahir (kalender Jalali)",
-   "invalid": "Tanggal lahir tidak valid.",
-   "future": "Tanggal lahir tidak boleh di masa depan."
-  },
-  "bmi-calculator": {
-   "intro": "Masukkan berat dan tinggi badan Anda untuk melihat BMI, kategori berat, dan rentang berat sehat untuk tinggi badan Anda — di perangkat Anda sendiri.",
-   "units_label": "Satuan",
-   "metric": "Metrik (kg, cm)",
-   "imperial": "Imperial (lb, in)",
-   "weight_label": "Berat",
-   "height_label": "Tinggi",
-   "unit_kg": "kg",
-   "unit_lb": "lb",
-   "unit_cm": "cm",
-   "unit_in": "in",
-   "calc": "Hitung BMI",
-   "your_bmi": "BMI Anda",
-   "healthy_range": "Rentang berat sehat untuk tinggi badan Anda",
-   "gain_to_healthy": "Untuk mencapai rentang sehat, tambah {amount} {unit}.",
-   "lose_to_healthy": "Untuk mencapai rentang sehat, kurangi {amount} {unit}.",
-   "in_healthy_range": "Berat Anda berada dalam rentang sehat.",
-   "invalid": "Masukkan berat dan tinggi badan yang valid.",
-   "note": "BMI adalah indikator skrining, bukan diagnosis medis; konsultasikan dengan dokter untuk penilaian lengkap.",
-   "cat_severe": "Sangat kurus",
-   "cat_under": "Kurus",
-   "cat_normal": "Berat sehat",
-   "cat_over": "Kelebihan berat badan",
-   "cat_obese1": "Obesitas kelas I",
-   "cat_obese2": "Obesitas kelas II",
-   "cat_obese3": "Obesitas kelas III"
-  }
- }
 }

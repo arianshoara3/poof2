@@ -1,130 +1,161 @@
 {
-  "meta": {
-    "code": "tr",
-    "name": "Türkçe",
-    "dir": "ltr",
-    "locale": "tr-TR"
+ "meta": {
+  "code": "tr",
+  "name": "Türkçe",
+  "dir": "ltr",
+  "locale": "tr-TR"
+ },
+ "ui": {
+  "tagline": "Profesyonel çevrimiçi araç kutusu — tek sitede 900 araç",
+  "hero_title": "İhtiyacın olan her araç tam burada",
+  "hero_sub": "Kayıt yok, sunucu yok — her şey kendi cihazında çalışır.",
+  "search_placeholder": "Araç ara… örn. kelime sayacı",
+  "search_aria": "Araç ara",
+  "all": "Tümü",
+  "empty": "Henüz araç eklenmedi. İlk araç yakında geliyor.",
+  "tools_ready": "{total} araçtan {count} hazır — sürüm v{version}",
+  "footer_text": "POOF2 — Muse tarafından geliştirildi · Sürüm v{version}",
+  "back": "Tüm araçlara dön",
+  "copy": "Kopyala",
+  "clear": "Temizle",
+  "copied": "Kopyalandı.",
+  "language": "Dil",
+  "tool_label": "Araç"
+ },
+ "categories": {
+  "text": "Metin ve Yazma",
+  "pdf": "PDF ve Dosyalar",
+  "image": "Fotoğraf ve Görsel",
+  "audio": "Ses ve Video",
+  "finance": "Hesaplayıcılar ve Finans",
+  "converter": "Dönüştürücüler ve Birimler",
+  "dev": "Geliştirici ve Kod",
+  "health": "Sağlık ve Vücut",
+  "business": "İş ve Verimlilik",
+  "language": "Dil"
+ },
+ "tools": {
+  "word-counter": {
+   "name": "Kelime ve Karakter Sayacı",
+   "description": "Karakter, kelime, cümle, paragraf ve okuma süresinin canlı sayımı — sunucuya hiçbir şey gönderilmez."
   },
-  "ui": {
-    "tagline": "Profesyonel çevrimiçi araç kutusu — tek sitede 900 araç",
-    "hero_title": "İhtiyacın olan her araç tam burada",
-    "hero_sub": "Kayıt yok, sunucu yok — her şey kendi cihazında çalışır.",
-    "search_placeholder": "Araç ara… örn. kelime sayacı",
-    "search_aria": "Araç ara",
-    "all": "Tümü",
-    "empty": "Henüz araç eklenmedi. İlk araç yakında geliyor.",
-    "tools_ready": "{total} araçtan {count} hazır — sürüm v{version}",
-    "footer_text": "POOF2 — Muse tarafından geliştirildi · Sürüm v{version}",
-    "back": "Tüm araçlara dön",
-    "copy": "Kopyala",
-    "clear": "Temizle",
-    "copied": "Kopyalandı.",
-    "language": "Dil",
-    "tool_label": "Araç"
+  "case-converter": {
+   "name": "İngilizce Büyük/Küçük Harf Dönüştürücü",
+   "description": "İngilizce metni büyük harfe, küçük harfe, Title Case, Sentence case ve tersine çevirin — kendi cihazınızda."
   },
-  "categories": {
-    "text": "Metin ve Yazma",
-    "pdf": "PDF ve Dosyalar",
-    "image": "Fotoğraf ve Görsel",
-    "audio": "Ses ve Video",
-    "finance": "Hesaplayıcılar ve Finans",
-    "converter": "Dönüştürücüler ve Birimler",
-    "dev": "Geliştirici ve Kod",
-    "health": "Sağlık ve Vücut",
-    "business": "İş ve Verimlilik",
-    "language": "Dil"
+  "trim-spaces": {
+   "name": "Fazla Boşlukları Kaldır",
+   "description": "Birden fazla boşluğu teke indir, satırları düzenle ve boş satırları kaldır."
   },
-  "tools": {
-    "word-counter": {
-      "name": "Kelime ve Karakter Sayacı",
-      "description": "Karakter, kelime, cümle, paragraf ve okuma süresinin canlı sayımı — sunucuya hiçbir şey gönderilmez."
-    },
-    "case-converter": {
-      "name": "İngilizce Büyük/Küçük Harf Dönüştürücü",
-      "description": "İngilizce metni büyük harfe, küçük harfe, Title Case, Sentence case ve tersine çevirin — kendi cihazınızda."
-    },
-    "trim-spaces": {
-      "name": "Fazla Boşlukları Kaldır",
-      "description": "Birden fazla boşluğu teke indir, satırları düzenle ve boş satırları kaldır."
-    },
-    "text-to-slug": {
-      "name": "Metni Slug'a Dönüştür",
-      "description": "Bir başlığı, seçtiğiniz ayırıcıyla bağlantılar için temiz bir slug'a dönüştürün."
-    },
-    "age-calculator": {
-      "name": "Kesin Yaş Hesaplayıcı",
-      "description": "Yıl, ay ve gün olarak tam yaş, yaşanmış günler, doğum günü haftanın günü ve sonraki doğum gününe kalan günler."
-    }
+  "text-to-slug": {
+   "name": "Metni Slug'a Dönüştür",
+   "description": "Bir başlığı, seçtiğiniz ayırıcıyla bağlantılar için temiz bir slug'a dönüştürün."
   },
-  "tool_ui": {
-    "word-counter": {
-      "intro": "Metninizi yazın veya yapıştırın; sayım canlıdır ve kendi cihazınızda yapılır — sunucuya hiçbir şey gönderilmez.",
-      "input_placeholder": "Metni buraya yazın…",
-      "chars_with_spaces": "Karakter (boşluklu)",
-      "chars_without_spaces": "Karakter (boşluksuz)",
-      "words": "Kelimeler",
-      "sentences": "Cümleler",
-      "paragraphs": "Paragraflar",
-      "lines": "Satırlar",
-      "reading_time": "Okuma süresi",
-      "reading_minutes": "{minutes} dk",
-      "copy_text": "Metni kopyala"
-    },
-    "case-converter": {
-      "intro": "İngilizce metninizi yazın ve bir stil seçin; dönüşüm kendi cihazınızda yapılır.",
-      "input_label": "Girdi metni",
-      "input_placeholder": "Type or paste English text here…",
-      "upper": "Tümü büyük (UPPERCASE)",
-      "lower": "Tümü küçük (lowercase)",
-      "title_case": "Her kelimenin başı büyük (Title Case)",
-      "sentence_case": "Cümlenin başı büyük (Sentence case)",
-      "invert": "Harf durumunu tersine çevir",
-      "result_label": "Sonuç",
-      "result_placeholder": "Sonuç burada görünecek…",
-      "copy_result": "Sonucu kopyala"
-    },
-    "trim-spaces": {
-      "intro": "Birden fazla boşluğu teke indirir ve satırları düzenler — kendi cihazınızda.",
-      "trim_lines": "Her satırın başındaki ve sonundaki boşluğu kaldır",
-      "remove_empty": "Boş satırları kaldır",
-      "clean": "Metni temizle",
-      "stats": "Önce: {before} karakter — sonra: {after} karakter",
-      "input_label": "Girdi metni",
-      "input_placeholder": "Metni buraya yazın…",
-      "result_label": "Sonuç",
-      "result_placeholder": "Sonuç burada görünecek…",
-      "copy_result": "Sonucu kopyala"
-    },
-    "text-to-slug": {
-      "intro": "Bir başlığı bağlantılar için temiz bir slug'a dönüştürür — kendi cihazınızda.",
-      "title_label": "Başlık",
-      "input_placeholder": "örn. Yeni başlayanlar için Almanca",
-      "separator": "Ayırıcı:",
-      "hyphen": "- (tire)",
-      "underscore": "_ (alt çizgi)",
-      "lowercase": "İngilizce harfleri küçük",
-      "convert": "Slug'a dönüştür",
-      "copy_slug": "Slug'u kopyala",
-      "result_label": "Sonuç",
-      "result_placeholder": "Sonuç burada görünecek…"
-    },
-    "age-calculator": {
-      "intro": "Doğum tarihinizi girin; yıl, ay ve gün olarak tam yaşınızı, yaşadığınız günleri ve sonraki doğum gününüze kalan günleri görün — kendi cihazınızda.",
-      "birth_label": "Doğum tarihi (Miladi)",
-      "asof_label": "Hesaplama tarihi",
-      "calc": "Yaşı hesapla",
-      "years": "yıl",
-      "months": "ay",
-      "days": "gün",
-      "total_days": "Yaşanmış gün",
-      "total_weeks": "Yaşanmış hafta",
-      "total_months": "Yaşanmış ay",
-      "total_hours": "Yaşanmış saat",
-      "next_birthday": "Sonraki doğum günü",
-      "born_weekday": "Doğum günü haftanın günü",
-      "birth_jalali": "Celali takvimde doğum tarihi",
-      "invalid": "Doğum tarihi geçerli değil.",
-      "future": "Doğum tarihi gelecekte olamaz."
-    }
+  "age-calculator": {
+   "name": "Kesin Yaş Hesaplayıcı",
+   "description": "Yıl, ay ve gün olarak tam yaş, yaşanmış günler, doğum günü haftanın günü ve sonraki doğum gününe kalan günler."
+  },
+  "bmi-calculator": {
+   "name": "VKİ Hesaplayıcı",
+   "description": "Vücut kitle indeksi, kilo kategorisi, boyunuza göre sağlıklı kilo aralığı ve almanız ya da vermeniz gereken kilo — kendi cihazınızda."
   }
+ },
+ "tool_ui": {
+  "word-counter": {
+   "intro": "Metninizi yazın veya yapıştırın; sayım canlıdır ve kendi cihazınızda yapılır — sunucuya hiçbir şey gönderilmez.",
+   "input_placeholder": "Metni buraya yazın…",
+   "chars_with_spaces": "Karakter (boşluklu)",
+   "chars_without_spaces": "Karakter (boşluksuz)",
+   "words": "Kelimeler",
+   "sentences": "Cümleler",
+   "paragraphs": "Paragraflar",
+   "lines": "Satırlar",
+   "reading_time": "Okuma süresi",
+   "reading_minutes": "{minutes} dk",
+   "copy_text": "Metni kopyala"
+  },
+  "case-converter": {
+   "intro": "İngilizce metninizi yazın ve bir stil seçin; dönüşüm kendi cihazınızda yapılır.",
+   "input_label": "Girdi metni",
+   "input_placeholder": "Type or paste English text here…",
+   "upper": "Tümü büyük (UPPERCASE)",
+   "lower": "Tümü küçük (lowercase)",
+   "title_case": "Her kelimenin başı büyük (Title Case)",
+   "sentence_case": "Cümlenin başı büyük (Sentence case)",
+   "invert": "Harf durumunu tersine çevir",
+   "result_label": "Sonuç",
+   "result_placeholder": "Sonuç burada görünecek…",
+   "copy_result": "Sonucu kopyala"
+  },
+  "trim-spaces": {
+   "intro": "Birden fazla boşluğu teke indirir ve satırları düzenler — kendi cihazınızda.",
+   "trim_lines": "Her satırın başındaki ve sonundaki boşluğu kaldır",
+   "remove_empty": "Boş satırları kaldır",
+   "clean": "Metni temizle",
+   "stats": "Önce: {before} karakter — sonra: {after} karakter",
+   "input_label": "Girdi metni",
+   "input_placeholder": "Metni buraya yazın…",
+   "result_label": "Sonuç",
+   "result_placeholder": "Sonuç burada görünecek…",
+   "copy_result": "Sonucu kopyala"
+  },
+  "text-to-slug": {
+   "intro": "Bir başlığı bağlantılar için temiz bir slug'a dönüştürür — kendi cihazınızda.",
+   "title_label": "Başlık",
+   "input_placeholder": "örn. Yeni başlayanlar için Almanca",
+   "separator": "Ayırıcı:",
+   "hyphen": "- (tire)",
+   "underscore": "_ (alt çizgi)",
+   "lowercase": "İngilizce harfleri küçük",
+   "convert": "Slug'a dönüştür",
+   "copy_slug": "Slug'u kopyala",
+   "result_label": "Sonuç",
+   "result_placeholder": "Sonuç burada görünecek…"
+  },
+  "age-calculator": {
+   "intro": "Doğum tarihinizi girin; yıl, ay ve gün olarak tam yaşınızı, yaşadığınız günleri ve sonraki doğum gününüze kalan günleri görün — kendi cihazınızda.",
+   "birth_label": "Doğum tarihi (Miladi)",
+   "asof_label": "Hesaplama tarihi",
+   "calc": "Yaşı hesapla",
+   "years": "yıl",
+   "months": "ay",
+   "days": "gün",
+   "total_days": "Yaşanmış gün",
+   "total_weeks": "Yaşanmış hafta",
+   "total_months": "Yaşanmış ay",
+   "total_hours": "Yaşanmış saat",
+   "next_birthday": "Sonraki doğum günü",
+   "born_weekday": "Doğum günü haftanın günü",
+   "birth_jalali": "Celali takvimde doğum tarihi",
+   "invalid": "Doğum tarihi geçerli değil.",
+   "future": "Doğum tarihi gelecekte olamaz."
+  },
+  "bmi-calculator": {
+   "intro": "Kilonuzu ve boyunuzu girin; VKİ'nizi, kilo kategorinizi ve boyunuza göre sağlıklı kilo aralığını görün — kendi cihazınızda.",
+   "units_label": "Birimler",
+   "metric": "Metrik (kg, cm)",
+   "imperial": "İngiliz (lb, in)",
+   "weight_label": "Kilo",
+   "height_label": "Boy",
+   "unit_kg": "kg",
+   "unit_lb": "lb",
+   "unit_cm": "cm",
+   "unit_in": "in",
+   "calc": "VKİ Hesapla",
+   "your_bmi": "VKİ'niz",
+   "healthy_range": "Boyunuza göre sağlıklı kilo aralığı",
+   "gain_to_healthy": "Sağlıklı aralığa ulaşmak için {amount} {unit} alın.",
+   "lose_to_healthy": "Sağlıklı aralığa ulaşmak için {amount} {unit} verin.",
+   "in_healthy_range": "Kilonuz sağlıklı aralıkta.",
+   "invalid": "Geçerli bir kilo ve boy girin.",
+   "note": "VKİ bir tarama göstergesidir, tıbbi tanı değildir; tam değerlendirme için bir hekime danışın.",
+   "cat_severe": "Aşırı zayıf",
+   "cat_under": "Zayıf",
+   "cat_normal": "Sağlıklı kilo",
+   "cat_over": "Fazla kilolu",
+   "cat_obese1": "Obezite 1. derece",
+   "cat_obese2": "Obezite 2. derece",
+   "cat_obese3": "Obezite 3. derece"
+  }
+ }
 }

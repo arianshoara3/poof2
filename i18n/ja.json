@@ -1,130 +1,161 @@
 {
-  "meta": {
-    "code": "ja",
-    "name": "日本語",
-    "dir": "ltr",
-    "locale": "ja-JP"
+ "meta": {
+  "code": "ja",
+  "name": "日本語",
+  "dir": "ltr",
+  "locale": "ja-JP"
+ },
+ "ui": {
+  "tagline": "プロフェッショナルなオンラインツールボックス — 1つのサイトに900のツール",
+  "hero_title": "必要なツールはすべて、ここにあります",
+  "hero_sub": "登録不要、サーバー不要——すべてあなたのデバイス上で動作します。",
+  "search_placeholder": "ツールを検索… 例：文字数カウンター",
+  "search_aria": "ツールを検索",
+  "all": "すべて",
+  "empty": "まだツールは追加されていません。最初のツールは近日公開です。",
+  "tools_ready": "{total}個中{count}個のツールが利用可能 — バージョン v{version}",
+  "footer_text": "POOF2 — Muse 制作 · バージョン v{version}",
+  "back": "すべてのツールに戻る",
+  "copy": "コピー",
+  "clear": "クリア",
+  "copied": "コピーしました。",
+  "language": "言語",
+  "tool_label": "ツール"
+ },
+ "categories": {
+  "text": "テキストとライティング",
+  "pdf": "PDF とファイル",
+  "image": "写真と画像",
+  "audio": "オーディオとビデオ",
+  "finance": "計算機と金融",
+  "converter": "変換と単位",
+  "dev": "開発者とコード",
+  "health": "健康と体",
+  "business": "ビジネスと生産性",
+  "language": "言語"
+ },
+ "tools": {
+  "word-counter": {
+   "name": "単語・文字数カウンター",
+   "description": "文字数、単語数、文、段落、読了時間をリアルタイムで集計——サーバーには何も送信されません。"
   },
-  "ui": {
-    "tagline": "プロフェッショナルなオンラインツールボックス — 1つのサイトに900のツール",
-    "hero_title": "必要なツールはすべて、ここにあります",
-    "hero_sub": "登録不要、サーバー不要——すべてあなたのデバイス上で動作します。",
-    "search_placeholder": "ツールを検索… 例：文字数カウンター",
-    "search_aria": "ツールを検索",
-    "all": "すべて",
-    "empty": "まだツールは追加されていません。最初のツールは近日公開です。",
-    "tools_ready": "{total}個中{count}個のツールが利用可能 — バージョン v{version}",
-    "footer_text": "POOF2 — Muse 制作 · バージョン v{version}",
-    "back": "すべてのツールに戻る",
-    "copy": "コピー",
-    "clear": "クリア",
-    "copied": "コピーしました。",
-    "language": "言語",
-    "tool_label": "ツール"
+  "case-converter": {
+   "name": "英語の大文字・小文字変換ツール",
+   "description": "英語テキストを大文字、小文字、Title Case、Sentence case、反転に変換——自分のデバイス上で。"
   },
-  "categories": {
-    "text": "テキストとライティング",
-    "pdf": "PDF とファイル",
-    "image": "写真と画像",
-    "audio": "オーディオとビデオ",
-    "finance": "計算機と金融",
-    "converter": "変換と単位",
-    "dev": "開発者とコード",
-    "health": "健康と体",
-    "business": "ビジネスと生産性",
-    "language": "言語"
+  "trim-spaces": {
+   "name": "余分なスペースを削除",
+   "description": "複数のスペースを1つにまとめ、行を整え、空行を削除します。"
   },
-  "tools": {
-    "word-counter": {
-      "name": "単語・文字数カウンター",
-      "description": "文字数、単語数、文、段落、読了時間をリアルタイムで集計——サーバーには何も送信されません。"
-    },
-    "case-converter": {
-      "name": "英語の大文字・小文字変換ツール",
-      "description": "英語テキストを大文字、小文字、Title Case、Sentence case、反転に変換——自分のデバイス上で。"
-    },
-    "trim-spaces": {
-      "name": "余分なスペースを削除",
-      "description": "複数のスペースを1つにまとめ、行を整え、空行を削除します。"
-    },
-    "text-to-slug": {
-      "name": "テキストをスラッグに変換",
-      "description": "タイトルをリンク用のきれいなスラッグに変換します。区切り文字も選べます。"
-    },
-    "age-calculator": {
-      "name": "正確な年齢計算機",
-      "description": "年・月・日での正確な年齢、生きてきた日数、生まれた曜日、次の誕生日までの日数。"
-    }
+  "text-to-slug": {
+   "name": "テキストをスラッグに変換",
+   "description": "タイトルをリンク用のきれいなスラッグに変換します。区切り文字も選べます。"
   },
-  "tool_ui": {
-    "word-counter": {
-      "intro": "テキストを入力または貼り付け；集計はリアルタイムで、あなたのデバイス上でのみ行われます。サーバーには何も送信されません。",
-      "input_placeholder": "ここにテキストを入力…",
-      "chars_with_spaces": "文字数（スペース含む）",
-      "chars_without_spaces": "文字数（スペース除く）",
-      "words": "単語",
-      "sentences": "文",
-      "paragraphs": "段落",
-      "lines": "行",
-      "reading_time": "読了時間",
-      "reading_minutes": "{minutes} 分",
-      "copy_text": "テキストをコピー"
-    },
-    "case-converter": {
-      "intro": "英語テキストを入力し、スタイルを選択してください。変換はあなたのデバイス上で行われます。",
-      "input_label": "入力テキスト",
-      "input_placeholder": "Type or paste English text here…",
-      "upper": "すべて大文字 (UPPERCASE)",
-      "lower": "すべて小文字 (lowercase)",
-      "title_case": "各単語の先頭を大文字に (Title Case)",
-      "sentence_case": "文頭を大文字に (Sentence case)",
-      "invert": "大文字と小文字を反転",
-      "result_label": "結果",
-      "result_placeholder": "結果はここに表示されます…",
-      "copy_result": "結果をコピー"
-    },
-    "trim-spaces": {
-      "intro": "複数のスペースを1つにまとめ、行を整えます——自分のデバイス上で。",
-      "trim_lines": "各行の先頭と末尾のスペースを削除",
-      "remove_empty": "空行を削除",
-      "clean": "テキストを整理",
-      "stats": "前：{before} 文字 — 後：{after} 文字",
-      "input_label": "入力テキスト",
-      "input_placeholder": "ここにテキストを入力…",
-      "result_label": "結果",
-      "result_placeholder": "結果はここに表示されます…",
-      "copy_result": "結果をコピー"
-    },
-    "text-to-slug": {
-      "intro": "タイトルをリンク用のきれいなスラッグに変換します——自分のデバイス上で。",
-      "title_label": "タイトル",
-      "input_placeholder": "例：初心者のためのドイツ語",
-      "separator": "区切り文字：",
-      "hyphen": "-（ハイフン）",
-      "underscore": "_（アンダースコア）",
-      "lowercase": "英語を小文字に",
-      "convert": "スラッグに変換",
-      "copy_slug": "スラッグをコピー",
-      "result_label": "結果",
-      "result_placeholder": "結果はここに表示されます…"
-    },
-    "age-calculator": {
-      "intro": "生年月日を入力すると、年・月・日での正確な年齢、生きてきた日数、次の誕生日までの日数が表示されます——すべて自分のデバイス上で。",
-      "birth_label": "生年月日（西暦）",
-      "asof_label": "計算対象日",
-      "calc": "年齢を計算",
-      "years": "歳",
-      "months": "か月",
-      "days": "日",
-      "total_days": "生きてきた日数",
-      "total_weeks": "生きてきた週数",
-      "total_months": "生きてきた月数",
-      "total_hours": "生きてきた時間数",
-      "next_birthday": "次の誕生日",
-      "born_weekday": "生まれた曜日",
-      "birth_jalali": "ジャラーリ暦での誕生日",
-      "invalid": "生年月日が無効です。",
-      "future": "生年月日は未来の日付にできません。"
-    }
+  "age-calculator": {
+   "name": "正確な年齢計算機",
+   "description": "年・月・日での正確な年齢、生きてきた日数、生まれた曜日、次の誕生日までの日数。"
+  },
+  "bmi-calculator": {
+   "name": "BMI計算機",
+   "description": "体格指数（BMI）、体重区分、身長に合った健康的な体重範囲、増減すべき体重——すべて自分のデバイス上で。"
   }
+ },
+ "tool_ui": {
+  "word-counter": {
+   "intro": "テキストを入力または貼り付け；集計はリアルタイムで、あなたのデバイス上でのみ行われます。サーバーには何も送信されません。",
+   "input_placeholder": "ここにテキストを入力…",
+   "chars_with_spaces": "文字数（スペース含む）",
+   "chars_without_spaces": "文字数（スペース除く）",
+   "words": "単語",
+   "sentences": "文",
+   "paragraphs": "段落",
+   "lines": "行",
+   "reading_time": "読了時間",
+   "reading_minutes": "{minutes} 分",
+   "copy_text": "テキストをコピー"
+  },
+  "case-converter": {
+   "intro": "英語テキストを入力し、スタイルを選択してください。変換はあなたのデバイス上で行われます。",
+   "input_label": "入力テキスト",
+   "input_placeholder": "Type or paste English text here…",
+   "upper": "すべて大文字 (UPPERCASE)",
+   "lower": "すべて小文字 (lowercase)",
+   "title_case": "各単語の先頭を大文字に (Title Case)",
+   "sentence_case": "文頭を大文字に (Sentence case)",
+   "invert": "大文字と小文字を反転",
+   "result_label": "結果",
+   "result_placeholder": "結果はここに表示されます…",
+   "copy_result": "結果をコピー"
+  },
+  "trim-spaces": {
+   "intro": "複数のスペースを1つにまとめ、行を整えます——自分のデバイス上で。",
+   "trim_lines": "各行の先頭と末尾のスペースを削除",
+   "remove_empty": "空行を削除",
+   "clean": "テキストを整理",
+   "stats": "前：{before} 文字 — 後：{after} 文字",
+   "input_label": "入力テキスト",
+   "input_placeholder": "ここにテキストを入力…",
+   "result_label": "結果",
+   "result_placeholder": "結果はここに表示されます…",
+   "copy_result": "結果をコピー"
+  },
+  "text-to-slug": {
+   "intro": "タイトルをリンク用のきれいなスラッグに変換します——自分のデバイス上で。",
+   "title_label": "タイトル",
+   "input_placeholder": "例：初心者のためのドイツ語",
+   "separator": "区切り文字：",
+   "hyphen": "-（ハイフン）",
+   "underscore": "_（アンダースコア）",
+   "lowercase": "英語を小文字に",
+   "convert": "スラッグに変換",
+   "copy_slug": "スラッグをコピー",
+   "result_label": "結果",
+   "result_placeholder": "結果はここに表示されます…"
+  },
+  "age-calculator": {
+   "intro": "生年月日を入力すると、年・月・日での正確な年齢、生きてきた日数、次の誕生日までの日数が表示されます——すべて自分のデバイス上で。",
+   "birth_label": "生年月日（西暦）",
+   "asof_label": "計算対象日",
+   "calc": "年齢を計算",
+   "years": "歳",
+   "months": "か月",
+   "days": "日",
+   "total_days": "生きてきた日数",
+   "total_weeks": "生きてきた週数",
+   "total_months": "生きてきた月数",
+   "total_hours": "生きてきた時間数",
+   "next_birthday": "次の誕生日",
+   "born_weekday": "生まれた曜日",
+   "birth_jalali": "ジャラーリ暦での誕生日",
+   "invalid": "生年月日が無効です。",
+   "future": "生年月日は未来の日付にできません。"
+  },
+  "bmi-calculator": {
+   "intro": "体重と身長を入力すると、BMI、体重区分、身長に合った健康的な体重範囲が表示されます——自分のデバイス上で。",
+   "units_label": "単位",
+   "metric": "メートル法（kg、cm）",
+   "imperial": "ヤード・ポンド法（lb、in）",
+   "weight_label": "体重",
+   "height_label": "身長",
+   "unit_kg": "kg",
+   "unit_lb": "lb",
+   "unit_cm": "cm",
+   "unit_in": "in",
+   "calc": "BMIを計算",
+   "your_bmi": "あなたのBMI",
+   "healthy_range": "身長に合った健康的な体重範囲",
+   "gain_to_healthy": "健康的な範囲に入るには、{amount}{unit}増やしてください。",
+   "lose_to_healthy": "健康的な範囲に入るには、{amount}{unit}減らしてください。",
+   "in_healthy_range": "体重は健康的な範囲内です。",
+   "invalid": "有効な体重と身長を入力してください。",
+   "note": "BMIはスクリーニング指標であり、医学的診断ではありません。詳しい評価は医師にご相談ください。",
+   "cat_severe": "重度の低体重",
+   "cat_under": "低体重",
+   "cat_normal": "健康的な体重",
+   "cat_over": "過体重",
+   "cat_obese1": "肥満クラスI",
+   "cat_obese2": "肥満クラスII",
+   "cat_obese3": "肥満クラスIII"
+  }
+ }
 }

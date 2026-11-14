@@ -1,130 +1,161 @@
 {
-  "meta": {
-    "code": "en",
-    "name": "English",
-    "dir": "ltr",
-    "locale": "en-US"
+ "meta": {
+  "code": "en",
+  "name": "English",
+  "dir": "ltr",
+  "locale": "en-US"
+ },
+ "ui": {
+  "tagline": "Professional online toolbox — 900 tools in one site",
+  "hero_title": "Every tool you need, right here",
+  "hero_sub": "No sign-up, no server — everything runs on your own device.",
+  "search_placeholder": "Search tools… e.g. word counter",
+  "search_aria": "Search tools",
+  "all": "All",
+  "empty": "No tools have been added yet. The first tool is coming soon.",
+  "tools_ready": "{count} of {total} tools ready — version v{version}",
+  "footer_text": "POOF2 — Built by Muse · Version v{version}",
+  "back": "Back to all tools",
+  "copy": "Copy",
+  "clear": "Clear",
+  "copied": "Copied.",
+  "language": "Language",
+  "tool_label": "Tool"
+ },
+ "categories": {
+  "text": "Text & Writing",
+  "pdf": "PDF & Files",
+  "image": "Photos & Images",
+  "audio": "Audio & Video",
+  "finance": "Calculators & Finance",
+  "converter": "Converters & Units",
+  "dev": "Developer & Code",
+  "health": "Health & Body",
+  "business": "Business & Productivity",
+  "language": "Language"
+ },
+ "tools": {
+  "word-counter": {
+   "name": "Word & Character Counter",
+   "description": "Live count of characters, words, sentences, paragraphs and reading time — nothing is sent to a server."
   },
-  "ui": {
-    "tagline": "Professional online toolbox — 900 tools in one site",
-    "hero_title": "Every tool you need, right here",
-    "hero_sub": "No sign-up, no server — everything runs on your own device.",
-    "search_placeholder": "Search tools… e.g. word counter",
-    "search_aria": "Search tools",
-    "all": "All",
-    "empty": "No tools have been added yet. The first tool is coming soon.",
-    "tools_ready": "{count} of {total} tools ready — version v{version}",
-    "footer_text": "POOF2 — Built by Muse · Version v{version}",
-    "back": "Back to all tools",
-    "copy": "Copy",
-    "clear": "Clear",
-    "copied": "Copied.",
-    "language": "Language",
-    "tool_label": "Tool"
+  "case-converter": {
+   "name": "English Case Converter",
+   "description": "Convert English text to UPPERCASE, lowercase, Title Case, Sentence case and back — on your own device."
   },
-  "categories": {
-    "text": "Text & Writing",
-    "pdf": "PDF & Files",
-    "image": "Photos & Images",
-    "audio": "Audio & Video",
-    "finance": "Calculators & Finance",
-    "converter": "Converters & Units",
-    "dev": "Developer & Code",
-    "health": "Health & Body",
-    "business": "Business & Productivity",
-    "language": "Language"
+  "trim-spaces": {
+   "name": "Remove Extra Spaces",
+   "description": "Turn multiple spaces into one, tidy lines and remove empty lines."
   },
-  "tools": {
-    "word-counter": {
-      "name": "Word & Character Counter",
-      "description": "Live count of characters, words, sentences, paragraphs and reading time — nothing is sent to a server."
-    },
-    "case-converter": {
-      "name": "English Case Converter",
-      "description": "Convert English text to UPPERCASE, lowercase, Title Case, Sentence case and back — on your own device."
-    },
-    "trim-spaces": {
-      "name": "Remove Extra Spaces",
-      "description": "Turn multiple spaces into one, tidy lines and remove empty lines."
-    },
-    "text-to-slug": {
-      "name": "Text to Slug",
-      "description": "Turn a title into a clean slug for links, with your chosen separator."
-    },
-    "age-calculator": {
-      "name": "Precise Age Calculator",
-      "description": "Exact age in years, months and days, days lived, weekday of birth and days until your next birthday."
-    }
+  "text-to-slug": {
+   "name": "Text to Slug",
+   "description": "Turn a title into a clean slug for links, with your chosen separator."
   },
-  "tool_ui": {
-    "word-counter": {
-      "intro": "Type or paste your text; counting is live and on your own device — nothing is sent to a server.",
-      "input_placeholder": "Type your text here…",
-      "chars_with_spaces": "Characters (with spaces)",
-      "chars_without_spaces": "Characters (without spaces)",
-      "words": "Words",
-      "sentences": "Sentences",
-      "paragraphs": "Paragraphs",
-      "lines": "Lines",
-      "reading_time": "Reading time",
-      "reading_minutes": "{minutes} min",
-      "copy_text": "Copy text"
-    },
-    "case-converter": {
-      "intro": "Write your English text and pick a style; the conversion happens on your own device.",
-      "input_label": "Input text",
-      "input_placeholder": "Type or paste English text here…",
-      "upper": "All caps (UPPERCASE)",
-      "lower": "All lowercase (lowercase)",
-      "title_case": "Capitalize each word (Title Case)",
-      "sentence_case": "First letter of sentences (Sentence case)",
-      "invert": "Invert case",
-      "result_label": "Result",
-      "result_placeholder": "The result will appear here…",
-      "copy_result": "Copy result"
-    },
-    "trim-spaces": {
-      "intro": "Collapses multiple spaces into one and tidies lines — on your own device.",
-      "trim_lines": "Trim the start and end of each line",
-      "remove_empty": "Remove empty lines",
-      "clean": "Clean text",
-      "stats": "Before: {before} characters — after: {after} characters",
-      "input_label": "Input text",
-      "input_placeholder": "Type your text here…",
-      "result_label": "Result",
-      "result_placeholder": "The result will appear here…",
-      "copy_result": "Copy result"
-    },
-    "text-to-slug": {
-      "intro": "Turns a title into a clean slug for links — on your own device.",
-      "title_label": "Title",
-      "input_placeholder": "e.g. German for beginners",
-      "separator": "Separator:",
-      "hyphen": "- (hyphen)",
-      "underscore": "_ (underscore)",
-      "lowercase": "Lowercase English letters",
-      "convert": "Convert to slug",
-      "copy_slug": "Copy slug",
-      "result_label": "Result",
-      "result_placeholder": "The result will appear here…"
-    },
-    "age-calculator": {
-      "intro": "Enter your birth date and see your exact age in years, months and days, the days you have lived, and the days left until your next birthday — on your own device.",
-      "birth_label": "Date of birth (Gregorian)",
-      "asof_label": "Calculate as of",
-      "calc": "Calculate age",
-      "years": "years",
-      "months": "months",
-      "days": "days",
-      "total_days": "Days lived",
-      "total_weeks": "Weeks lived",
-      "total_months": "Months lived",
-      "total_hours": "Hours lived",
-      "next_birthday": "Next birthday",
-      "born_weekday": "Weekday of birth",
-      "birth_jalali": "Birth date in Jalali",
-      "invalid": "The birth date is not valid.",
-      "future": "The birth date cannot be in the future."
-    }
+  "age-calculator": {
+   "name": "Precise Age Calculator",
+   "description": "Exact age in years, months and days, days lived, weekday of birth and days until your next birthday."
+  },
+  "bmi-calculator": {
+   "name": "BMI Calculator",
+   "description": "Body mass index, weight category, healthy weight range for your height, and how much to gain or lose — on your own device."
   }
+ },
+ "tool_ui": {
+  "word-counter": {
+   "intro": "Type or paste your text; counting is live and on your own device — nothing is sent to a server.",
+   "input_placeholder": "Type your text here…",
+   "chars_with_spaces": "Characters (with spaces)",
+   "chars_without_spaces": "Characters (without spaces)",
+   "words": "Words",
+   "sentences": "Sentences",
+   "paragraphs": "Paragraphs",
+   "lines": "Lines",
+   "reading_time": "Reading time",
+   "reading_minutes": "{minutes} min",
+   "copy_text": "Copy text"
+  },
+  "case-converter": {
+   "intro": "Write your English text and pick a style; the conversion happens on your own device.",
+   "input_label": "Input text",
+   "input_placeholder": "Type or paste English text here…",
+   "upper": "All caps (UPPERCASE)",
+   "lower": "All lowercase (lowercase)",
+   "title_case": "Capitalize each word (Title Case)",
+   "sentence_case": "First letter of sentences (Sentence case)",
+   "invert": "Invert case",
+   "result_label": "Result",
+   "result_placeholder": "The result will appear here…",
+   "copy_result": "Copy result"
+  },
+  "trim-spaces": {
+   "intro": "Collapses multiple spaces into one and tidies lines — on your own device.",
+   "trim_lines": "Trim the start and end of each line",
+   "remove_empty": "Remove empty lines",
+   "clean": "Clean text",
+   "stats": "Before: {before} characters — after: {after} characters",
+   "input_label": "Input text",
+   "input_placeholder": "Type your text here…",
+   "result_label": "Result",
+   "result_placeholder": "The result will appear here…",
+   "copy_result": "Copy result"
+  },
+  "text-to-slug": {
+   "intro": "Turns a title into a clean slug for links — on your own device.",
+   "title_label": "Title",
+   "input_placeholder": "e.g. German for beginners",
+   "separator": "Separator:",
+   "hyphen": "- (hyphen)",
+   "underscore": "_ (underscore)",
+   "lowercase": "Lowercase English letters",
+   "convert": "Convert to slug",
+   "copy_slug": "Copy slug",
+   "result_label": "Result",
+   "result_placeholder": "The result will appear here…"
+  },
+  "age-calculator": {
+   "intro": "Enter your birth date and see your exact age in years, months and days, the days you have lived, and the days left until your next birthday — on your own device.",
+   "birth_label": "Date of birth (Gregorian)",
+   "asof_label": "Calculate as of",
+   "calc": "Calculate age",
+   "years": "years",
+   "months": "months",
+   "days": "days",
+   "total_days": "Days lived",
+   "total_weeks": "Weeks lived",
+   "total_months": "Months lived",
+   "total_hours": "Hours lived",
+   "next_birthday": "Next birthday",
+   "born_weekday": "Weekday of birth",
+   "birth_jalali": "Birth date in Jalali",
+   "invalid": "The birth date is not valid.",
+   "future": "The birth date cannot be in the future."
+  },
+  "bmi-calculator": {
+   "intro": "Enter your weight and height to see your BMI, weight category, and the healthy weight range for your height — on your own device.",
+   "units_label": "Units",
+   "metric": "Metric (kg, cm)",
+   "imperial": "Imperial (lb, in)",
+   "weight_label": "Weight",
+   "height_label": "Height",
+   "unit_kg": "kg",
+   "unit_lb": "lb",
+   "unit_cm": "cm",
+   "unit_in": "in",
+   "calc": "Calculate BMI",
+   "your_bmi": "Your BMI",
+   "healthy_range": "Healthy weight range for your height",
+   "gain_to_healthy": "To reach the healthy range, gain {amount} {unit}.",
+   "lose_to_healthy": "To reach the healthy range, lose {amount} {unit}.",
+   "in_healthy_range": "Your weight is in the healthy range.",
+   "invalid": "Enter a valid weight and height.",
+   "note": "BMI is a screening indicator, not a medical diagnosis; consult a clinician for a full assessment.",
+   "cat_severe": "Severely underweight",
+   "cat_under": "Underweight",
+   "cat_normal": "Healthy weight",
+   "cat_over": "Overweight",
+   "cat_obese1": "Obesity class I",
+   "cat_obese2": "Obesity class II",
+   "cat_obese3": "Obesity class III"
+  }
+ }
 }

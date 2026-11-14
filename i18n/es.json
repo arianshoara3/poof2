@@ -1,130 +1,161 @@
 {
-  "meta": {
-    "code": "es",
-    "name": "Español",
-    "dir": "ltr",
-    "locale": "es-ES"
+ "meta": {
+  "code": "es",
+  "name": "Español",
+  "dir": "ltr",
+  "locale": "es-ES"
+ },
+ "ui": {
+  "tagline": "Caja de herramientas profesional en línea — 900 herramientas en un solo sitio",
+  "hero_title": "Todas las herramientas que necesitas, justo aquí",
+  "hero_sub": "Sin registro, sin servidor: todo funciona en tu propio dispositivo.",
+  "search_placeholder": "Buscar herramientas… p. ej. contador de palabras",
+  "search_aria": "Buscar herramientas",
+  "all": "Todo",
+  "empty": "Aún no se ha añadido ninguna herramienta. La primera llegará pronto.",
+  "tools_ready": "{count} de {total} herramientas listas — versión v{version}",
+  "footer_text": "POOF2 — Creado por Muse · Versión v{version}",
+  "back": "Volver a todas las herramientas",
+  "copy": "Copiar",
+  "clear": "Limpiar",
+  "copied": "Copiado.",
+  "language": "Idioma",
+  "tool_label": "Herramienta"
+ },
+ "categories": {
+  "text": "Texto y escritura",
+  "pdf": "PDF y archivos",
+  "image": "Fotos e imágenes",
+  "audio": "Audio y vídeo",
+  "finance": "Calculadoras y finanzas",
+  "converter": "Conversores y unidades",
+  "dev": "Desarrollador y código",
+  "health": "Salud y cuerpo",
+  "business": "Negocios y productividad",
+  "language": "Idioma"
+ },
+ "tools": {
+  "word-counter": {
+   "name": "Contador de palabras y caracteres",
+   "description": "Recuento en vivo de caracteres, palabras, oraciones, párrafos y tiempo de lectura — sin enviar nada a un servidor."
   },
-  "ui": {
-    "tagline": "Caja de herramientas profesional en línea — 900 herramientas en un solo sitio",
-    "hero_title": "Todas las herramientas que necesitas, justo aquí",
-    "hero_sub": "Sin registro, sin servidor: todo funciona en tu propio dispositivo.",
-    "search_placeholder": "Buscar herramientas… p. ej. contador de palabras",
-    "search_aria": "Buscar herramientas",
-    "all": "Todo",
-    "empty": "Aún no se ha añadido ninguna herramienta. La primera llegará pronto.",
-    "tools_ready": "{count} de {total} herramientas listas — versión v{version}",
-    "footer_text": "POOF2 — Creado por Muse · Versión v{version}",
-    "back": "Volver a todas las herramientas",
-    "copy": "Copiar",
-    "clear": "Limpiar",
-    "copied": "Copiado.",
-    "language": "Idioma",
-    "tool_label": "Herramienta"
+  "case-converter": {
+   "name": "Conversor de mayúsculas y minúsculas en inglés",
+   "description": "Convierte texto en inglés a mayúsculas, minúsculas, Title Case, Sentence case y viceversa — en tu propio dispositivo."
   },
-  "categories": {
-    "text": "Texto y escritura",
-    "pdf": "PDF y archivos",
-    "image": "Fotos e imágenes",
-    "audio": "Audio y vídeo",
-    "finance": "Calculadoras y finanzas",
-    "converter": "Conversores y unidades",
-    "dev": "Desarrollador y código",
-    "health": "Salud y cuerpo",
-    "business": "Negocios y productividad",
-    "language": "Idioma"
+  "trim-spaces": {
+   "name": "Eliminar espacios extra",
+   "description": "Convierte varios espacios en uno, ordena las líneas y elimina las líneas vacías."
   },
-  "tools": {
-    "word-counter": {
-      "name": "Contador de palabras y caracteres",
-      "description": "Recuento en vivo de caracteres, palabras, oraciones, párrafos y tiempo de lectura — sin enviar nada a un servidor."
-    },
-    "case-converter": {
-      "name": "Conversor de mayúsculas y minúsculas en inglés",
-      "description": "Convierte texto en inglés a mayúsculas, minúsculas, Title Case, Sentence case y viceversa — en tu propio dispositivo."
-    },
-    "trim-spaces": {
-      "name": "Eliminar espacios extra",
-      "description": "Convierte varios espacios en uno, ordena las líneas y elimina las líneas vacías."
-    },
-    "text-to-slug": {
-      "name": "Texto a slug",
-      "description": "Convierte un título en un slug limpio para enlaces, con el separador que elijas."
-    },
-    "age-calculator": {
-      "name": "Calculadora de edad exacta",
-      "description": "Edad exacta en años, meses y días, días vividos, día de la semana de nacimiento y días hasta tu próximo cumpleaños."
-    }
+  "text-to-slug": {
+   "name": "Texto a slug",
+   "description": "Convierte un título en un slug limpio para enlaces, con el separador que elijas."
   },
-  "tool_ui": {
-    "word-counter": {
-      "intro": "Escribe o pega tu texto; el recuento es en vivo y en tu propio dispositivo — nada se envía a un servidor.",
-      "input_placeholder": "Escribe tu texto aquí…",
-      "chars_with_spaces": "Caracteres (con espacios)",
-      "chars_without_spaces": "Caracteres (sin espacios)",
-      "words": "Palabras",
-      "sentences": "Oraciones",
-      "paragraphs": "Párrafos",
-      "lines": "Líneas",
-      "reading_time": "Tiempo de lectura",
-      "reading_minutes": "{minutes} min",
-      "copy_text": "Copiar texto"
-    },
-    "case-converter": {
-      "intro": "Escribe tu texto en inglés y elige un estilo; la conversión se hace en tu propio dispositivo.",
-      "input_label": "Texto de entrada",
-      "input_placeholder": "Type or paste English text here…",
-      "upper": "Todo en mayúsculas (UPPERCASE)",
-      "lower": "Todo en minúsculas (lowercase)",
-      "title_case": "Primera letra de cada palabra en mayúscula (Title Case)",
-      "sentence_case": "Primera letra de la oración en mayúscula (Sentence case)",
-      "invert": "Invertir mayúsculas y minúsculas",
-      "result_label": "Resultado",
-      "result_placeholder": "El resultado aparecerá aquí…",
-      "copy_result": "Copiar resultado"
-    },
-    "trim-spaces": {
-      "intro": "Convierte varios espacios en uno y ordena las líneas — en tu propio dispositivo.",
-      "trim_lines": "Eliminar el espacio al inicio y al final de cada línea",
-      "remove_empty": "Eliminar líneas vacías",
-      "clean": "Limpiar texto",
-      "stats": "Antes: {before} caracteres — después: {after} caracteres",
-      "input_label": "Texto de entrada",
-      "input_placeholder": "Escribe tu texto aquí…",
-      "result_label": "Resultado",
-      "result_placeholder": "El resultado aparecerá aquí…",
-      "copy_result": "Copiar resultado"
-    },
-    "text-to-slug": {
-      "intro": "Convierte un título en un slug limpio para enlaces — en tu propio dispositivo.",
-      "title_label": "Título",
-      "input_placeholder": "p. ej.: alemán para principiantes",
-      "separator": "Separador:",
-      "hyphen": "- (guion)",
-      "underscore": "_ (guion bajo)",
-      "lowercase": "Letras inglesas en minúsculas",
-      "convert": "Convertir a slug",
-      "copy_slug": "Copiar slug",
-      "result_label": "Resultado",
-      "result_placeholder": "El resultado aparecerá aquí…"
-    },
-    "age-calculator": {
-      "intro": "Introduce tu fecha de nacimiento y verás tu edad exacta en años, meses y días, los días vividos y los días que faltan para tu próximo cumpleaños — en tu propio dispositivo.",
-      "birth_label": "Fecha de nacimiento (gregoriana)",
-      "asof_label": "Calcular hasta",
-      "calc": "Calcular edad",
-      "years": "años",
-      "months": "meses",
-      "days": "días",
-      "total_days": "Días vividos",
-      "total_weeks": "Semanas vividas",
-      "total_months": "Meses vividos",
-      "total_hours": "Horas vividas",
-      "next_birthday": "Próximo cumpleaños",
-      "born_weekday": "Día de la semana de nacimiento",
-      "birth_jalali": "Fecha de nacimiento (calendario jalali)",
-      "invalid": "La fecha de nacimiento no es válida.",
-      "future": "La fecha de nacimiento no puede estar en el futuro."
-    }
+  "age-calculator": {
+   "name": "Calculadora de edad exacta",
+   "description": "Edad exacta en años, meses y días, días vividos, día de la semana de nacimiento y días hasta tu próximo cumpleaños."
+  },
+  "bmi-calculator": {
+   "name": "Calculadora de IMC",
+   "description": "Índice de masa corporal, categoría de peso, rango de peso saludable para tu estatura y cuánto ganar o perder — en tu propio dispositivo."
   }
+ },
+ "tool_ui": {
+  "word-counter": {
+   "intro": "Escribe o pega tu texto; el recuento es en vivo y en tu propio dispositivo — nada se envía a un servidor.",
+   "input_placeholder": "Escribe tu texto aquí…",
+   "chars_with_spaces": "Caracteres (con espacios)",
+   "chars_without_spaces": "Caracteres (sin espacios)",
+   "words": "Palabras",
+   "sentences": "Oraciones",
+   "paragraphs": "Párrafos",
+   "lines": "Líneas",
+   "reading_time": "Tiempo de lectura",
+   "reading_minutes": "{minutes} min",
+   "copy_text": "Copiar texto"
+  },
+  "case-converter": {
+   "intro": "Escribe tu texto en inglés y elige un estilo; la conversión se hace en tu propio dispositivo.",
+   "input_label": "Texto de entrada",
+   "input_placeholder": "Type or paste English text here…",
+   "upper": "Todo en mayúsculas (UPPERCASE)",
+   "lower": "Todo en minúsculas (lowercase)",
+   "title_case": "Primera letra de cada palabra en mayúscula (Title Case)",
+   "sentence_case": "Primera letra de la oración en mayúscula (Sentence case)",
+   "invert": "Invertir mayúsculas y minúsculas",
+   "result_label": "Resultado",
+   "result_placeholder": "El resultado aparecerá aquí…",
+   "copy_result": "Copiar resultado"
+  },
+  "trim-spaces": {
+   "intro": "Convierte varios espacios en uno y ordena las líneas — en tu propio dispositivo.",
+   "trim_lines": "Eliminar el espacio al inicio y al final de cada línea",
+   "remove_empty": "Eliminar líneas vacías",
+   "clean": "Limpiar texto",
+   "stats": "Antes: {before} caracteres — después: {after} caracteres",
+   "input_label": "Texto de entrada",
+   "input_placeholder": "Escribe tu texto aquí…",
+   "result_label": "Resultado",
+   "result_placeholder": "El resultado aparecerá aquí…",
+   "copy_result": "Copiar resultado"
+  },
+  "text-to-slug": {
+   "intro": "Convierte un título en un slug limpio para enlaces — en tu propio dispositivo.",
+   "title_label": "Título",
+   "input_placeholder": "p. ej.: alemán para principiantes",
+   "separator": "Separador:",
+   "hyphen": "- (guion)",
+   "underscore": "_ (guion bajo)",
+   "lowercase": "Letras inglesas en minúsculas",
+   "convert": "Convertir a slug",
+   "copy_slug": "Copiar slug",
+   "result_label": "Resultado",
+   "result_placeholder": "El resultado aparecerá aquí…"
+  },
+  "age-calculator": {
+   "intro": "Introduce tu fecha de nacimiento y verás tu edad exacta en años, meses y días, los días vividos y los días que faltan para tu próximo cumpleaños — en tu propio dispositivo.",
+   "birth_label": "Fecha de nacimiento (gregoriana)",
+   "asof_label": "Calcular hasta",
+   "calc": "Calcular edad",
+   "years": "años",
+   "months": "meses",
+   "days": "días",
+   "total_days": "Días vividos",
+   "total_weeks": "Semanas vividas",
+   "total_months": "Meses vividos",
+   "total_hours": "Horas vividas",
+   "next_birthday": "Próximo cumpleaños",
+   "born_weekday": "Día de la semana de nacimiento",
+   "birth_jalali": "Fecha de nacimiento (calendario jalali)",
+   "invalid": "La fecha de nacimiento no es válida.",
+   "future": "La fecha de nacimiento no puede estar en el futuro."
+  },
+  "bmi-calculator": {
+   "intro": "Introduce tu peso y tu estatura para ver tu IMC, tu categoría de peso y el rango de peso saludable para tu estatura — en tu propio dispositivo.",
+   "units_label": "Unidades",
+   "metric": "Métrico (kg, cm)",
+   "imperial": "Imperial (lb, in)",
+   "weight_label": "Peso",
+   "height_label": "Estatura",
+   "unit_kg": "kg",
+   "unit_lb": "lb",
+   "unit_cm": "cm",
+   "unit_in": "in",
+   "calc": "Calcular el IMC",
+   "your_bmi": "Tu IMC",
+   "healthy_range": "Rango de peso saludable para tu estatura",
+   "gain_to_healthy": "Para llegar al rango saludable, gana {amount} {unit}.",
+   "lose_to_healthy": "Para llegar al rango saludable, pierde {amount} {unit}.",
+   "in_healthy_range": "Tu peso está en el rango saludable.",
+   "invalid": "Introduce un peso y una estatura válidos.",
+   "note": "El IMC es un indicador de cribado, no un diagnóstico médico; consulta a un médico para una valoración completa.",
+   "cat_severe": "Delgadez grave",
+   "cat_under": "Bajo peso",
+   "cat_normal": "Peso saludable",
+   "cat_over": "Sobrepeso",
+   "cat_obese1": "Obesidad de clase I",
+   "cat_obese2": "Obesidad de clase II",
+   "cat_obese3": "Obesidad de clase III"
+  }
+ }
 }

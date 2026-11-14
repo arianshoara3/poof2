@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تبدیل متن به slug — POOF2</title>
+<link rel="stylesheet" href="../../styles.css">
+<style>
+.tool { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+textarea, input[type="text"] {
+  width: 100%; padding: 14px;
+  border-radius: 12px; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text);
+  font-size: 16px; line-height: 1.9; font-family: inherit;
+}
+textarea { min-height: 120px; resize: vertical; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+button {
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+  border-radius: 99px; padding: 8px 16px; cursor: pointer; font-family: inherit;
+}
+button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+label { display: block; margin: 16px 0 6px; color: var(--muted); }
+.opts { display: flex; gap: 16px; flex-wrap: wrap; margin: 8px 0; }
+.opts label { display: flex; gap: 6px; align-items: center; margin: 0; color: var(--text); }
+a.back { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">POOF2</div>
+  <div class="subtitle">ابزار ۰۰۴ — متن و نوشتن</div>
+</header>
+<main class="tool">
+  <p><a class="back" href="../../">← بازگشت به همه‌ی ابزارها</a></p>
+  <h1>تبدیل متن به slug</h1>
+  <p style="color:var(--muted)">عنوان را به یک slug تمیز برای لینک تبدیل می‌کند — روی دستگاه خودت.</p>
+  <label for="input">عنوان</label>
+  <textarea id="input" placeholder="مثلاً: آموزش زبان آلمانی برای مبتدیان"></textarea>
+  <div class="opts">
+    <label>جداکننده:
+      <select id="sep" style="font-family:inherit;padding:4px 8px;border-radius:8px;">
+        <option value="-">- (خط تیره)</option>
+        <option value="_">_ (آندرلاین)</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="lower" checked> حروف انگلیسی کوچک</label>
+  </div>
+  <div class="actions">
+    <button class="primary" id="convertBtn">تبدیل به slug</button>
+    <button id="clearBtn">پاک کردن</button>
+  </div>
+  <label for="output">slug</label>
+  <input type="text" id="output" readonly placeholder="slug اینجا می‌آید…">
+  <div class="actions">
+    <button class="primary" id="copyBtn">کپی slug</button>
+  </div>
+  <p id="copied" style="color:var(--accent)"></p>
+</main>
+<script src="tool.js"></script>
+</body>
+</html>
